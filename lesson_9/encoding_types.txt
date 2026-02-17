@@ -1,0 +1,39 @@
+df=pd.get_dummies(df,columns=['Bathrooms'],prefix='bath_num',dtype=int)   # one-hot encoding
+df['Status'] = encoder.fit_transform(df['Status'])                        # Label encoding
+df['Bedroom_freq']=df['Bedrooms'].map(df['Bedrooms'].value_counts())      # Frequency encoding
+
+target_encoding = df.groupby('City')['Days on Market'].mean()
+df['City_Encoded'] = df['City'].map(target_encoding)                      # target_encoding
+
+
+
+property_mapping={
+    'Apartment':0,
+    'Condo':1,
+    'Townhouse':2,
+    'Single Family':3,
+    'Multi-Family':4
+}
+
+df['property_ordinal'] = df['Property Type'].map(property_mapping)       # ordinal_encoding
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
