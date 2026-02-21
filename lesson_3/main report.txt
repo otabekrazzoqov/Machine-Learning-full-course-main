@@ -1,0 +1,30 @@
+There are 2 types of Supervised Machine Learning:
+
+1: Classification 
+2: Regression 
+
+There are also 2 types of Classification tasks:
+
+1: Binary [when number of classes equals 2]
+2: Multiclass [when number of classes is more than 2]
+
+
+
+Model development consists of 8 main steps:
+
+1. Data collection
+2. Data preprocessing
+3. Model/Algorithm selection
+4. Model training 
+5. Evaluation 
+6. Testing 
+7. Deployment
+8. Monitoring
+
+
+
+2. Data preprocessing consists of 3 main steps:
+
+1. data cleaning
+2. encoding
+3. scaling
