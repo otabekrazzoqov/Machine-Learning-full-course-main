@@ -1,0 +1,21 @@
+REPORT FOR LESSON 4
+
+
+Data columns should have predictive features. Otherwise we can drop that columns.
+
+If columns have predictive features and have also missing values then we can fill them with particular values.
+
+There are 3 types of filling missing values:
+
+1: Mean()
+2: Median()
+3: Mode()
+4: Fixed
+5: Dropping
+
+
+Mean() method is filling missing values with average of the column. For numerical data
+Median() method is filling missing values with middle value of the column. For numerical data
+Mode() method is filling missing values with the most frequent of the column. For categorical data
+Fixed way of filling missing values with a constant value. can be both numerical and categorical
+Dropping is used when column has too many NaNs.
