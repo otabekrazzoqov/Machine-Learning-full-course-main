@@ -1,0 +1,26 @@
+                                   Report
+
+One-hot encoding is a way of encoding in which categorical data is turned into numerical data.
+One-hot encoding is used when the class of a column is lower. For example, it can be up to 10. Otherwise dataset can be big.
+
+we can find classes of columns with df.unique() 
+
+
+
+
+
+Label encoding is a way to convert categorical values into numbers by assigning each category a unique integer.
+When categories have natural order (ordinal data) we can use Label encoding.
+
+| Size   |     
+| ------ |
+| Small  |
+| Medium |
+| Large  |
+
+suppose we have above column that needs to be encoded with Label encoding:
+
+Small  → 0  
+Medium → 1  
+Large  → 2
+
