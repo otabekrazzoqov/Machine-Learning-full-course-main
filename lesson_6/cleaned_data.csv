@@ -19,7 +19,7 @@ vivo y16,9999,65.0,Android v12,Dual,4g,True,False,False,Helio P35,Octa Core,2.3,
 oppo reno 9 pro plus,45999,86.0,Android v13,Dual,5g,True,True,False,Snapdragon 8+ Gen1,Octa Core,3.2,16,16,4700.0,80.0,6.7,1080x2412,120.0,Punch Hole,"[50, 8, 2]",3,50.0,32.0,1,Dedicated,
 oneplus 10r 5g,32999,86.0,Android v12,Dual,5g,True,True,False,Dimensity 8100 Max,Octa Core,2.85,8,8,5000.0,80.0,6.7,1080x2412,120.0,Punch Hole,"[50, 8, 2]",3,50.0,16.0,1,Dedicated,
 vivo y22,14499,72.0,Android v12,Dual,4g,True,False,False,Helio G70,Octa Core,2.0,4,4,5000.0,18.0,6.55,720x1612,,Water Drop Notch,"[50, 2]",2,50.0,8.0,1,Dedicated,1024.0
-oneplus 11r,39999,85.0,Android v13,Dual,5g,True,True,False,Snapdragon  8+ Gen1,Octa Core,3.2,8,8,5000.0,100.0,6.7,1080x2412,120.0,Punch Hole,"[50, 12, 2]",3,50.0,16.0,1,Dedicated,
+oneplus 11r,39999,85.0,Android v13,Dual,5g,True,True,False,Snapdragon  8+ Gen1,Octa Core,3.2,8,8,5000.0,100.0,6.7,1080x2412,120.0,Punch Hole,"[50, 12, 2]",,50.0,16.0,1,Dedicated,
 vivo v25 pro 5g,35999,85.0,Android v12,Dual,5g,True,False,False,Dimensity 1300,Octa Core,3.0,8,8,4830.0,66.0,6.56,1080x2376,120.0,Punch Hole,"[64, 8, 2]",3,64.0,32.0,1,Dedicated,
 poco x4 pro 5g,14999,80.0,Android v11,Dual,5g,True,False,True,Snapdragon 695 ,Octa Core,2.2,6,6,5000.0,67.0,6.67,1080x2400,120.0,Punch Hole,"[64, 8, 2]",3,64.0,16.0,1,Hybrid,1024.0
 xiaomi redmi note 12,17859,76.0,Android v12,Dual,5g,True,False,True,Snapdragon 4 Gen 1,Octa Core,2.0,4,4,5000.0,33.0,6.67,1080x2400,120.0,Punch Hole,"[48, 8, 2]",3,48.0,13.0,1,Hybrid,1024.0
