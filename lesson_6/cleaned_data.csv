@@ -1,0 +1,969 @@
+model,price,rating,os,sim_type,network_type,VoLTE,NFC,ir_blaster,chipset,core_type,clock_ghz,ram_gb,storage_gb,battery_mah,fast_charge_w,screen_size_in,resolution,refresh_rate_hz,display_type,rear_camera_mp_list,rear_camera_count,rear_camera_max_mp,front_camera_mp,memory_card_supported,memory_card_type,memory_card_max_gb
+oneplus 11 5g,54999,89.0,Android v13,Dual,5g,True,True,False,Snapdragon 8 Gen2,Octa Core,3.2,12,12,5000.0,100.0,6.7,1440x3216,120.0,Punch Hole,"[50, 48, 32]",3,50.0,16.0,1,None,
+oneplus nord ce 2 lite 5g,19989,81.0,Android v12,Dual,5g,True,False,False,Snapdragon 695,Octa Core,2.2,6,6,5000.0,33.0,6.59,1080x2412,120.0,Punch Hole,"[64, 2, 2]",3,64.0,16.0,1,Hybrid,1024.0
+samsung galaxy a14 5g,16499,75.0,Android v13,Dual,5g,True,False,False,Exynos 1330,Octa Core,2.4,4,4,5000.0,15.0,6.6,1080x2408,90.0,Water Drop Notch,"[50, 2, 2]",3,50.0,13.0,1,Dedicated,1024.0
+motorola moto g62 5g,14999,81.0,Android v12,Dual,5g,True,False,False,Snapdragon  695,Octa Core,2.2,6,6,5000.0,,6.55,1080x2400,120.0,Punch Hole,"[50, 8, 2]",3,50.0,16.0,1,Hybrid,1024.0
+realme 10 pro plus,24999,82.0,Android v13,Dual,5g,True,False,False,Dimensity 1080,Octa Core,2.6,6,6,5000.0,67.0,6.7,1080x2412,120.0,Punch Hole,"[108, 8, 2]",3,108.0,16.0,1,None,
+samsung galaxy f23 5g,16999,80.0,Android v12,Dual,5g,True,True,False,Snapdragon  750G,Octa Core,2.2,6,6,5000.0,25.0,6.6,1080x2408,120.0,Water Drop Notch,"[50, 8, 2]",3,50.0,8.0,1,Dedicated,1024.0
+apple iphone 14,65999,81.0,iOS v16,Dual,5g,True,True,False,Bionic A15,Hexa Core,3.22,6,6,3279.0,,6.1,1170x2532,,Small Notch,"[12, 12]",2,12.0,12.0,1,None,
+xiaomi redmi note 12 pro plus,29999,86.0,Android v12,Dual,5g,True,False,True,Dimensity 1080,Octa Core,2.6,8,8,4980.0,120.0,6.67,1080x2400,120.0,Punch Hole,"[200, 8, 2]",3,200.0,16.0,1,None,
+nothing phone 1,26749,85.0,Android v12,Dual,5g,True,True,False,Snapdragon 778G Plus,Octa Core,2.5,8,8,4500.0,33.0,6.55,1080x2400,120.0,Punch Hole,"[50, 50]",2,50.0,16.0,1,Dedicated,
+oneplus nord 2t 5g,28999,84.0,Android v12,Dual,5g,True,True,False,Dimensity  1300,Octa Core,3.0,8,8,4500.0,80.0,6.43,1080x2400,90.0,Punch Hole,"[50, 8, 2]",3,50.0,32.0,1,Dedicated,
+realme 10 pro,18999,82.0,Android v13,Dual,5g,True,False,False,Snapdragon 695,Octa Core,2.2,6,6,5000.0,33.0,6.72,1080x2400,120.0,Punch Hole,"[108, 2]",2,108.0,16.0,1,Dedicated,1024.0
+oppo a78,18999,79.0,Android v12,Dual,5g,True,True,False,Dimensity 700 5G,Octa Core,2.2,8,8,5000.0,33.0,6.56,720x1612,90.0,Water Drop Notch,"[50, 2]",2,50.0,8.0,1,Dedicated,
+xiaomi redmi note 12 pro 5g,24762,79.0,Android v12,Dual,5g,True,False,True,Dimensity 1080,Octa Core,2.6,6,6,5000.0,67.0,6.67,1080x2400,120.0,Punch Hole,"[50, 8, 2]",3,50.0,16.0,1,Dedicated,
+vivo t1 5g,16990,80.0,Android v12,Dual,5g,True,False,False,Snapdragon  695,Octa Core,2.2,6,6,5000.0,18.0,6.58,1080x2408,120.0,Water Drop Notch,"[50, 2, 2]",3,50.0,16.0,1,Hybrid,1024.0
+samsung galaxy s23 ultra 5g,114990,80.0,Android v13,Dual,5g,True,True,False,Snapdragon 8 Gen2,Octa Core,3.2,8,8,5000.0,45.0,6.8,1440x3088,120.0,Punch Hole,[200],1,200.0,12.0,1,None,
+apple iphone 13,62999,79.0,iOS v15,Dual,5g,True,True,False,Bionic A15,Hexa Core,3.22,4,4,3240.0,,6.1,1170x2532,,Small Notch,"[12, 12]",2,12.0,12.0,1,None,
+vivo y16,9999,65.0,Android v12,Dual,4g,True,False,False,Helio P35,Octa Core,2.3,3,3,5000.0,10.0,6.51,720x1600,,Water Drop Notch,"[13, 2]",2,13.0,5.0,1,Dedicated,
+oppo reno 9 pro plus,45999,86.0,Android v13,Dual,5g,True,True,False,Snapdragon 8+ Gen1,Octa Core,3.2,16,16,4700.0,80.0,6.7,1080x2412,120.0,Punch Hole,"[50, 8, 2]",3,50.0,32.0,1,Dedicated,
+oneplus 10r 5g,32999,86.0,Android v12,Dual,5g,True,True,False,Dimensity 8100 Max,Octa Core,2.85,8,8,5000.0,80.0,6.7,1080x2412,120.0,Punch Hole,"[50, 8, 2]",3,50.0,16.0,1,Dedicated,
+vivo y22,14499,72.0,Android v12,Dual,4g,True,False,False,Helio G70,Octa Core,2.0,4,4,5000.0,18.0,6.55,720x1612,,Water Drop Notch,"[50, 2]",2,50.0,8.0,1,Dedicated,1024.0
+oneplus 11r,39999,85.0,Android v13,Dual,5g,True,True,False,Snapdragon  8+ Gen1,Octa Core,3.2,8,8,5000.0,100.0,6.7,1080x2412,120.0,Punch Hole,"[50, 12, 2]",3,50.0,16.0,1,Dedicated,
+vivo v25 pro 5g,35999,85.0,Android v12,Dual,5g,True,False,False,Dimensity 1300,Octa Core,3.0,8,8,4830.0,66.0,6.56,1080x2376,120.0,Punch Hole,"[64, 8, 2]",3,64.0,32.0,1,Dedicated,
+poco x4 pro 5g,14999,80.0,Android v11,Dual,5g,True,False,True,Snapdragon 695 ,Octa Core,2.2,6,6,5000.0,67.0,6.67,1080x2400,120.0,Punch Hole,"[64, 8, 2]",3,64.0,16.0,1,Hybrid,1024.0
+xiaomi redmi note 12,17859,76.0,Android v12,Dual,5g,True,False,True,Snapdragon 4 Gen 1,Octa Core,2.0,4,4,5000.0,33.0,6.67,1080x2400,120.0,Punch Hole,"[48, 8, 2]",3,48.0,13.0,1,Hybrid,1024.0
+vivo v26 pro,42990,87.0,Android v13,Dual,5g,True,True,False,Dimensity 9000 Plus,Octa Core,3.2,12,12,4800.0,100.0,6.7,1080x2400,120.0,Punch Hole,"[64, 8, 2]",3,64.0,32.0,1,Dedicated,
+samsung galaxy s20 fe 5g,31239,88.0,Android v10,Dual,5g,True,True,False,Snapdragon 865,Octa Core,2.84,8,8,4500.0,,6.5,1080x2400,120.0,Punch Hole,"[12, 12, 8]",3,12.0,32.0,1,Hybrid,
+oneplus nord ce 2 lite 5g,21995,84.0,Android v12,Dual,5g,True,False,False,Snapdragon 695,Octa Core,2.2,8,8,5000.0,33.0,6.59,1080x2412,120.0,Punch Hole,"[64, 2, 2]",3,64.0,16.0,1,Hybrid,1024.0
+apple iphone 14 pro max,129990,76.0,iOS v16,Dual,5g,True,True,False,Bionic  A16,Hexa Core,,6,6,4323.0,,6.7,1290x2796,120.0,,"[48, 12, 12]",3,48.0,12.0,1,None,
+vivo v25 5g,27999,83.0,Android v12,Dual,5g,True,False,False,Dimensity  900,Octa Core,2.0,8,8,4500.0,44.0,6.44,1080x2408,90.0,Water Drop Notch,"[64, 8, 2]",3,64.0,50.0,1,Hybrid,1024.0
+oneplus 11 pro,69999,80.0,Android v13,Dual,5g,True,True,False,Snapdragon  8 Gen2,Octa Core,3.2,8,8,4500.0,100.0,6.7,1440x3216,120.0,Punch Hole,"[50, 48, 32]",3,50.0,16.0,1,Dedicated,
+realme 10 pro,19999,84.0,Android v13,Dual,5g,True,False,False,Snapdragon 695,Octa Core,2.2,8,8,5000.0,33.0,6.72,1080x2400,120.0,Punch Hole,"[108, 2]",2,108.0,16.0,1,Dedicated,1024.0
+poco x5 pro,20999,81.0,Android v13,Dual,5g,True,True,True,Snapdragon 778G,Octa Core,2.4,6,6,5000.0,67.0,6.67,1080x2400,120.0,Punch Hole,"[108, 8, 2]",3,108.0,16.0,1,None,
+vivo v27,27990,83.0,Android v13,Dual,5g,True,False,False,Dimensity  930,Octa Core,2.2,8,8,4700.0,67.0,6.56,1080x2400,120.0,Punch Hole,"[64, 13, 2]",3,64.0,50.0,1,Dedicated,
+apple iphone 11,38999,73.0,iOS v13,Dual,4g,True,True,False,A13 Bionic,Hexa Core,2.65,4,4,3110.0,,6.1,828x1792,,Large Notch,"[12, 12]",2,12.0,12.0,1,None,
+samsung galaxy m53 5g,23790,85.0,Android v12,Dual,5g,True,False,False,Dimensity  900 5G,Octa Core,2.4,6,6,5000.0,25.0,6.7,1080x2400,120.0,Punch Hole,[108],1,108.0,32.0,1,Hybrid,1024.0
+samsung galaxy s21 fe 5g,39999,87.0,Android v11,Dual,5g,True,True,False,Exynos  2100,Octa Core,2.9,8,8,4500.0,25.0,6.4,1080x2340,120.0,Punch Hole,"[12, 12, 8]",3,12.0,32.0,1,None,
+oppo reno 8t,29990,87.0,Android v13,Dual,5g,True,True,False,Snapdragon  695,Octa Core,2.2,8,8,5000.0,66.0,6.67,1080x2400,120.0,Punch Hole,"[108, 13, 2]",3,108.0,16.0,1,Dedicated,1024.0
+samsung galaxy s22 ultra 5g,91999,80.0,Android v12,Dual,5g,True,True,False,Snapdragon  8 Gen1,Octa Core,3.0,12,12,5000.0,45.0,6.8,1440x3080,120.0,Punch Hole,[108],1,108.0,40.0,1,Dedicated,
+xiaomi redmi note 12 pro max 5g,32999,83.0,Android v12,Dual,5g,True,False,True,Snapdragon  7 Gen1,Octa Core,2.36,6,6,5200.0,210.0,6.67,1080x2460,120.0,Punch Hole,[108],1,108.0,32.0,1,Dedicated,512.0
+oppo reno 9 5g,28499,83.0,Android v13,Dual,5g,True,True,False,Snapdragon 778G,Octa Core,2.4,8,8,4500.0,67.0,6.7,1080x2412,120.0,Punch Hole,"[64, 2]",2,64.0,32.0,1,Dedicated,
+oneplus nord ce 3 5g,21999,83.0,Android v12,Dual,5g,True,True,False,Snapdragon  695,Octa Core,2.2,6,6,5000.0,67.0,6.7,1080x2412,120.0,Punch Hole,"[108, 2, 2]",3,108.0,16.0,1,Dedicated,1024.0
+xiaomi redmi note 11 pro plus 5g,19999,83.0,Android v11,Dual,5g,True,False,True, Snapdragon  695,Octa Core,2.2,6,6,5000.0,67.0,6.67,1080x2400,120.0,Punch Hole,"[108, 8, 2]",3,108.0,16.0,1,Hybrid,1024.0
+motorola edge 20 fusion 5g,18999,87.0,Android v11,Dual,5g,True,True,False,Dimensity 800U,Octa Core,2.4,6,6,5000.0,30.0,6.67,1080x2400,90.0,Punch Hole,"[108, 8, 2]",3,108.0,32.0,1,Hybrid,1024.0
+realme 10 pro plus,27999,85.0,Android v13,Dual,5g,True,False,False,Dimensity 1080,Octa Core,2.6,8,8,5000.0,67.0,6.7,1080x2412,120.0,Punch Hole,"[108, 8, 2]",3,108.0,16.0,1,None,
+vivo y35,18499,80.0,Android v12,Dual,4g,True,False,False,Snapdragon 680,Octa Core,2.4,8,8,5000.0,44.0,6.58,1080x2408,90.0,Water Drop Notch,"[50, 2, 2]",3,50.0,16.0,1,Dedicated,1024.0
+samsung galaxy m33 5g,17478,81.0,Android v12,Dual,5g,True,True,False,Exynos  1280,Octa Core,2.4,6,6,6000.0,25.0,6.6,1080x2400,120.0,Water Drop Notch,[50],1,50.0,8.0,1,Dedicated,1024.0
+xiaomi redmi note 11,11936,76.0,Android v11,Dual,4g,True,False,True,Snapdragon  680,Octa Core,2.4,4,4,5000.0,33.0,6.43,1080x2400,90.0,Punch Hole,[50],1,50.0,13.0,1,Dedicated,512.0
+realme c33,8950,64.0,Android v12,Dual,4g,True,False,False,Unisoc T612,Octa Core,1.8,3,3,5000.0,,6.5,720x1600,,Water Drop Notch,"[50, 3]",2,50.0,5.0,1,Dedicated,1024.0
+vivo y16,12489,68.0,Android v12,Dual,4g,True,False,False,Helio P35,Octa Core,2.3,4,4,5000.0,10.0,6.51,720x1600,,Water Drop Notch,"[13, 2]",2,13.0,5.0,1,Dedicated,
+samsung galaxy a74 5g,42999,80.0,Android v12,Dual,5g,True,True,False,Snapdragon 7 Gen1,Octa Core,2.36,8,8,5000.0,33.0,6.7,1080x2412,120.0,Punch Hole,[108],1,108.0,32.0,1,Hybrid,1024.0
+samsung galaxy a14 5g,18999,79.0,Android v13,Dual,5g,True,False,False,Exynos 1330,Octa Core,2.4,6,6,5000.0,15.0,6.6,1080x2408,90.0,Water Drop Notch,"[50, 2, 2]",3,50.0,13.0,1,Dedicated,1024.0
+iqoo neo 7 5g,29999,82.0,Android v13,Dual,5g,True,True,True,Dimensity 8200,Octa Core,3.1,8,8,5000.0,120.0,6.78,1080x2400,120.0,Punch Hole,"[64, 2, 2]",3,64.0,16.0,1,Dedicated,
+jio jiophone 5g,11990,64.0,Android v12,Dual,5g,True,False,False,Snapdragon 480+,Octa Core,2.2,4,4,5000.0,18.0,6.5,720x1600,90.0,,[13],1,13.0,8.0,1,Dedicated,512.0
+motorola moto g82 5g,18999,83.0,Android v12,Dual,5g,True,True,False,Snapdragon 695,Octa Core,2.2,6,6,5000.0,30.0,6.6,1080x2400,120.0,Punch Hole,"[50, 8, 2]",3,50.0,16.0,1,Dedicated,1024.0
+realme 10,13999,74.0,Android v12,Dual,4g,True,False,False,Helio G99,Octa Core,2.2,4,4,5000.0,33.0,6.4,1080x2400,90.0,Punch Hole,"[50, 2]",2,50.0,16.0,1,Dedicated,1024.0
+realme 9i 5g,14965,75.0,Android v12,Dual,5g,True,False,False,Dimensity 810 5G,Octa Core,2.4,4,4,5000.0,18.0,6.6,1080x2408,90.0,Punch Hole,"[50, 2, 2]",3,50.0,8.0,1,Dedicated,1024.0
+apple iphone 14 plus,74999,82.0,iOS v16,Dual,5g,True,True,False,Bionic A15,Hexa Core,3.22,6,6,4325.0,,6.7,1284x2778,,Small Notch,"[12, 12]",2,12.0,12.0,1,None,
+xiaomi redmi note 10s,10999,78.0,Android v11,Dual,4g,True,False,True,Helio G95,Octa Core,2.05,6,6,5000.0,33.0,6.43,1080x2400,,Punch Hole,[64],1,64.0,13.0,1,Dedicated,512.0
+samsung galaxy s23 plus,84990,89.0,Android v13,Dual,5g,True,True,False,Snapdragon 8 Gen2,Octa Core,3.2,8,8,4700.0,45.0,6.6,1080x2340,120.0,Punch Hole,"[50, 12, 10]",3,50.0,12.0,1,Dedicated,
+motorola moto g32,10499,75.0,Android v12,Dual,4g,True,False,False,Snapdragon 680,Octa Core,2.4,4,4,5000.0,33.0,6.55,1080x2400,90.0,Punch Hole,"[50, 8, 2]",3,50.0,16.0,1,Hybrid,1024.0
+xiaomi redmi note 13 pro 5g,17990,78.0,Android v12,Dual,5g,True,True,True,Dimensity 720,Octa Core,2.0,6,6,5000.0,67.0,6.67,1080x2460,120.0,Punch Hole,"[108, 8, 2]",3,108.0,16.0,1,Dedicated,
+vivo s16,29990,85.0,Android v13,Dual,5g,True,True,False,Snapdragon 870,Octa Core,3.2,8,8,4600.0,66.0,6.78,1080x2400,120.0,Punch Hole,"[64, 8, 2]",3,64.0,50.0,1,Dedicated,
+samsung galaxy a23,18499,79.0,Android v12,Dual,4g,True,False,False,Snapdragon  680,Octa Core,2.4,6,6,5000.0,25.0,6.6,1080x2408,,Water Drop Notch,[50],1,50.0,8.0,1,Dedicated,1024.0
+vivo y22,16499,75.0,Android v12,Dual,4g,True,False,False,Helio G70,Octa Core,2.0,6,6,5000.0,18.0,6.55,720x1612,,Water Drop Notch,"[50, 2]",2,50.0,8.0,1,Dedicated,1024.0
+poco m4 pro 5g,14999,81.0,Android v11,Dual,5g,True,False,True,Dimensity  810 5G,Octa Core,2.4,6,6,5000.0,33.0,6.6,1080x2400,90.0,Punch Hole,"[50, 8]",2,50.0,16.0,1,Hybrid,1024.0
+vivo s16 pro,35499,86.0,Android v13,Dual,5g,True,True,False,Dimensity 8200,Octa Core,3.1,8,8,4600.0,66.0,6.78,1080x2400,120.0,Punch Hole,"[50, 8, 2]",3,50.0,50.0,1,Dedicated,
+oneplus 10 pro 5g,60999,89.0,Android v12,Dual,5g,True,True,False,Snapdragon  8 Gen1,Octa Core,3.0,8,8,5000.0,80.0,6.7,1440x3216,120.0,Punch Hole,"[50, 48, 8]",3,50.0,32.0,1,Dedicated,
+xiaomi redmi note 12 pro plus,32999,87.0,Android v12,Dual,5g,True,False,True,Dimensity 1080,Octa Core,2.6,12,12,4980.0,120.0,6.67,1080x2400,120.0,Punch Hole,"[200, 8, 2]",3,200.0,16.0,1,None,
+samsung galaxy f23 5g,15999,78.0,Android v12,Dual,5g,True,True,False,Snapdragon  750G,Octa Core,2.2,4,4,5000.0,25.0,6.6,1080x2408,120.0,Water Drop Notch,"[50, 8, 2]",3,50.0,8.0,1,Dedicated,1024.0
+oppo find n fold,99990,80.0,,Dual,5g,True,True,False,Snapdragon  8+ Gen1,Octa Core,3.2,8,8,5000.0,67.0,7.1,1792x1920,120.0,Punch Hole,"[64, 10, 8]",3,64.0,32.0,1,Dedicated,
+oppo a17k,9499,62.0,Android v12,Dual,4g,True,False,False,Helio G35,Octa Core,2.3,3,3,5000.0,,6.56,720x1612,,Water Drop Notch,[8],1,8.0,5.0,1,Dedicated,1024.0
+vivo v23 5g,27994,86.0,Android v12,Dual,5g,True,False,False,Dimensity  920 5G,Octa Core,2.5,12,12,4200.0,44.0,6.44,1080x2400,90.0,Small Notch,"[64, 8, 2, 50]",4,64.0,50.0,1,Dedicated,
+iqoo z6 lite 5g,13989,75.0,Android v12,Dual,5g,True,False,False,Snapdragon  4 Gen 1,Octa Core,2.0,4,4,5000.0,18.0,6.58,1080x2408,120.0,Water Drop Notch,"[50, 2]",2,50.0,8.0,1,Hybrid,1024.0
+oneplus 10t,44999,85.0,Android v12,Dual,5g,True,True,False,Snapdragon 8+ Gen1,Octa Core,3.2,8,8,4800.0,150.0,6.7,1080x2412,120.0,Punch Hole,"[50, 8, 2]",3,50.0,16.0,1,Dedicated,
+xiaomi redmi note 10t 5g,13999,79.0,Android v11,Dual,5g,True,False,True,Dimensity 700 ,Octa Core,2.2,6,6,5000.0,18.0,6.5,1080x2400,90.0,Punch Hole,"[48, 2, 2]",3,48.0,8.0,1,Dedicated,1024.0
+gionee g13 pro,6190,80.0,HarmonyOS v2,Dual,4g,True,False,False,Tiger  T310,Quad Core,2.0,4,4,3500.0,,6.26,720x1600,,Large Notch,[13],1,13.0,5.0,1,Dedicated,
+apple iphone 13 pro,119900,83.0,iOS v15.0,Dual,5g,True,True,False,Bionic A15,Hexa Core,3.22,6,6,3095.0,,6.1,1170x2532,120.0,Large Notch,"[12, 12, 12]",3,12.0,12.0,1,None,
+oppo f22 pro,27660,83.0,Android v13,Dual,5g,True,False,False,Snapdragon 6 Gen 1,Octa Core,2.2,8,8,4800.0,67.0,6.58,1080x2400,120.0,Punch Hole,"[64, 2, 2]",3,64.0,32.0,1,Dedicated,1024.0
+samsung galaxy a34 5g,24999,75.0,Android v12,Dual,5g,True,True,False,Exynos 1280,Octa Core,,6,6,5000.0,33.0,6.5,1080x2400,90.0,Punch Hole,[48],1,48.0,13.0,1,Hybrid,1024.0
+xiaomi redmi 10a,8388,66.0,Android v11,Dual,4g,True,False,False,Helio  G25,Octa Core,2.0,4,4,5000.0,,6.53,720x1600,,Water Drop Notch,[13],1,13.0,5.0,1,Dedicated,512.0
+motorola moto g72 4g,15999,83.0,Android v12,Dual,4g,True,True,False,Helio  G99,Octa Core,2.2,6,6,5000.0,33.0,6.55,1080x2400,120.0,Punch Hole,"[108, 8, 2]",3,108.0,16.0,1,Hybrid,
+samsung galaxy a14 5g,20999,82.0,Android v13,Dual,5g,True,False,False,Exynos 1330,Octa Core,2.4,8,8,5000.0,15.0,6.6,1080x2408,90.0,Water Drop Notch,"[50, 2, 2]",3,50.0,13.0,1,Dedicated,1024.0
+realme 9 5g,13999,75.0,Android v11,Dual,5g,True,False,False,Dimensity  810 5G,Octa Core,2.4,4,4,5000.0,18.0,6.5,1080x2400,90.0,Punch Hole,"[48, 2, 2]",3,48.0,16.0,1,Dedicated,1024.0
+vivo t1 5g,19990,83.0,Android v12,Dual,5g,True,False,False,Snapdragon  695,Octa Core,2.2,8,8,5000.0,18.0,6.58,1080x2408,120.0,Water Drop Notch,"[50, 2, 2]",3,50.0,16.0,1,Hybrid,1024.0
+samsung galaxy m13 5g,13999,75.0,Android v12,Dual,5g,True,False,False,Dimensity 700,Octa Core,2.2,6,6,5000.0,15.0,6.5,720x1600,90.0,Water Drop Notch,"[50, 2]",2,50.0,5.0,1,Dedicated,1024.0
+motorola edge 30 5g,22999,83.0,Android v12,Dual,5g,True,True,False,Snapdragon 778G+,Octa Core,2.5,6,6,4020.0,33.0,6.5,1080x2400,144.0,Punch Hole,"[50, 50, 2]",3,50.0,32.0,1,Dedicated,
+samsung galaxy a23 5g,22999,79.0,Android v12,Dual,5g,True,False,False,Snapdragon 695,Octa Core,2.2,6,6,5000.0,25.0,6.6,1080x2408,120.0,Water Drop Notch,[50],1,50.0,8.0,1,Dedicated,1024.0
+oppo k10 5g,16999,79.0,Android v12,Dual,5g,True,False,False,Dimensity  810 5G,Octa Core,2.4,8,8,5000.0,33.0,6.56,720x1612,90.0,Water Drop Notch,"[48, 2]",2,48.0,8.0,1,Dedicated,1024.0
+xiaomi redmi note 11,14290,80.0,Android v11,Dual,4g,True,False,True,Snapdragon  680,Octa Core,2.4,6,6,5000.0,33.0,6.43,1080x2400,90.0,Punch Hole,[50],1,50.0,13.0,1,Dedicated,512.0
+samsung galaxy a73 5g,41999,80.0,Android v12,Dual,5g,True,True,False,Snapdragon 778G,Octa Core,2.4,8,8,5000.0,25.0,6.7,1080x2400,120.0,Punch Hole,[108],1,108.0,32.0,1,Hybrid,1024.0
+vivo y21 2021,13489,69.0,Android v11,Dual,4g,True,False,False,Helio P35,Octa Core,2.3,4,4,5000.0,18.0,6.51,720x1600,,Water Drop Notch,"[13, 2]",2,13.0,8.0,1,Dedicated,1024.0
+oneplus ace racing edition 5g,22990,83.0,Android v12,Dual,5g,True,True,False,Dimensity 8100 Max,Octa Core,2.85,8,8,5000.0,,6.59,1080x2412,120.0,Punch Hole,"[64, 8, 2]",3,64.0,16.0,1,Dedicated,
+motorola moto g62,16499,84.0,Android v12,Dual,5g,True,False,False,Snapdragon  695,Octa Core,2.2,8,8,5000.0,,6.55,1080x2400,120.0,Punch Hole,"[50, 8, 2]",3,50.0,16.0,1,Hybrid,1024.0
+vivo x90 pro plus 5g,73999,80.0,Android v13,Dual,5g,True,True,True,Snapdragon 8 Gen2,Octa Core,3.2,12,12,4700.0,80.0,6.78,1440x3200,120.0,Punch Hole,[3],1,3.0,32.0,1,Dedicated,
+realme c33,9999,67.0,Android v12,Dual,4g,True,False,False,Unisoc T612,Octa Core,1.8,4,4,5000.0,,6.5,720x1600,,Water Drop Notch,"[50, 3]",2,50.0,5.0,1,Dedicated,1024.0
+realme 9i,12499,75.0,Android v11,Dual,4g,True,False,False,Snapdragon  680,Octa Core,2.4,4,4,5000.0,33.0,6.6,1080x2412,90.0,Punch Hole,"[50, 2, 2]",3,50.0,16.0,1,Dedicated,1024.0
+oppo a17,12499,72.0,Android v12,Dual,4g,True,False,False,Helio G35,Octa Core,2.3,4,4,5000.0,,6.56,720x1612,,Water Drop Notch,"[50, 2]",2,50.0,5.0,1,Dedicated,1024.0
+iqoo 11 5g,59999,88.0,Android v13,Dual,5g,True,True,False,Snapdragon 8 Gen2,Octa Core,3.2,8,8,5000.0,120.0,6.78,1440x3200,144.0,Punch Hole,"[50, 13, 8]",3,50.0,16.0,1,Dedicated,
+vivo x fold 5g,106990,80.0,,Dual,5g,True,True,False,Snapdragon 8 Gen1,Octa Core,3.0,12,12,4600.0,66.0,8.03,1916x2160,120.0,,[50],1,50.0,16.0,1,Dedicated,
+vivo t1 5g,15990,78.0,Android v12,Dual,5g,True,False,False,Snapdragon  695,Octa Core,2.2,4,4,5000.0,18.0,6.58,1080x2408,120.0,Water Drop Notch,"[50, 2, 2]",3,50.0,16.0,1,Hybrid,1024.0
+apple iphone 14 pro,119990,75.0,iOS v16,Dual,5g,True,True,False,Bionic  A16,Hexa Core,,6,6,3200.0,,6.1,1179x2556,120.0,,"[48, 12, 12]",3,48.0,12.0,1,None,
+xiaomi redmi note 11 pro max 5g,19999,83.0,Android v11,Dual,5g,True,False,True,Snapdragon 778G,Octa Core,2.4,6,6,5200.0,33.0,6.67,1080x2400,120.0,Punch Hole,[108],1,108.0,32.0,1,Dedicated,512.0
+motorola moto s30 pro,23990,83.0,Android v12,Dual,5g,True,False,False,Snapdragon 888+,Octa Core,2.9,8,8,4400.0,68.0,6.55,1080x2460,144.0,Punch Hole,"[50, 13, 2]",3,50.0,32.0,1,Dedicated,
+realme 10s,12999,80.0,Android v12,Dual,5g,True,False,False,Dimensity 810 5G,Octa Core,2.4,8,8,5000.0,33.0,6.6,1080x2408,90.0,Punch Hole,"[50, 3]",2,50.0,8.0,1,Dedicated,1024.0
+oppo f19 pro plus 5g,19990,82.0,Android v11,Dual,5g,True,False,False,Dimensity 800U ,Octa Core,2.4,8,8,4310.0,50.0,6.43,1080x2400,,Punch Hole,[48],1,48.0,16.0,1,Dedicated,256.0
+xiaomi 13 pro 5g,58990,80.0,Android v13,Dual,5g,True,True,True,Snapdragon 8 Gen2,Octa Core,3.2,8,8,4820.0,120.0,6.73,1440x3200,120.0,Punch Hole,"[3, 50, 50]",3,50.0,32.0,1,None,
+vivo v27 pro,43999,87.0,Android v13,Dual,5g,True,False,False,Dimensity 9000 Plus,Octa Core,3.2,12,12,5000.0,120.0,6.73,1080x2400,144.0,Punch Hole,"[108, 8, 2]",3,108.0,32.0,1,Dedicated,
+samsung galaxy s22 5g,49999,86.0,Android v12,Dual,5g,True,True,False,Snapdragon  8 Gen1,Octa Core,3.0,8,8,3700.0,25.0,6.1,1080x2340,120.0,Punch Hole,"[50, 12, 10]",3,50.0,10.0,1,Dedicated,
+vivo t1 44w,15999,79.0,Android v12,Dual,4g,True,False,False,Snapdragon 680,Octa Core,2.4,6,6,5000.0,44.0,6.44,1080x2408,,Water Drop Notch,"[50, 2, 2]",3,50.0,16.0,1,Hybrid,1024.0
+oneplus 10r 5g,36999,87.0,Android v12,Dual,5g,True,True,False,Dimensity 8100 Max,Octa Core,2.85,12,12,5000.0,80.0,6.7,1080x2412,120.0,Punch Hole,"[50, 8, 2]",3,50.0,16.0,1,Dedicated,
+tecno phantom x2,39999,85.0,Android v12,Dual,5g,True,True,False,Dimensity 9000,Octa Core,3.05,8,8,5160.0,45.0,6.8,1080x2400,120.0,Punch Hole,"[64, 13, 2]",3,64.0,32.0,1,Dedicated,
+apple iphone 12,51999,74.0,iOS v14,Dual,5g,True,True,False,Bionic A14,Hexa Core,3.1,4,4,,,6.1,1170x2532,,Large Notch,"[12, 12]",2,12.0,12.0,1,None,
+xiaomi redmi k50i 5g,22999,82.0,Android v12,Dual,5g,True,False,True,Dimensity  8100,Octa Core,2.85,6,6,5080.0,67.0,6.6,1080x2460,144.0,Punch Hole,"[64, 8, 2]",3,64.0,16.0,1,Dedicated,
+samsung galaxy a53 5g,31999,87.0,Android v12,Dual,5g,True,True,False,Exynos 1280,Octa Core,2.4,6,6,5000.0,25.0,6.5,1080x2400,120.0,Punch Hole,[64],1,64.0,32.0,1,Dedicated,1024.0
+xiaomi redmi a1,6171,80.0,Android v12,Dual,4g,True,False,False,Helio A22,Quad Core,2.0,2,2,5000.0,10.0,6.52,720x1600,,Water Drop Notch,[8],1,8.0,5.0,1,Dedicated,512.0
+oppo reno8 5g,29340,83.0,Android v12,Dual,5g,True,True,False,Dimensity 1300,Octa Core,3.0,8,8,4500.0,80.0,6.43,1080x2400,90.0,Punch Hole,"[50, 8, 2]",3,50.0,32.0,1,Dedicated,
+samsung galaxy m53 5g,25289,87.0,Android v12,Dual,5g,True,False,False,Dimensity  900 5G,Octa Core,2.4,8,8,5000.0,25.0,6.7,1080x2400,120.0,Punch Hole,[108],1,108.0,32.0,1,Hybrid,1024.0
+iqoo z6 pro 5g,21788,78.0,Android v12,Dual,5g,True,False,False,Snapdragon  778G,Octa Core,2.4,6,6,4700.0,66.0,6.44,1080x2404,90.0,Water Drop Notch,"[64, 8, 2]",3,64.0,16.0,1,None,
+tesla pi phone,69999,83.0,Android v13,Dual,5g,True,True,False,Octa Core Processor,Octa Core,,16,16,5000.0,120.0,6.73,1080x2448,165.0,,"[50, 50, 50]",3,50.0,32.0,1,None,
+samsung galaxy s23,70990,88.0,Android v13,Dual,5g,True,True,False,Snapdragon 8 Gen2,Octa Core,3.2,8,8,3900.0,25.0,6.1,1080x2340,120.0,Punch Hole,"[50, 12, 10]",3,50.0,12.0,1,Dedicated,
+motorola edge 30 pro 5g,34999,89.0,Android v12,Dual,5g,True,True,False,Snapdragon 8 Gen1,Octa Core,3.0,8,8,4800.0,68.0,6.7,1080x2400,144.0,Punch Hole,"[50, 50, 2]",3,50.0,60.0,1,Dedicated,
+oneplus nord 2t,33900,85.0,Android v12,Dual,5g,True,True,False,Dimensity  1300,Octa Core,3.0,12,12,4500.0,80.0,6.43,1080x2400,90.0,Punch Hole,"[50, 8, 2]",3,50.0,32.0,1,Dedicated,
+google pixel 6a,29999,71.0,Android v12,Dual,5g,True,True,False,Google  Tensor,Octa Core,,6,6,4410.0,,6.14,1080x2400,,Punch Hole,"[2, 12]",2,12.0,8.0,1,None,
+infinix note 12 pro 5g,18999,84.0,Android v12,Dual,5g,True,False,False,Dimensity 810 5G,Octa Core,2.4,8,8,5000.0,33.0,6.7,1080x2400,,Punch Hole,"[108, 2, 2]",3,108.0,16.0,1,Dedicated,2048.0
+samsung galaxy m33 5g,19499,84.0,Android v12,Dual,5g,True,True,False,Exynos  1280,Octa Core,2.4,8,8,6000.0,25.0,6.6,1080x2400,120.0,Water Drop Notch,[50],1,50.0,8.0,1,Dedicated,1024.0
+vivo v23 5g,24994,83.0,Android v12,Dual,5g,True,False,False,Dimensity  920 5G,Octa Core,2.5,8,8,4200.0,44.0,6.44,1080x2400,90.0,Small Notch,"[64, 8, 2, 50]",4,64.0,50.0,1,None,
+motorola moto g42,10999,78.0,Android v12,Dual,4g,True,True,False,Snapdragon 680,Octa Core,2.4,4,4,5000.0,20.0,6.47,1080x2400,,Punch Hole,"[50, 8, 2]",3,50.0,16.0,1,Dedicated,1024.0
+oneplus nord ce 2 lite 5g,24999,85.0,Android v12,Dual,5g,True,False,False,Snapdragon 695,Octa Core,2.2,8,8,5000.0,33.0,6.59,1080x2412,120.0,Punch Hole,"[64, 2, 2]",3,64.0,16.0,1,Hybrid,1024.0
+samsung galaxy a33 5g,25999,82.0,Android v12,Dual,5g,True,True,False,Exynos  1280,Octa Core,2.4,6,6,5000.0,25.0,6.4,1080x2400,90.0,Punch Hole,[48],1,48.0,13.0,1,Hybrid,1024.0
+google pixel 7a,34990,69.0,Android v12,Dual,5g,True,True,False,Google  Tensor,Octa Core,,6,6,4410.0,,6.1,1080x2400,90.0,Punch Hole,"[2, 12]",2,12.0,8.0,1,None,
+xiaomi redmi 11 prime 5g,13466,74.0,Android v12,Dual,5g,True,False,True,Dimensity 700 5G,Octa Core,2.2,4,4,5000.0,18.0,6.58,1080x2408,90.0,Water Drop Notch,"[50, 2]",2,50.0,5.0,1,Dedicated,512.0
+xiaomi redmi note 10 lite,9999,76.0,Android v10.0,Dual,4g,True,False,True,Snapdragon 720G,Octa Core,2.3,4,4,5020.0,18.0,6.67,1080x2400,,Punch Hole,[48],1,48.0,16.0,1,Dedicated,512.0
+motorola moto e40,7999,71.0,Android v11,Dual,4g,True,False,False,Tiger T700,Octa Core,1.8,4,4,5000.0,,6.5,720x1600,90.0,Punch Hole,"[48, 2, 2]",3,48.0,8.0,1,Dedicated,1024.0
+nothing phone 1,28249,86.0,Android v12,Dual,5g,True,True,False,Snapdragon 778G Plus,Octa Core,2.5,8,8,4500.0,33.0,6.55,1080x2400,120.0,Punch Hole,"[50, 50]",2,50.0,16.0,1,Dedicated,
+poco x4 pro 5g,16499,82.0,Android v11,Dual,5g,True,False,True,Snapdragon 695 ,Octa Core,2.2,6,6,5000.0,67.0,6.67,1080x2400,120.0,Punch Hole,"[64, 8, 2]",3,64.0,16.0,1,Hybrid,1024.0
+xiaomi redmi note 11 pro plus 5g,22999,87.0,Android v11,Dual,5g,True,False,True, Snapdragon  695,Octa Core,2.2,8,8,5000.0,67.0,6.67,1080x2400,120.0,Punch Hole,"[108, 8, 2]",3,108.0,16.0,1,Hybrid,1024.0
+apple iphone 11,46999,75.0,iOS v13,Dual,4g,True,True,False,A13 Bionic,Hexa Core,2.65,4,4,3110.0,,6.1,828x1792,,Large Notch,"[12, 12]",2,12.0,12.0,1,None,
+realme c35,13999,74.0,Android v11,Dual,4g,True,False,False,Tiger  T616,Octa Core,1.8,6,6,5000.0,18.0,6.6,1080x2408,90.0,Water Drop Notch,"[50, 2, 2]",3,50.0,8.0,1,Dedicated,1024.0
+oppo k10,13490,78.0,Android v11,Dual,4g,True,False,False,Snapdragon 680,Octa Core,2.4,6,6,5000.0,33.0,6.59,1080x2412,90.0,Punch Hole,"[50, 2, 2]",3,50.0,16.0,1,Dedicated,1024.0
+iqoo neo 6 5g,28999,82.0,Android v12,Dual,5g,True,False,True,Snapdragon 870,Octa Core,3.2,8,8,4700.0,80.0,6.62,1080x2400,120.0,Punch Hole,"[64, 8, 2]",3,64.0,16.0,1,Dedicated,
+iqoo z6 5g,15499,78.0,Android v12,Dual,5g,True,False,False,Snapdragon  695 ,Octa Core,2.2,4,4,5000.0,18.0,6.58,1080x2408,120.0,Water Drop Notch,"[50, 2, 2]",3,50.0,16.0,1,Hybrid,1024.0
+oppo reno 9 pro 5g,39999,86.0,Android v13,Dual,5g,True,True,False,Dimensity 8100 Max,Octa Core,2.85,16,16,4500.0,67.0,6.7,1080x2412,120.0,Punch Hole,"[50, 8]",2,50.0,32.0,1,Dedicated,
+poco m4 pro 5g,12999,76.0,Android v11,Dual,5g,True,False,True,Dimensity  810 5G,Octa Core,2.4,4,4,5000.0,33.0,6.6,1080x2400,90.0,Punch Hole,"[50, 8]",2,50.0,16.0,1,Hybrid,1024.0
+jio phone 3,4499,80.0,Android v8.1 (Oreo),Dual,4g,True,False,False,Quad Core,Quad Core,1.4,2,2,2800.0,,5.0,720x1280,,,[5],1,5.0,2.0,1,Dedicated,128.0
+oneplus clover,14999,69.0,Android v10,Dual,4g,True,False,False,Snapdragon 460 ,Octa Core,1.8,4,4,6000.0,18.0,6.52,720x1560,,Punch Hole,"[13, 2, 2]",3,13.0,8.0,1,Dedicated,
+samsung galaxy f04,8499,68.0,Android v12,Dual,4g,True,False,False,Helio P35,Octa Core,2.3,4,4,5000.0,15.0,6.5,720x1600,,Water Drop Notch,"[13, 2]",2,13.0,5.0,1,Dedicated,1024.0
+iqoo 7,24990,83.0,Android v11,Dual,5g,True,True,False,Snapdragon 870,Octa Core,3.2,8,8,4400.0,66.0,6.62,1080x2400,120.0,Punch Hole,"[48, 13, 2]",3,48.0,16.0,1,Dedicated,
+samsung galaxy m34 5g,16999,84.0,Android v12,Dual,5g,True,True,False,Exynos 1200,Octa Core,2.4,6,6,6000.0,25.0,6.5,1080x2400,120.0,Punch Hole,[64],1,64.0,32.0,1,Hybrid,
+xiaomi redmi 10,9589,71.0,Android v11,Dual,4g,True,False,False,Snapdragon 680,Octa Core,2.4,4,4,6000.0,18.0,6.7,720x1600,,Water Drop Notch,"[50, 2]",2,50.0,5.0,1,Dedicated,512.0
+apple iphone 12 mini,40999,74.0,iOS v14,Dual,5g,True,True,False,Bionic A14,Hexa Core,3.1,4,4,,,5.4,1080x2340,,,"[12, 12]",2,12.0,12.0,1,None,
+xiaomi redmi note 12,19988,79.0,Android v12,Dual,5g,True,False,True,Snapdragon 4 Gen 1,Octa Core,2.0,6,6,5000.0,33.0,6.67,1080x2400,120.0,Punch Hole,"[48, 8, 2]",3,48.0,13.0,1,Hybrid,1024.0
+motorola moto g52,11999,75.0,Android v12,Dual,4g,True,True,False,Snapdragon 680,Octa Core,2.4,4,4,5000.0,33.0,6.6,2460x1080,90.0,Punch Hole,"[50, 8, 2]",3,50.0,16.0,1,Hybrid,
+apple iphone 15 pro max,142990,79.0,iOS v15,Dual,5g,True,True,False,Bionic  A16,,,8,8,4352.0,25.0,6.68,1284x2778,120.0,Punch Hole,"[50, 12, 12]",3,50.0,12.0,1,None,
+oppo a98,30990,87.0,Android v12,Dual,5g,True,True,False,Snapdragon 8 Gen1,Octa Core,3.0,8,8,5000.0,67.0,6.7,1080x2412,120.0,Water Drop Notch,"[108, 2]",2,108.0,16.0,1,Dedicated,1024.0
+infinix zero 5g 2023,19499,85.0,Android v12,Dual,5g,True,False,False,Dimensity 1080,Octa Core,2.6,8,8,5000.0,33.0,6.78,1080x2460,120.0,Punch Hole,"[50, 2, 2]",3,50.0,16.0,1,Dedicated,256.0
+realme c30,5299,80.0,Android v11,Dual,4g,True,False,False,Tiger T612,Octa Core,1.82,2,2,5000.0,,6.5,720x1600,,Water Drop Notch,[8],1,8.0,5.0,1,Dedicated,1024.0
+oppo f21 pro 5g,25969,82.0,Android v12,Dual,5g,True,False,False, Snapdragon 695,Octa Core,2.2,8,8,4500.0,33.0,6.43,1080x2400,,Punch Hole,"[64, 2, 2]",3,64.0,16.0,1,Dedicated,1024.0
+realme 11 pro,28999,82.0,Android v12,Dual,5g,True,False,False,Snapdragon  8 Gen1,Octa Core,3.0,6,6,5000.0,65.0,6.4,1080x2400,120.0,Punch Hole,"[64, 8, 2]",3,64.0,32.0,1,Dedicated,256.0
+oppo find n2 5g,94990,80.0,,Dual,5g,True,True,False,Snapdragon 8+ Gen1,Octa Core,3.2,12,12,4520.0,67.0,7.1,1792x1920,120.0,Punch Hole,[],0,,,1,None,
+realme 9 4g,14999,81.0,Android v12,Dual,4g,True,False,False,Snapdragon 680,Octa Core,2.4,6,6,5000.0,33.0,6.4,1080x2400,90.0,Punch Hole,"[108, 8, 2]",3,108.0,16.0,1,Dedicated,256.0
+cola phone,14999,74.0,Android v12,Dual,4g,True,False,False,Helio G99,Octa Core,2.2,4,4,5000.0,33.0,6.4,1080x2400,90.0,Punch Hole,"[50, 2]",2,50.0,16.0,1,Dedicated,1024.0
+apple iphone 13 pro max,129900,84.0,iOS v15,Dual,5g,True,True,False,Bionic A15,Hexa Core,3.22,6,6,4352.0,,6.7,1284x2778,120.0,Small Notch,"[12, 12, 12]",3,12.0,12.0,1,None,
+oppo reno 10 pro plus,58990,88.0,Android v13,Dual,5g,True,True,False,Snapdragon 8 Gen2,Octa Core,3.2,12,12,4700.0,80.0,6.73,1080x2412,120.0,Punch Hole,[64],1,64.0,32.0,1,Dedicated,
+vivo x90 5g,41990,88.0,Android v13,Dual,5g,True,True,True,Dimensity 9200,Octa Core,3.05,8,8,4810.0,120.0,6.78,1260x2800,120.0,Punch Hole,"[50, 12, 12]",3,50.0,32.0,1,None,
+samsung galaxy f13,10999,74.0,Android v12,Dual,4g,True,True,False,Exynos 850,Octa Core,2.0,4,4,6000.0,15.0,6.6,2408x1080,,Water Drop Notch,"[50, 5, 2]",3,50.0,8.0,1,Dedicated,1024.0
+xiaomi redmi note 10s,11999,79.0,Android v11,Dual,4g,True,False,True,Helio G95,Octa Core,2.05,6,6,5000.0,33.0,6.43,1080x2400,,Punch Hole,[64],1,64.0,13.0,1,Dedicated,512.0
+realme 10,16999,79.0,Android v12,Dual,4g,True,False,False,Helio G99,Octa Core,2.2,8,8,5000.0,33.0,6.4,1080x2400,90.0,Punch Hole,"[50, 2]",2,50.0,16.0,1,Dedicated,1024.0
+iqoo 9 se 5g,30990,83.0,Android v12,Dual,5g,True,True,False,Snapdragon  888 ,Octa Core,2.84,8,8,4500.0,66.0,6.62,1080x2400,120.0,Punch Hole,"[48, 13, 2]",3,48.0,16.0,1,Dedicated,
+infinix hot 20,17999,75.0,Android v12,Dual,5g,True,False,False,Dimensity 810,Octa Core,2.4,4,4,5000.0,18.0,6.6,1080x2408,120.0,Water Drop Notch,[50],1,50.0,8.0,1,Dedicated,1024.0
+letv y1 pro,5499,80.0,Android v11,Dual,4g,True,False,False,Tiger T310,Quad Core,2.0,4,4,4000.0,,6.54,720x1560,,Small Notch,[8],1,8.0,5.0,1,Dedicated,
+xiaomi redmi note 13 pro max 5g,20499,83.0,Android v12,Dual,5g,True,False,True,Snapdragon  7 Gen1,Octa Core,2.36,6,6,5200.0,67.0,6.67,1080x2460,120.0,Punch Hole,[108],1,108.0,32.0,1,Dedicated,512.0
+realme narzo 50 pro 5g,20490,81.0,Android v12,Dual,5g,True,False,False,Dimensity  920 5G,Octa Core,2.5,6,6,5000.0,33.0,6.4,1080x2400,90.0,Punch Hole,"[48, 8, 2]",3,48.0,16.0,1,Hybrid,256.0
+oppo a74 5g,15490,77.0,Android v11,Dual,5g,True,False,False,Snapdragon  480 ,Octa Core,2.0,6,6,5000.0,18.0,6.5,1080x2400,90.0,Punch Hole,"[48, 2, 2]",3,48.0,8.0,1,Dedicated,
+apple iphone 9,29990,61.0,iOS v13.0,Single,4g,True,True,False,A13 Bionic,Hexa Core,2.65,3,3,2050.0,,4.7,750x1334,,Large Notch,[12],1,12.0,7.0,1,None,
+iqoo z6 lite,15499,79.0,Android v12,Dual,5g,True,False,False,Snapdragon  4 Gen 1,Octa Core,2.0,6,6,5000.0,18.0,6.58,1080x2408,120.0,Water Drop Notch,"[50, 2]",2,50.0,8.0,1,Hybrid,1024.0
+xiaomi redmi note 11se,11999,80.0,Android v11,Dual,4g,True,False,True,Helio G95,Octa Core,2.05,6,6,5000.0,33.0,6.43,1080x2400,,Punch Hole,[64],1,64.0,13.0,1,Dedicated,512.0
+realme narzo 50,10999,74.0,Android v11,Dual,4g,True,False,False,Helio G96,Octa Core,2.0,4,4,5000.0,33.0,6.6,1080x2412,120.0,Punch Hole,"[50, 2, 2]",3,50.0,16.0,1,Dedicated,256.0
+vivo y75 5g,21990,82.0,Android v12,Dual,5g,True,False,False,Dimensity  700 5G,Octa Core,2.2,8,8,5000.0,18.0,6.58,1080x2408,,Water Drop Notch,"[50, 2, 2]",3,50.0,16.0,1,Hybrid,
+vivo v25,31999,85.0,Android v12,Dual,5g,True,False,False,Dimensity  900,Octa Core,2.0,12,12,4500.0,44.0,6.44,1080x2408,90.0,Water Drop Notch,"[64, 8, 2]",3,64.0,50.0,1,Hybrid,1024.0
+poco m4 pro 4g,11999,77.0,Android v11,Dual,4g,True,False,True,Helio G96,Octa Core,2.05,6,6,5000.0,33.0,6.43,1080x2400,90.0,Punch Hole,"[64, 8, 2]",3,64.0,16.0,1,Dedicated,1024.0
+infinix zero ultra,36999,89.0,Android v12,Dual,5g,True,False,False,Dimensity 920 5G,Octa Core,2.5,8,8,4500.0,180.0,6.8,1080x2400,120.0,Punch Hole,"[200, 13, 2]",3,200.0,32.0,1,Dedicated,
+tecno spark go 2023,6999,62.0,Android v12,Dual,4g,True,False,False,Helio A22,Quad Core,2.0,3,3,5000.0,10.0,6.56,720x1600,,Water Drop Notch,[13],1,13.0,5.0,1,Dedicated,256.0
+motorola moto x40,39999,89.0,Android v13,Dual,5g,True,True,False,Snapdragon 8 Gen2,Octa Core,3.2,8,8,4600.0,125.0,6.7,1080x2400,165.0,,"[50, 50, 12]",3,50.0,60.0,1,Dedicated,
+samsung galaxy f24 5g,14999,78.0,Android v12,Dual,5g,True,True,False,Snapdragon  695,Octa Core,2.2,4,4,5000.0,25.0,6.6,1080x2408,120.0,Water Drop Notch,"[50, 8, 2]",3,50.0,8.0,1,Dedicated,1024.0
+realme 10 5g,14499,79.0,Android v12,Dual,5g,True,False,False,Dimensity  700 5G,Octa Core,2.2,8,8,5000.0,33.0,6.6,1080x2408,90.0,Water Drop Notch,"[50, 2]",2,50.0,8.0,1,Dedicated,1024.0
+oneplus nord 3 5g,27999,84.0,Android v11,Dual,5g,True,True,False,Dimensity  8200,Octa Core,3.1,8,8,4200.0,120.0,6.43,1080x2400,90.0,Punch Hole,"[50, 12, 5]",3,50.0,32.0,1,Dedicated,
+motorola moto g82,20499,86.0,Android v12,Dual,5g,True,True,False,Snapdragon 695,Octa Core,2.2,8,8,5000.0,30.0,6.6,1080x2400,120.0,Punch Hole,"[50, 8, 2]",3,50.0,16.0,1,Dedicated,1024.0
+ikall z19 pro,8099,60.0,Android v11.0,Dual,4g,True,False,False,Quad Core,Quad Core,1.6,4,4,5000.0,,6.5,720x1600,,Water Drop Notch,[13],1,13.0,8.0,1,Hybrid,128.0
+leeco s1 pro,10999,65.0,Android v11,Dual,4g,True,False,False,Tiger T7150,Quad Core,1.8,8,8,5000.0,10.0,6.5,720x1600,,Small Notch,[13],1,13.0,5.0,1,Dedicated,
+realme c2s,3499,63.0,Android v9.0 (Pie),Dual,4g,True,False,False,Helio  P22 ,Octa Core,2.0,3,3,4000.0,,6.1,720x1560,,Water Drop Notch,"[13, 2]",2,13.0,5.0,1,Dedicated,128.0
+duoqin f22 pro,9990,80.0,Android v12,Dual,4g,True,False,False,Helio  G85,Octa Core,2.0,4,4,2150.0,,3.54,640x960,,,[8],1,8.0,2.0,1,Dedicated,
+samsung galaxy m54 5g,34999,85.0,Android v12,Dual,5g,True,False,False,Snapdragon 888,Octa Core,2.84,6,6,6000.0,25.0,6.67,1080x2412,90.0,Punch Hole,"[64, 12, 5]",3,64.0,32.0,1,Hybrid,1024.0
+nokia n73 5g,46999,80.0,Android v12.1,Dual,5g,True,False,False,Snapdragon  8 Gen1,Octa Core,3.0,12,12,6000.0,65.0,6.9,1400x3200,120.0,Punch Hole,[200],1,200.0,32.0,1,Dedicated,
+motorola edge 30 fusion 5g,39999,88.0,Android v12,Dual,5g,True,True,False,Snapdragon 888+,Octa Core,2.9,8,8,4400.0,68.0,6.55,1080x2400,144.0,Punch Hole,"[50, 13, 2]",3,50.0,32.0,1,None,
+realme c35,11828,70.0,Android v11,Dual,4g,True,False,False,Tiger  T616,Octa Core,1.8,4,4,5000.0,18.0,6.6,1080x2408,,Water Drop Notch,"[50, 2, 3]",3,50.0,8.0,1,Dedicated,1024.0
+oppo reno 8 pro house of dragon edition,45999,86.0,Android v12,Dual,5g,True,True,False,Dimensity 8100-Max,Octa Core,2.85,12,12,4500.0,80.0,6.7,1080x2412,120.0,Punch Hole,"[50, 8, 2]",3,50.0,32.0,1,Dedicated,
+oneplus nord ce 3 lite 5g,18999,81.0,Android v12,Dual,5g,True,False,False,Snapdragon 695,Octa Core,2.2,6,6,5000.0,33.0,6.59,1080x2412,120.0,Punch Hole,"[50, 2, 2]",3,50.0,16.0,1,Hybrid,1024.0
+poco x4 pro 5g,17999,84.0,Android v11,Dual,5g,True,False,True,Snapdragon 695 ,Octa Core,2.2,8,8,5000.0,67.0,6.67,1080x2400,120.0,Punch Hole,"[64, 8, 2]",3,64.0,16.0,1,Hybrid,1024.0
+samsung galaxy m04,8499,66.0,Android v12,Dual,4g,True,False,False,Helio P35,Octa Core,2.3,4,4,5000.0,15.0,6.5,720x1600,,Water Drop Notch,"[13, 2]",2,13.0,5.0,1,Dedicated,1024.0
+oppo a77s,17999,76.0,Android v12,Dual,4g,True,False,False,Snapdragon 680,Octa Core,2.4,8,8,5000.0,33.0,6.56,720x1600,90.0,Water Drop Notch,"[50, 2]",2,50.0,8.0,1,Dedicated,
+samsung galaxy a13,14450,75.0,Android v12,Dual,4g,True,False,False,Octa Core,Octa Core,2.0,4,4,5000.0,25.0,6.6,1080x2408,,Water Drop Notch,[50],1,50.0,8.0,1,Dedicated,1024.0
+motorola edge 30 ultra,54999,80.0,Android v12,Dual,5g,True,True,False,Snapdragon 8+ Gen1,Octa Core,3.2,8,8,4610.0,125.0,6.67,1080x2400,144.0,Punch Hole,"[200, 50, 12]",3,200.0,60.0,1,Dedicated,
+xiaomi 13 ultra 5g,71999,80.0,Android v12,Dual,5g,True,True,True,Snapdragon 8 Gen2,Octa Core,3.2,12,12,5000.0,120.0,6.6,1440x3200,120.0,Punch Hole,[108],1,108.0,32.0,1,Dedicated,
+motorola moto g52,12999,79.0,Android v12,Dual,4g,True,True,False,Snapdragon 680,Octa Core,2.4,6,6,5000.0,33.0,6.6,2460x1080,90.0,Punch Hole,"[50, 8, 2]",3,50.0,16.0,1,Hybrid,
+poco m4 5g,11499,75.0,Android v12,Dual,5g,True,False,True,Dimensity 700 5G,Octa Core,2.2,4,4,5000.0,18.0,6.58,1080x2400,90.0,Water Drop Notch,"[50, 2]",2,50.0,8.0,1,Dedicated,512.0
+nothing phone 1,35999,87.0,Android v12,Dual,5g,True,True,False,Snapdragon 778G Plus,Octa Core,2.5,12,12,4500.0,33.0,6.55,1080x2400,120.0,Punch Hole,"[50, 50]",2,50.0,16.0,1,Dedicated,
+samsung galaxy a54 5g,34999,76.0,Android v13,Dual,5g,True,True,False,Exynos 1380,Octa Core,,6,6,5000.0,25.0,6.4,1080x2400,120.0,Punch Hole,"[50, 12, 5]",3,50.0,32.0,1,Dedicated,1024.0
+tecno pova 4,11999,73.0,Android v12,Dual,4g,True,False,False,Helio G99,Octa Core,2.2,8,8,6000.0,18.0,6.82,720x1600,90.0,Water Drop Notch,[50],1,50.0,8.0,1,Dedicated,512.0
+xiaomi redmi note 12 pro,27994,82.0,Android v12,Dual,5g,True,False,True,Dimensity 1080,Octa Core,2.6,8,8,5000.0,67.0,6.67,1080x2400,120.0,Punch Hole,"[50, 8, 2]",3,50.0,16.0,1,Dedicated,
+apple iphone 14 pro max,139990,77.0,iOS v16,Dual,5g,True,True,False,Bionic  A16,Hexa Core,,6,6,4323.0,,6.7,1290x2796,120.0,,"[48, 12, 12]",3,48.0,12.0,1,None,
+vivo v25 pro,39999,86.0,Android v12,Dual,5g,True,False,False,Dimensity 1300,Octa Core,3.0,12,12,4830.0,66.0,6.56,1080x2376,120.0,Punch Hole,"[64, 8, 2]",3,64.0,32.0,1,Dedicated,
+realme 9 5g,15499,79.0,Android v11,Dual,5g,True,False,False,Dimensity  810 5G,Octa Core,2.4,6,6,5000.0,18.0,6.5,1080x2400,90.0,Punch Hole,"[48, 2, 2]",3,48.0,16.0,1,Dedicated,1024.0
+realme 9 pro 5g,18999,80.0,Android v12,Dual,5g,True,False,False,Snapdragon  695,Octa Core,2.2,6,6,5000.0,33.0,6.6,1080x2412,120.0,Punch Hole,"[64, 8, 2]",3,64.0,16.0,1,Dedicated,256.0
+lava blaze 5g,10999,73.0,Android v12,Dual,5g,True,False,False,Dimensity 700 5G,Octa Core,2.2,4,4,5000.0,,6.5,1600x720,90.0,Water Drop Notch,"[50, 2]",2,50.0,8.0,1,Dedicated,1024.0
+honor x9a,27999,81.0,Android v12,Dual,5g,True,True,True,Snapdragon 695,Octa Core,2.2,8,8,5100.0,40.0,6.67,1080x2400,120.0,Punch Hole,"[64, 5, 2]",3,64.0,16.0,1,Dedicated,
+google pixel 7 pro 5g,81999,80.0,Android v13,Dual,5g,True,True,False,Google  Tensor G2,Octa Core,2.85,12,12,5000.0,30.0,6.7,1440x3120,120.0,Punch Hole,"[50, 48, 12]",3,50.0,,1,Dedicated,
+tecno pova 3,9999,74.0,Android v11,Dual,4g,True,False,False,Helio G88,Octa Core,2.0,4,4,7000.0,33.0,6.95,1080x2460,90.0,Punch Hole,"[50, 2, 2]",3,50.0,8.0,1,Dedicated,256.0
+vivo v23 pro 5g,31994,85.0,Android v12,Dual,5g,True,False,False,Dimensity 1200,Octa Core,3.0,8,8,4300.0,44.0,6.56,1080x2376,90.0,Small Notch,"[108, 8, 2, 50]",4,108.0,50.0,1,None,
+samsung galaxy a04e,9299,65.0,Android v12,Dual,4g,True,False,False,Helio P35,Octa Core,2.3,3,3,5000.0,,6.5,720x1600,,Water Drop Notch,"[13, 2]",2,13.0,5.0,1,Dedicated,1024.0
+xiaomi redmi k60,29990,84.0,Android v13,Dual,5g,True,True,True,Snapdragon  8+ Gen1,Octa Core,3.2,8,8,5500.0,67.0,6.67,1440x3200,120.0,Punch Hole,"[64, 8, 2]",3,64.0,16.0,1,Dedicated,
+realme 9 pro plus 5g,25900,78.0,Android v12,Dual,5g,True,False,False,Dimensity  920 5G,Octa Core,2.5,6,6,4500.0,60.0,6.4,1080x2400,90.0,Punch Hole,"[50, 8, 2]",3,50.0,16.0,1,None,
+realme 9i 5g,16999,78.0,Android v12,Dual,5g,True,False,False,Dimensity 810 5G,Octa Core,2.4,6,6,5000.0,18.0,6.6,1080x2408,90.0,Punch Hole,"[50, 2, 2]",3,50.0,8.0,1,Dedicated,1024.0
+motorola edge 30 5g,24999,85.0,Android v12,Dual,5g,True,True,False,Snapdragon 778G+,Octa Core,2.5,8,8,4020.0,33.0,6.5,1080x2400,144.0,Punch Hole,"[50, 50, 2]",3,50.0,32.0,1,Dedicated,
+xiaomi redmi note 11,12188,79.0,Android v11,Dual,4g,True,False,True,Snapdragon  680,Octa Core,2.4,6,6,5000.0,33.0,6.43,1080x2400,90.0,Punch Hole,[50],1,50.0,13.0,1,Dedicated,512.0
+vivo y02,8999,80.0,Android v12,Dual,4g,True,False,False,Helio,Octa Core,,3,3,5000.0,10.0,6.51,720x1600,,Water Drop Notch,[8],1,8.0,5.0,1,Dedicated,1024.0
+poco c31,7499,68.0,Android v10,Dual,4g,True,False,False,Helio G35,Octa Core,2.3,4,4,5000.0,,6.53,720x1600,,Water Drop Notch,"[13, 2, 2]",3,13.0,5.0,1,Dedicated,512.0
+realme narzo 50 5g,17999,79.0,Android v11,Dual,5g,True,False,False,Dimensity 810 5G,Octa Core,2.4,6,6,5000.0,33.0,6.6,1080x2400,90.0,Punch Hole,"[48, 2, 2]",3,48.0,16.0,1,Dedicated,1024.0
+realme gt neo 3t,24999,79.0,Android v12,Dual,5g,True,False,False,Snapdragon 870,Octa Core,3.2,6,6,5000.0,80.0,6.62,1080x2400,120.0,Punch Hole,"[64, 8, 2]",3,64.0,16.0,1,Dedicated,
+oppo reno 8 pro 5g,45999,86.0,Android v12,Dual,5g,True,True,False,Dimensity 8100-Max,Octa Core,2.85,12,12,4500.0,80.0,6.7,1080x2412,120.0,Punch Hole,"[50, 8, 2]",3,50.0,32.0,1,Dedicated,
+oneplus 10 pro 5g,65499,80.0,Android v12,Dual,5g,True,True,False,Snapdragon  8 Gen1,Octa Core,3.0,12,12,5000.0,80.0,6.7,1440x3216,120.0,Punch Hole,"[50, 48, 8]",3,50.0,32.0,1,Dedicated,
+iqoo 11 pro 5g,58990,89.0,Android v13,Dual,5g,True,True,True,Snapdragon 8 Gen2,Octa Core,3.2,8,8,4700.0,200.0,6.78,1440x3200,144.0,Punch Hole,"[50, 50, 13]",3,50.0,16.0,1,Dedicated,
+vivo t1x 4g,11999,74.0,Android v12,Dual,4g,True,False,False,Snapdragon 680,Octa Core,2.4,4,4,5000.0,18.0,6.58,1080x2408,90.0,Water Drop Notch,"[50, 2]",2,50.0,8.0,1,Dedicated,
+xiaomi redmi 10 power,11999,77.0,Android v11,Dual,4g,True,False,True,Snapdragon 680,Octa Core,2.4,8,8,6000.0,18.0,6.7,720x1650,,Punch Hole,"[50, 2]",2,50.0,5.0,1,Dedicated,
+oppo a58,18990,76.0,Android v12,Dual,5g,True,False,False,Dimensity 700 5G,Octa Core,2.2,6,6,5000.0,33.0,6.56,720x1612,90.0,Water Drop Notch,"[50, 2]",2,50.0,8.0,1,Dedicated,1024.0
+vivo t1,14499,77.0,Android v12,Dual,4g,True,False,False,Snapdragon 680,Octa Core,2.4,4,4,5000.0,44.0,6.44,1080x2408,,Water Drop Notch,"[50, 2, 2]",3,50.0,16.0,1,Hybrid,1024.0
+xiaomi mix fold 2 5g,106990,80.0,,Dual,5g,True,True,True,Snapdragon  8+ Gen1 ,Octa Core,3.2,12,12,4500.0,67.0,8.02,1914x2160,120.0,Punch Hole,"[50, 13, 8]",3,50.0,20.0,1,Dedicated,
+vivo y16,10499,66.0,Android v12,Dual,4g,True,False,False,Helio P35,Octa Core,2.3,3,3,5000.0,10.0,6.51,720x1600,,Water Drop Notch,"[13, 2]",2,13.0,5.0,1,Dedicated,
+oppo reno 8 z,26990,86.0,Android v12,Dual,5g,True,True,False,Snapdragon  695,Octa Core,2.2,8,8,4500.0,33.0,6.43,1080x2400,,Punch Hole,"[64, 2, 2]",3,64.0,16.0,1,Dedicated,1024.0
+vivo y75 4g,19990,82.0,Android v12,Dual,4g,True,False,False,Helio G96,Octa Core,2.05,8,8,4050.0,44.0,6.44,1080x2400,,Water Drop Notch,"[50, 8, 2]",3,50.0,44.0,1,Hybrid,1024.0
+xiaomi redmi note 12 explorer,24999,89.0,Android v12,Dual,5g,True,True,True,Dimensity 1080,Octa Core,2.6,8,8,4300.0,120.0,6.67,1080x2400,120.0,Punch Hole,"[200, 8, 2]",3,200.0,16.0,1,Dedicated,512.0
+oppo a57 4g,13969,69.0,Android v12,Dual,4g,True,False,False,Helio G35,Octa Core,2.3,4,4,5000.0,33.0,6.56,720x1612,,Water Drop Notch,"[13, 2]",2,13.0,8.0,1,Dedicated,
+samsung galaxy a75 5g,44999,83.0,Android v12,Dual,5g,True,True,False,Snapdragon 778G+,Octa Core,,8,8,5000.0,67.0,6.7,1080x2412,120.0,Punch Hole,[108],1,108.0,32.0,1,Hybrid,1024.0
+vivo t1 pro 5g,24999,84.0,Android v12,Dual,5g,True,False,False,Snapdragon 778G,Octa Core,2.4,8,8,4700.0,66.0,6.44,1080x2404,90.0,Water Drop Notch,"[64, 8, 2]",3,64.0,16.0,1,Hybrid,1024.0
+google pixel 7 5g,53100,86.0,Android v13,Dual,5g,True,True,False,Google Tensor G2,Octa Core,2.85,8,8,4355.0,30.0,6.3,1080x2400,90.0,Punch Hole,"[50, 12]",2,50.0,,1,Dedicated,
+xiaomi redmi note 11t 5g,16999,81.0,Android v11,Dual,5g,True,False,True,Dimensity  810 5G,Octa Core,2.4,6,6,5000.0,33.0,6.6,1080x2400,90.0,Punch Hole,"[50, 8]",2,50.0,16.0,1,Hybrid,1024.0
+oppo f21s pro 4g,21899,82.0,Android v12,Dual,4g,True,False,False,Snapdragon  680,Octa Core,2.4,8,8,4500.0,33.0,6.43,1080x2400,90.0,Punch Hole,"[64, 2, 2]",3,64.0,32.0,1,Dedicated,512.0
+apple iphone 14,75999,82.0,iOS v16,Dual,5g,True,True,False,Bionic A15,Hexa Core,3.22,6,6,3279.0,,6.1,1170x2532,,Small Notch,"[12, 12]",2,12.0,12.0,1,None,
+motorola moto g73,25999,85.0,Android v13,Dual,5g,True,True,False,Dimensity 930,Octa Core,2.2,8,8,5000.0,30.0,6.5,1080x2400,120.0,Punch Hole,"[50, 8]",2,50.0,16.0,1,Hybrid,
+nubia red magic 8 pro 5g,46990,84.0,Android v13,Dual,5g,True,True,False,Snapdragon 8 Gen2,Octa Core,3.2,8,8,6000.0,80.0,6.8,1116x2480,120.0,,"[50, 8, 2]",3,50.0,16.0,1,Dedicated,
+motorola moto g31,9999,75.0,Android v11,Dual,4g,True,False,False,Helio  G85,Octa Core,2.0,4,4,5000.0,20.0,6.47,1080x2400,,Punch Hole,"[50, 8, 2]",3,50.0,13.0,1,Hybrid,1024.0
+tecno phantom x2 pro,49999,89.0,Android v12,Dual,5g,True,True,False,Dimensity 9000,Octa Core,3.05,12,12,5160.0,45.0,6.8,1080x2400,120.0,Punch Hole,"[50, 50, 13]",3,50.0,32.0,1,Dedicated,
+infinix zero 20,17999,87.0,Android v12,Dual,4g,True,True,False,Helio G99,Octa Core,2.2,8,8,4500.0,45.0,6.7,1080x2400,90.0,Water Drop Notch,"[108, 13, 2]",3,108.0,60.0,1,Dedicated,2048.0
+iqoo z6 5g,16940,80.0,Android v12,Dual,5g,True,False,False,Snapdragon  695 ,Octa Core,2.2,6,6,5000.0,18.0,6.58,1080x2408,120.0,Water Drop Notch,"[50, 2, 2]",3,50.0,16.0,1,Hybrid,1024.0
+xiaomi redmi note 11 pro 5g,17990,81.0,Android v11,Dual,5g,True,False,True,Snapdragon 695,Octa Core,2.2,6,6,5000.0,67.0,6.67,1080x2400,120.0,Punch Hole,"[108, 8, 2]",3,108.0,16.0,1,Hybrid,
+oppo a1 pro,20990,84.0,Android v13,Dual,5g,True,True,False,Snapdragon 695,Octa Core,2.2,8,8,4800.0,67.0,6.7,1080x2412,120.0,Punch Hole,"[108, 2]",2,108.0,16.0,1,Dedicated,1024.0
+samsung galaxy s22 fe 5g,51999,79.0,Android v12,Dual,5g,True,True,False,Exynos  2300,Octa Core,,8,8,4200.0,33.0,6.4,1080x2400,120.0,Punch Hole,"[12, 12, 8]",3,12.0,32.0,1,None,
+samsung galaxy s22 plus 5g,64449,87.0,Android v12,Dual,5g,True,True,False,Snapdragon  8 Gen1,Octa Core,3.0,8,8,4500.0,45.0,6.6,1080x2340,120.0,Punch Hole,"[50, 12, 10]",3,50.0,10.0,1,Dedicated,
+vivo u3x,8990,71.0,Android v11,Dual,5g,True,False,False,Snapdragon  480 ,Octa Core,2.0,6,6,5000.0,18.0,6.58,1080x2408,90.0,Water Drop Notch,"[13, 2]",2,13.0,8.0,1,Dedicated,
+motorola moto g23,19999,77.0,Android v13,Dual,4g,True,True,False,Helio  G85,Octa Core,2.0,4,4,5000.0,30.0,6.5,720x1600,90.0,Punch Hole,"[50, 5, 2]",3,50.0,16.0,1,Dedicated,512.0
+poco m4 5g,13499,79.0,Android v12,Dual,5g,True,False,True,Dimensity 700 5G,Octa Core,2.2,6,6,5000.0,18.0,6.58,1080x2400,90.0,Water Drop Notch,"[50, 2]",2,50.0,8.0,1,Dedicated,512.0
+tecno pova 5g,15499,78.0,Android v11,Dual,5g,True,False,False,Dimensity 900,Octa Core,2.4,8,8,6000.0,18.0,6.9,1080x2460,120.0,Punch Hole,"[50, 2]",2,50.0,16.0,1,Dedicated,512.0
+poco c31,6499,65.0,Android v10,Dual,4g,True,False,False,Helio G35,Octa Core,2.3,3,3,5000.0,,6.53,720x1600,,Water Drop Notch,"[13, 2, 2]",3,13.0,5.0,1,Dedicated,512.0
+apple iphone xr2,71999,60.0,iOS v12.3,Dual,4g,True,True,False,Apple  A13,,,4,4,3060.0,,6.1,828x1792,,,"[12, 5]",2,12.0,7.0,1,None,
+samsung galaxy a53,36499,89.0,Android v12,Dual,5g,True,True,False,Exynos 1280,Octa Core,2.4,8,8,5000.0,25.0,6.5,1080x2400,120.0,Punch Hole,[64],1,64.0,32.0,1,Dedicated,1024.0
+infinix note 12 5g,15999,78.0,Android v12,Dual,5g,True,False,False,Dimensity 810 5G,Octa Core,2.4,6,6,5000.0,33.0,6.7,1080x2400,,Water Drop Notch,"[50, 2]",2,50.0,16.0,1,Dedicated,2048.0
+oppo reno7 pro 5g,31994,87.0,Android v11,Dual,5g,True,True,False,Dimensity  1200 Max,Octa Core,3.0,12,12,4500.0,65.0,6.55,1080x2400,90.0,Punch Hole,"[50, 8, 2]",3,50.0,32.0,1,Dedicated,
+oneplus ace 2,34999,84.0,Android v13,Dual,5g,True,True,False,Snapdragon 8+ Gen1,Octa Core,3.2,8,8,5000.0,100.0,6.7,1080x2412,120.0,Punch Hole,"[50, 8, 2]",3,50.0,16.0,1,Dedicated,
+redmi note 11 pro,18999,81.0,Android v11,Dual,4g,True,False,True,Snapdragon 712,Octa Core,2.3,6,6,5000.0,67.0,6.67,1080x2400,120.0,Punch Hole,[108],1,108.0,16.0,1,Hybrid,1024.0
+nothing phone 2,39990,88.0,Android v13,Dual,5g,True,True,False,Snapdragon 8+ Gen1,Octa Core,3.2,8,8,4700.0,66.0,6.67,1080x2400,120.0,Punch Hole,"[50, 50, 50]",3,50.0,32.0,1,Dedicated,
+samsung galaxy a32,16499,82.0,Android v11,Dual,4g,True,False,False,Helio G80,Octa Core,2.0,8,8,5000.0,15.0,6.4,1080x2400,90.0,Water Drop Notch,[64],1,64.0,20.0,1,Dedicated,1024.0
+google pixel 6 pro,54300,89.0,Android v12,Dual,5g,True,True,False,Google  Tensor,Octa Core,2.8,12,12,5003.0,30.0,6.71,1440x3120,120.0,Punch Hole,"[50, 48, 12]",3,50.0,,1,Dedicated,
+infinix note 12i,9999,73.0,Android v12,Dual,4g,True,False,False,Helio G85,Octa Core,2.0,4,4,5000.0,33.0,6.7,1080x2400,,Water Drop Notch,"[50, 2]",2,50.0,8.0,1,Dedicated,512.0
+xiaomi redmi 11 prime 5g,15990,77.0,Android v12,Dual,5g,True,False,True,Dimensity 700 5G,Octa Core,2.2,6,6,5000.0,18.0,6.58,1080x2408,90.0,Water Drop Notch,"[50, 2]",2,50.0,5.0,1,Dedicated,512.0
+xiaomi redmi note 11 pro plus 5g,22700,86.0,Android v11,Dual,5g,True,False,True, Snapdragon  695,Octa Core,2.2,8,8,5000.0,67.0,6.67,1080x2400,120.0,Punch Hole,"[108, 8, 2]",3,108.0,16.0,1,Hybrid,1024.0
+xiaomi 12 pro 5g,50990,89.0,Android v12,Dual,5g,True,True,True,Snapdragon 8 Gen1,Octa Core,3.0,8,8,4600.0,120.0,6.73,1440x3200,120.0,Punch Hole,"[50, 50, 50]",3,50.0,32.0,1,Dedicated,
+apple iphone 13 mini,64900,79.0,iOS v15,Dual,5g,True,True,False,Bionic A15,Hexa Core,3.22,4,4,2438.0,,5.4,1080x2340,,Large Notch,"[12, 12]",2,12.0,12.0,1,None,
+tecno pova 3,13799,77.0,Android v11,Dual,4g,True,False,False,Helio G88,Octa Core,2.0,6,6,7000.0,33.0,6.9,1080x2460,90.0,Punch Hole,"[50, 2, 2]",3,50.0,8.0,1,Dedicated,256.0
+realme c31,8999,65.0,Android v11,Dual,4g,True,False,False,Tiger T612,Octa Core,1.82,4,4,5000.0,,6.52,720x1600,,Water Drop Notch,"[13, 2, 2]",3,13.0,5.0,1,Dedicated,1024.0
+asus rog phone 6 pro 5g,89999,88.0,Android v12,Dual,5g,True,True,False,Snapdragon 8+ Gen1,Octa Core,3.2,18,18,6000.0,65.0,6.78,1080x2448,165.0,,"[50, 13, 5]",3,50.0,12.0,1,None,
+vivo v23e 5g,21994,84.0,Android v12,Dual,5g,True,False,False,Dimensity  810 5G,Octa Core,2.4,8,8,4050.0,44.0,6.44,1080x2400,,Water Drop Notch,"[50, 8, 2]",3,50.0,44.0,1,Hybrid,
+apple iphone 14 mini,69990,70.0,iOS v15,Dual,4g,True,True,False,Bionic A16,,,6,6,3500.0,,5.42,1080x2340,,Punch Hole,"[12, 12]",2,12.0,12.0,1,None,
+xiaomi redmi note 10t 5g,12999,75.0,Android v11,Dual,5g,True,False,True,Dimensity 700 ,Octa Core,2.2,4,4,5000.0,18.0,6.5,1080x2400,90.0,Punch Hole,"[48, 2, 2]",3,48.0,8.0,1,Dedicated,1024.0
+iqoo neo 7 se 5g,24990,83.0,Android v13,Dual,5g,True,True,False,Dimensity 8200,Octa Core,3.1,8,8,5000.0,120.0,6.78,1080x2400,120.0,Punch Hole,"[64, 2, 2]",3,64.0,16.0,1,None,
+samsung galaxy a23,19990,82.0,Android v12,Dual,4g,True,False,False,Snapdragon  680,Octa Core,2.4,8,8,5000.0,25.0,6.6,1080x2408,,Water Drop Notch,[50],1,50.0,8.0,1,Dedicated,1024.0
+xiaomi redmi note 12 pro,26999,82.0,Android v12,Dual,5g,True,False,True,Dimensity 1080,Octa Core,2.6,8,8,5000.0,67.0,6.67,1080x2400,120.0,Punch Hole,"[50, 8, 2]",3,50.0,16.0,1,Dedicated,
+xiaomi redmi note 12 turbo,19999,81.0,Android v13,Dual,5g,True,True,True,Snapdragon 778G,Octa Core,2.4,8,8,5000.0,67.0,6.67,1080x2400,120.0,Punch Hole,"[50, 8, 2]",3,50.0,16.0,1,None,
+infinix note 12 pro,16900,83.0,Android v12,Dual,4g,True,False,False,Helio  G99,Octa Core,2.2,8,8,5000.0,33.0,6.7,1080x2400,,Water Drop Notch,"[108, 2]",2,108.0,16.0,1,Dedicated,2048.0
+infinix hot 20,19999,78.0,Android v12,Dual,5g,True,False,False,Dimensity 810,Octa Core,2.4,6,6,5000.0,18.0,6.6,1080x2408,120.0,Water Drop Notch,[50],1,50.0,8.0,1,Dedicated,1024.0
+apple iphone 14 pro max,182999,78.0,iOS v16,Dual,5g,True,True,False,Bionic  A16,Hexa Core,,6,6,4323.0,,6.7,1290x2796,120.0,,"[48, 12, 12]",3,48.0,12.0,1,None,
+samsung galaxy m13,12999,75.0,Android v12,Dual,4g,True,False,False,Exynos  850,Octa Core,2.0,6,6,6000.0,15.0,6.6,1080x2400,,Water Drop Notch,"[50, 5, 2]",3,50.0,8.0,1,Dedicated,1024.0
+poco m4 pro 5g,15999,82.0,Android v11,Dual,5g,True,False,True,Dimensity  810 5G,Octa Core,2.4,8,8,5000.0,33.0,6.6,1080x2400,90.0,Punch Hole,"[50, 8]",2,50.0,16.0,1,Hybrid,1024.0
+xiaomi redmi note 10s,13999,82.0,Android v11,Dual,4g,True,False,True,Helio G95,Octa Core,2.05,8,8,5000.0,33.0,6.43,1080x2400,,Punch Hole,[64],1,64.0,13.0,1,Dedicated,512.0
+realme c11 2021,7749,61.0,Android v11,Dual,4g,True,False,False,SC9863A,Octa Core,1.6,4,4,5000.0,,6.52,720x1600,,Water Drop Notch,[8],1,8.0,5.0,1,Dedicated,
+samsung galaxy a23 5g,24999,81.0,Android v12,Dual,5g,True,False,False,Snapdragon 695,Octa Core,2.2,8,8,5000.0,25.0,6.6,1080x2408,120.0,Water Drop Notch,[50],1,50.0,8.0,1,Dedicated,1024.0
+motorola edge 30 ultra,59999,80.0,Android v12,Dual,5g,True,True,False,Snapdragon 8+ Gen1,Octa Core,3.2,12,12,4610.0,125.0,6.67,1080x2400,144.0,Punch Hole,"[200, 50, 12]",3,200.0,60.0,1,Dedicated,
+oppo f21s pro,25895,82.0,Android v12,Dual,5g,True,False,False,Snapdragon  695,Octa Core,2.2,8,8,4500.0,33.0,6.43,1080x2400,,Punch Hole,"[64, 2, 2]",3,64.0,16.0,1,Dedicated,512.0
+xiaomi 13 5g,46990,89.0,Android v13,Dual,5g,True,True,True,Snapdragon 8 Gen2,Octa Core,3.2,8,8,4500.0,67.0,6.36,1080x2400,120.0,Punch Hole,"[50, 12, 10]",3,50.0,32.0,1,Dedicated,
+xiaomi redmi 10a,7499,64.0,Android v11,Dual,4g,True,False,False,Helio  G25,Octa Core,2.0,3,3,5000.0,,6.53,720x1600,,Water Drop Notch,[13],1,13.0,5.0,1,Dedicated,512.0
+vivo y01a,7790,60.0,Android v11,Dual,4g,True,False,False,Helio P35,Octa Core,2.3,2,2,5000.0,10.0,6.51,720x1600,,Water Drop Notch,[8],1,8.0,5.0,1,Dedicated,
+xiaomi redmi k50i,25999,85.0,Android v12,Dual,5g,True,False,True,Dimensity  8100,Octa Core,2.85,8,8,5080.0,67.0,6.6,1080x2460,144.0,Punch Hole,"[64, 8, 2]",3,64.0,16.0,1,Dedicated,
+realme c30,6299,60.0,Android v11,Dual,4g,True,False,False,Tiger T612,Octa Core,1.82,3,3,5000.0,,6.5,720x1600,,Water Drop Notch,[8],1,8.0,5.0,1,Dedicated,1024.0
+motorola moto g51 5g,12999,77.0,Android v11,Dual,5g,True,True,False,Snapdragon  480+,Octa Core,2.2,4,4,5000.0,,6.8,1080x2400,120.0,Punch Hole,"[50, 8, 2]",3,50.0,13.0,1,Hybrid,512.0
+xiaomi redmi 10,11999,75.0,Android v11,Dual,4g,True,False,False,Snapdragon 680,Octa Core,2.4,6,6,6000.0,18.0,6.7,720x1600,,Water Drop Notch,"[50, 2]",2,50.0,5.0,1,Dedicated,512.0
+xiaomi mi 11 lite ne 5g,21890,83.0,Android v11,Dual,5g,True,True,True,Snapdragon  778G ,Octa Core,2.4,6,6,4250.0,33.0,6.55,1080x2400,90.0,Punch Hole,"[64, 8, 5]",3,64.0,20.0,1,Hybrid,
+samsung galaxy z flip 3,69999,84.0,,Single,5g,True,True,False,Snapdragon 888,Octa Core,2.84,8,8,3300.0,15.0,6.7,1080x2640,120.0,Punch Hole,[],0,,,1,None,
+apple iphone 12,55999,75.0,iOS v14,Dual,5g,True,True,False,Bionic A14,Hexa Core,3.1,4,4,,,6.1,1170x2532,,Large Notch,"[12, 12]",2,12.0,12.0,1,None,
+oneplus 10t,55999,87.0,Android v12,Dual,5g,True,True,False,Snapdragon 8+ Gen1,Octa Core,3.2,16,16,4800.0,150.0,6.7,1080x2412,120.0,Punch Hole,"[50, 8, 2]",3,50.0,16.0,1,Dedicated,
+samsung galaxy a13,14999,75.0,Android v12,Dual,4g,True,False,False,Octa Core,Octa Core,2.0,4,4,5000.0,25.0,6.6,1080x2408,,Water Drop Notch,[50],1,50.0,8.0,1,Dedicated,1024.0
+oppo reno7 5g,25994,85.0,Android v11,Dual,5g,True,True,False,Dimensity 900,Octa Core,2.0,8,8,4500.0,65.0,6.43,1080x2400,90.0,Punch Hole,"[64, 8, 2]",3,64.0,32.0,1,Dedicated,1024.0
+oneplus 9rt 5g,42999,85.0,Android v11,Dual,5g,True,True,False,Snapdragon  888 ,Octa Core,2.84,8,8,4500.0,,6.62,1080x2400,120.0,Punch Hole,"[50, 16, 2]",3,50.0,16.0,1,Dedicated,
+samsung galaxy a53 5g,33499,89.0,Android v12,Dual,5g,True,True,False,Exynos 1280,Octa Core,2.4,8,8,5000.0,25.0,6.5,1080x2400,120.0,Punch Hole,[64],1,64.0,32.0,1,Dedicated,1024.0
+samsung galaxy s22 ultra 5g,118999,80.0,Android v12,Dual,5g,True,True,False,Snapdragon  8 Gen1,Octa Core,3.0,12,12,5000.0,45.0,6.8,1440x3080,120.0,Punch Hole,[108],1,108.0,40.0,1,Dedicated,
+motorola moto g71 5g,16999,80.0,Android v11,Dual,5g,True,True,False,Snapdragon 695,Octa Core,2.2,6,6,5000.0,33.0,6.4,1080x2400,,Punch Hole,"[50, 8, 2]",3,50.0,16.0,1,None,
+itel s16 pro,6990,80.0,Android v10,Dual,4g,True,False,False,Quad Core,Quad Core,1.3,2,2,4000.0,,6.6,1600x720,,Punch Hole,"[8, 2, 3]",3,8.0,8.0,1,Dedicated,32.0
+vivo y100,29990,82.0,Android v12,Dual,5g,True,False,False,Dimensity  900,Octa Core,2.4,8,8,5000.0,66.0,6.0,1080x2400,120.0,Punch Hole,"[50, 8, 2, 50]",4,50.0,50.0,1,None,
+samsung galaxy m13 5g,12944,71.0,Android v12,Dual,5g,True,False,False,Dimensity 700,Octa Core,2.2,4,4,5000.0,15.0,6.5,720x1600,90.0,Water Drop Notch,"[50, 2]",2,50.0,5.0,1,Dedicated,1024.0
+poco x5 gt,29990,84.0,Android v13,Dual,5g,True,True,True,Dimensity 9000 Plus,Octa Core,3.2,8,8,5000.0,80.0,6.7,1080x2400,144.0,Punch Hole,"[64, 8, 2]",3,64.0,32.0,1,None,
+honor x9 5g,16999,80.0,Android v11,Dual,5g,True,True,False,Snapdragon 695,Octa Core,2.2,8,8,4800.0,66.0,6.81,1080x2388,,,"[48, 2, 2]",3,48.0,16.0,1,Dedicated,
+iqoo 11,64999,89.0,Android v13,Dual,5g,True,True,False,Snapdragon 8 Gen2,Octa Core,3.2,16,16,5000.0,120.0,6.78,1440x3200,144.0,Punch Hole,"[50, 13, 8]",3,50.0,16.0,1,Dedicated,
+samsung galaxy z fold 4,154998,80.0,,Dual,5g,True,True,False,Snapdragon  8+ Gen1,Octa Core,3.2,12,12,4400.0,25.0,7.6,1812x2176,120.0,Punch Hole,"[50, 12, 10, 10]",4,50.0,10.0,1,Dedicated,
+royole flexpai 2,109999,87.0,,Dual,5g,True,False,False,Snapdragon 865,Octa Core,2.84,8,8,4450.0,,7.8,1440x1920,,,"[64, 16, 8]",3,64.0,32.0,1,Dedicated,
+apple iphone 14 plus,84999,83.0,iOS v16,Dual,5g,True,True,False,Bionic A15,Hexa Core,3.22,6,6,4325.0,,6.7,1284x2778,,Small Notch,"[12, 12]",2,12.0,12.0,1,None,
+samsung galaxy a33 5g,27499,85.0,Android v12,Dual,5g,True,True,False,Exynos  1280,Octa Core,2.4,8,8,5000.0,25.0,6.4,1080x2400,90.0,Punch Hole,[48],1,48.0,13.0,1,Hybrid,1024.0
+tecno spark 9,8999,69.0,Android v12,Dual,4g,True,False,False,Helio G37,Octa Core,2.3,6,6,5000.0,,6.6,720x1600,90.0,Water Drop Notch,[13],1,13.0,8.0,1,Dedicated,256.0
+google pixel 6,40480,84.0,Android v12,Dual,5g,True,True,False,Google Tensor,Octa Core,2.8,8,8,4614.0,30.0,6.4,1080x2400,90.0,Punch Hole,"[50, 12]",2,50.0,8.0,1,Dedicated,
+xiaomi redmi note 10 pro,17999,81.0,Android v11,Dual,4g,True,False,True,Snapdragon 732G ,Octa Core,2.3,6,6,5020.0,33.0,6.67,1080x2400,120.0,Punch Hole,[64],1,64.0,16.0,1,Dedicated,512.0
+samsung galaxy s21 ultra,105999,80.0,Android v10,Dual,5g,True,True,False,Exynos  2100,Octa Core,2.9,12,12,5000.0,25.0,6.8,1440x3200,120.0,Punch Hole,[108],1,108.0,40.0,1,Dedicated,
+infinix hot 20 play,8999,67.0,Android v12,Dual,4g,True,False,False,Helio G37,Octa Core,2.3,4,4,6000.0,18.0,6.82,720x1640,90.0,Punch Hole,[13],1,13.0,8.0,1,Dedicated,256.0
+vivo t1x,14999,77.0,Android v12,Dual,4g,True,False,False,Snapdragon 680,Octa Core,2.4,6,6,5000.0,18.0,6.58,1080x2408,90.0,Water Drop Notch,"[50, 2]",2,50.0,8.0,1,Dedicated,
+oppo f23 pro,19990,82.0,Android v12,Dual,5g,True,False,False,Snapdragon  695,Octa Core,2.2,8,8,4500.0,33.0,6.5,1080x2400,90.0,Punch Hole,"[64, 2, 2]",3,64.0,32.0,1,Dedicated,256.0
+iqoo z6 pro 5g,23399,80.0,Android v12,Dual,5g,True,False,False,Snapdragon  778G,Octa Core,2.4,8,8,4700.0,66.0,6.44,1080x2404,90.0,Water Drop Notch,"[64, 8, 2]",3,64.0,16.0,1,None,
+samsung galaxy a73 5g,41990,80.0,Android v12,Dual,5g,True,True,False,Snapdragon 778G,Octa Core,2.4,8,8,5000.0,25.0,6.7,1080x2400,120.0,Punch Hole,[108],1,108.0,32.0,1,Hybrid,1024.0
+realme 9 5g se,22998,82.0,Android v11,Dual,5g,True,False,False,Snapdragon  778G,Octa Core,2.4,8,8,5000.0,30.0,6.6,1080x2412,144.0,Punch Hole,"[48, 2, 2]",3,48.0,16.0,1,Dedicated,1024.0
+poco f4 5g,25999,82.0,Android v12,Dual,5g,True,True,False,Snapdragon  870,Octa Core,3.2,6,6,4500.0,67.0,6.67,1080x2400,120.0,Punch Hole,"[64, 8, 2]",3,64.0,20.0,1,Dedicated,
+infinix note 12,11700,74.0,Android v11,Dual,4g,True,False,False,Helio G88,Octa Core,2.0,4,4,5000.0,33.0,6.7,2400x1080,,Punch Hole,"[50, 2]",2,50.0,16.0,1,Dedicated,512.0
+samsung galaxy a03 core,6499,80.0,Android v10,Dual,4g,True,False,False,Unisoc  SC9836A,Quad Core,1.6,2,2,5000.0,,6.5,720x1600,,Water Drop Notch,[8],1,8.0,5.0,1,Dedicated,1024.0
+motorola moto g60,15999,84.0,Android v11,Dual,4g,True,True,False,Snapdragon  732G,Octa Core,2.3,6,6,6000.0,20.0,6.78,1080x2460,120.0,Punch Hole,"[108, 8, 2]",3,108.0,32.0,1,Hybrid,1024.0
+oneplus 9 pro,64800,89.0,Android v11,Dual,5g,True,True,False,Snapdragon 888,Octa Core,2.84,8,8,4500.0,65.0,6.7,1440x3216,120.0,Punch Hole,[48],1,48.0,16.0,1,None,
+xiaomi redmi note 11s,14590,80.0,Android v11,Dual,4g,True,False,True,Helio  G96,Octa Core,2.05,6,6,5000.0,33.0,6.43,1080x2400,90.0,Punch Hole,[108],1,108.0,16.0,1,Dedicated,512.0
+xiaomi redmi 9 activ,7499,68.0,Android v11,Dual,4g,True,False,False,Helio G35,Octa Core,2.3,4,4,5000.0,,6.53,720x1600,,Water Drop Notch,"[13, 2]",2,13.0,5.0,1,Dedicated,512.0
+tecno camon 19 pro 5g,21999,82.0,Android v12,Dual,5g,True,True,False,Dimensity 810 5G,Octa Core,2.4,8,8,5000.0,33.0,6.8,1080x2460,120.0,Punch Hole,"[64, 2, 2]",3,64.0,16.0,1,Dedicated,
+samsung galaxy a04,11999,71.0,Android v12,Dual,4g,True,False,False,Helio P35,Octa Core,2.3,4,4,5000.0,,6.5,720x1600,,Water Drop Notch,"[50, 2]",2,50.0,5.0,1,Dedicated,1024.0
+poco m4 pro 4g,12999,79.0,Android v11,Dual,4g,True,False,True,Helio G96,Octa Core,2.05,6,6,5000.0,33.0,6.43,1080x2400,90.0,Punch Hole,"[64, 8, 2]",3,64.0,16.0,1,Dedicated,1024.0
+oneplus nord n20 5g,20990,81.0,Android v11,Dual,5g,True,True,False,Snapdragon 695,Octa Core,2.2,6,6,4500.0,33.0,6.43,1080x2400,,Punch Hole,"[64, 2, 2]",3,64.0,16.0,1,Dedicated,
+apple iphone 13,72999,79.0,iOS v15,Dual,5g,True,True,False,Bionic A15,Hexa Core,3.22,4,4,3240.0,,6.1,1170x2532,,Small Notch,"[12, 12]",2,12.0,12.0,1,None,
+oppo find x6 pro,77990,80.0,Android v13,Dual,5g,True,True,False,Snapdragon 8 Gen2,Octa Core,3.2,12,12,4700.0,120.0,6.78,1080x2400,120.0,Punch Hole,"[50, 50, 50]",3,50.0,32.0,1,Dedicated,
+vivo x90 pro 5g,56999,80.0,Android v13,Dual,5g,True,True,True,Dimensity 9200,Octa Core,3.05,8,8,4870.0,120.0,6.78,1260x2800,120.0,Punch Hole,"[3, 50, 12]",3,50.0,32.0,1,None,
+motorola moto g53,21999,79.0,Android v13,Dual,5g,True,True,False,Snapdragon 480+,Octa Core,2.2,4,4,5000.0,10.0,6.5,720x1600,120.0,Punch Hole,"[50, 8]",2,50.0,16.0,1,Hybrid,1024.0
+motorola moto g22,9499,75.0,Android v12,Dual,4g,True,False,False,Helio  G37,Octa Core,2.3,4,4,5000.0,20.0,6.53,720x1600,90.0,Punch Hole,[50],1,50.0,16.0,1,Dedicated,1024.0
+xiaomi redmi 9i sport,7499,66.0,Android v10,Dual,4g,True,False,False,Helio G25,Octa Core,2.0,4,4,5000.0,10.0,6.53,720x1600,,Water Drop Notch,[13],1,13.0,5.0,1,Dedicated,512.0
+jio jiophone next,4649,80.0,Android v11,Dual,4g,True,False,False,Qualcomm 215,Quad Core,1.3,2,2,3500.0,,5.45,720x1440,,,[13],1,13.0,8.0,1,Dedicated,512.0
+vivo y93,18000,62.0,Android v8.1 (Oreo),Dual,4g,True,False,False,Helio P22,Octa Core,2.0,4,4,4030.0,,6.2,1520x720,,Water Drop Notch,"[13, 2]",2,13.0,8.0,1,Dedicated,256.0
+xiaomi redmi k60 pro,38999,85.0,Android v13,Dual,5g,True,True,True,Snapdragon 8 Gen2,Octa Core,3.2,8,8,5000.0,120.0,6.67,1440x3200,120.0,Punch Hole,"[54, 8, 2]",3,54.0,16.0,1,Dedicated,
+realme c30s,7145,80.0,Android v12,Dual,4g,True,False,False,Unisoc SC9863A,Octa Core,1.6,2,2,5000.0,10.0,6.5,720x1600,,Water Drop Notch,[8],1,8.0,5.0,1,Dedicated,1024.0
+vivo y22s,14990,77.0,Android v12,Dual,4g,True,False,False,Snapdragon 680,Octa Core,2.4,8,8,5000.0,18.0,6.55,1612x720,90.0,Water Drop Notch,"[50, 2]",2,50.0,8.0,1,Dedicated,1024.0
+oppo a77,15499,70.0,Android v12,Dual,4g,True,False,False,Helio G35,Octa Core,2.3,4,4,5000.0,33.0,6.56,720x1600,,Water Drop Notch,[50],1,50.0,8.0,1,Dedicated,
+xiaomi redmi 10a sport,9999,69.0,Android v11,Dual,4g,True,False,True,Helio G25,Octa Core,2.0,6,6,5000.0,,6.53,720x1600,,Water Drop Notch,[13],1,13.0,5.0,1,Dedicated,512.0
+poco f4,29999,86.0,Android v12,Dual,5g,True,True,False,Snapdragon  870,Octa Core,3.2,12,12,4500.0,67.0,6.67,1080x2400,120.0,Punch Hole,"[64, 8, 2]",3,64.0,20.0,1,Dedicated,
+realme 9 4g,15999,84.0,Android v12,Dual,4g,True,False,False,Snapdragon 680,Octa Core,2.4,8,8,5000.0,33.0,6.4,1080x2400,90.0,Punch Hole,"[108, 8, 2]",3,108.0,16.0,1,Dedicated,256.0
+xiaomi 12t pro 5g,59990,89.0,Android v12,Dual,5g,True,True,True,Snapdragon  8+ Gen1,Octa Core,3.2,8,8,5000.0,120.0,6.67,1220x2712,120.0,Punch Hole,"[200, 8, 2]",3,200.0,20.0,1,Dedicated,
+iqoo 9 5g,34990,84.0,Android v12,Dual,5g,True,False,False,Snapdragon  888+,Octa Core,2.9,8,8,4350.0,120.0,6.56,1080x2376,120.0,Punch Hole,"[48, 13, 13]",3,48.0,16.0,1,Dedicated,
+apple iphone 12 mini,45999,75.0,iOS v14,Dual,5g,True,True,False,Bionic A14,Hexa Core,3.1,4,4,,,5.4,1080x2340,,,"[12, 12]",2,12.0,12.0,1,None,
+samsung galaxy s24 ultra,119990,85.0,Android v13,Dual,5g,True,False,False,Snapdragon 8+ Gen 2,Octa Core,,12,12,5100.0,45.0,6.83,1200x2860,144.0,Punch Hole,[200],1,200.0,60.0,1,None,
+oppo find n flip,89990,88.0,,Single,5g,True,True,False,Dimensity 9000,Octa Core,3.05,8,8,4300.0,44.0,6.8,1200x2400,120.0,Punch Hole,[],0,,,1,None,
+oneplus 10t,50999,87.0,Android v12,Dual,5g,True,True,False,Snapdragon 8+ Gen1,Octa Core,3.2,12,12,4800.0,150.0,6.7,1080x2412,120.0,Punch Hole,"[50, 8, 2]",3,50.0,16.0,1,Dedicated,
+tecno spark 9,7999,65.0,Android v12,Dual,4g,True,False,False,Helio G37,Octa Core,2.3,4,4,5000.0,,6.6,720x1600,90.0,Water Drop Notch,[13],1,13.0,8.0,1,Dedicated,256.0
+samsung galaxy s21 fe 5g,43999,88.0,Android v11,Dual,5g,True,True,False,Exynos  2100,Octa Core,2.9,8,8,4500.0,25.0,6.4,1080x2340,120.0,Punch Hole,"[12, 12, 8]",3,12.0,32.0,1,None,
+xiaomi redmi note 11t 5g,18499,83.0,Android v11,Dual,5g,True,False,True,Dimensity  810 5G,Octa Core,2.4,8,8,5000.0,33.0,6.6,1080x2400,90.0,Punch Hole,"[50, 8]",2,50.0,16.0,1,Hybrid,1024.0
+sony xperia pro-i,134999,80.0,Android v11,Dual,5g,True,True,False,Snapdragon 888,Octa Core,2.84,12,12,4500.0,30.0,6.5,1644x3840,120.0,,"[12, 12, 12]",3,12.0,8.0,1,Hybrid,1024.0
+vivo v21 pro,32999,85.0,Android v11,Dual,5g,True,False,False,Snapdragon 765G ,Octa Core,2.4,8,8,4300.0,33.0,6.44,1080x2400,,Small Notch,"[64, 44]",2,64.0,44.0,1,Dedicated,
+poco x3,13499,80.0,Android v10,Dual,4g,True,False,True,Snapdragon  732G,Octa Core,2.3,6,6,6000.0,33.0,6.67,1080x2400,120.0,Punch Hole,[64],1,64.0,20.0,1,Hybrid,512.0
+samsung galaxy s20 fe,35489,86.0,Android v10.0,Dual,4g,True,True,False,Exynos 990,Octa Core,2.73,8,8,4500.0,25.0,6.5,1080x2400,120.0,Punch Hole,"[12, 12, 8]",3,12.0,32.0,1,Hybrid,1024.0
+google pixel 4,20120,78.0,Android v10,Dual,4g,True,True,False,Snapdragon 855,Octa Core,2.8,6,6,2800.0,,5.7,1080x2280,,,"[16, 2]",2,16.0,8.0,1,None,
+samsung galaxy s10 plus,42999,81.0,Android v9.0 (Pie),Dual,4g,True,True,False,Exynos 9820,Octa Core,2.7,8,8,4100.0,15.0,6.4,1440x3040,,Punch Hole,"[16, 12, 12, 10]",4,16.0,10.0,1,Hybrid,512.0
+realme 11 pro plus,24999,78.0,Android v12,Dual,5g,True,False,False,Dimensity  930,Octa Core,2.2,6,6,4200.0,66.0,6.4,1080x2400,90.0,Punch Hole,"[50, 8, 2]",3,50.0,16.0,1,None,
+oppo f21 pro 4g,20999,82.0,Android v12,Dual,4g,True,False,False,Snapdragon  680,Octa Core,2.4,8,8,4500.0,33.0,6.5,1080x2400,90.0,Punch Hole,"[64, 2, 2]",3,64.0,32.0,1,Dedicated,256.0
+realme gt 2 5g,28994,84.0,Android v12,Dual,5g,True,True,False,Snapdragon  888 ,Octa Core,2.84,8,8,5000.0,65.0,6.62,1080x2400,120.0,Punch Hole,"[50, 8, 2]",3,50.0,16.0,1,Dedicated,
+samsung galaxy s21,48900,88.0,Android v10,Dual,5g,True,True,False,Exynos  2100,Octa Core,2.9,8,8,4000.0,25.0,6.2,1080x2400,120.0,Punch Hole,"[64, 12, 12]",3,64.0,10.0,1,Dedicated,
+samsung galaxy a71,22494,86.0,Android v10,Dual,4g,True,False,False,Snapdragon 730,Octa Core,2.2,8,8,4500.0,25.0,6.7,1080x2400,,Punch Hole,[64],1,64.0,32.0,1,Dedicated,1024.0
+vivo y02s,8990,61.0,Android v12,Dual,4g,True,False,False,Helio P35,Octa Core,2.3,3,3,5000.0,10.0,6.51,720x1600,,Water Drop Notch,[8],1,8.0,5.0,1,Dedicated,
+letv y2 pro,6999,80.0,Android v11,Dual,4g,True,False,False,Unisoc,Octa Core,,4,4,4000.0,,6.5,720x1560,,Small Notch,[13],1,13.0,8.0,1,Dedicated,
+tecno spark 8c,8890,63.0,Android v11,Dual,4g,True,False,False,Unisoc  T606,Octa Core,2.0,4,4,5000.0,,6.6,720x1612,90.0,Water Drop Notch,[13],1,13.0,8.0,1,Dedicated,256.0
+iqoo z6 5g,18498,82.0,Android v12,Dual,5g,True,False,False,Snapdragon  695 ,Octa Core,2.2,8,8,5000.0,18.0,6.58,1080x2408,120.0,Water Drop Notch,"[50, 2, 2]",3,50.0,16.0,1,Hybrid,1024.0
+vivo t1 pro,23999,81.0,Android v12,Dual,5g,True,False,False,Snapdragon 778G,Octa Core,2.4,6,6,4700.0,66.0,6.44,1080x2404,90.0,Water Drop Notch,"[64, 8, 2]",3,64.0,16.0,1,Hybrid,1024.0
+realme 9 pro plus 5g,22994,81.0,Android v12,Dual,5g,True,False,False,Dimensity  920 5G,Octa Core,2.5,8,8,4500.0,60.0,6.4,1080x2400,90.0,Punch Hole,"[50, 8, 2]",3,50.0,16.0,1,None,
+samsung galaxy a04s,12990,71.0,Android v12,Dual,4g,True,False,False,Exynos 850,Octa Core,2.0,4,4,5000.0,15.0,6.5,720x1600,90.0,Water Drop Notch,"[50, 2, 2]",3,50.0,5.0,1,Dedicated,1024.0
+realme 9i,14999,78.0,Android v11,Dual,4g,True,False,False,Snapdragon  680,Octa Core,2.4,6,6,5000.0,33.0,6.6,1080x2412,90.0,Punch Hole,"[50, 2, 2]",3,50.0,16.0,1,Dedicated,1024.0
+realme 8 5g,18499,80.0,Android v11,Dual,5g,True,False,False,Dimensity 700 5G,Octa Core,2.2,8,8,5000.0,18.0,6.5,1080x2400,90.0,Punch Hole,"[48, 2, 2]",3,48.0,16.0,1,Dedicated,1024.0
+oppo f19,14990,78.0,Android v11,Dual,4g,True,False,False,Snapdragon 662 ,Octa Core,2.0,6,6,5000.0,33.0,6.4,1080x2400,,Punch Hole,"[48, 8, 2]",3,48.0,16.0,1,Dedicated,256.0
+oppo find n2 flip,70990,88.0,,Single,5g,True,True,False,Dimensity 9000 Plus,Octa Core,3.2,8,8,4300.0,44.0,6.8,1080x2520,120.0,Punch Hole,[],0,,,1,None,
+samsung galaxy m32 prime edition,12120,75.0,Android v11,Dual,4g,True,False,False,Helio G80,Octa Core,2.0,4,4,6000.0,15.0,6.4,1080x2400,90.0,Water Drop Notch,[64],1,64.0,20.0,1,Dedicated,1024.0
+oukitel wp19,29990,84.0,Android v12,Dual,4g,True,True,False,Helio G95,Octa Core,2.0,8,8,21000.0,33.0,6.78,1080x2400,,Punch Hole,"[64, 20, 2]",3,64.0,16.0,1,Dedicated,
+realme 9 pro 5g,20999,82.0,Android v12,Dual,5g,True,False,False,Snapdragon  695,Octa Core,2.2,8,8,5000.0,33.0,6.6,1080x2412,120.0,Punch Hole,"[64, 8, 2]",3,64.0,16.0,1,Dedicated,256.0
+xiaomi redmi note 10 lite,11999,80.0,Android v10.0,Dual,4g,True,False,True,Snapdragon 720G,Octa Core,2.3,6,6,5020.0,18.0,6.67,1080x2400,,Punch Hole,[48],1,48.0,16.0,1,Dedicated,512.0
+samsung galaxy a13 5g,17990,73.0,Android v11,Dual,5g,True,True,False,Dimensity 700 5G,Octa Core,2.2,4,4,5000.0,15.0,6.5,720x1600,90.0,Water Drop Notch,"[50, 2, 2]",3,50.0,5.0,1,Dedicated,
+xiaomi redmi note 11 5g,14990,77.0,Android v11,Dual,5g,True,False,True,Dimensity  810 5G,Octa Core,2.4,4,4,5000.0,33.0,6.6,1080x2400,90.0,Punch Hole,"[50, 8]",2,50.0,16.0,1,Dedicated,512.0
+itel p36,6490,80.0,Android v9.0 (Pie),Dual,4g,True,False,False,Spreadtrum  SC7731E,Quad Core,1.3,1,1,5000.0,,6.5,1600x720,,Water Drop Notch,"[8, 3]",2,8.0,8.0,1,Dedicated,
+jio jiophone 2,2999,80.0,KAI OS,Dual,4g,True,False,False,Dual Core,Dual Core,1.0,512,512,2000.0,,2.4,320x240,,,[2],1,2.0,,1,Dedicated,128.0
+realme gt neo 5,34999,83.0,Android v13,Dual,5g,True,True,False,Snapdragon  8+ Gen1,Octa Core,3.2,8,8,4600.0,240.0,6.7,1080x2412,120.0,Punch Hole,"[50, 8, 2]",3,50.0,16.0,1,Dedicated,
+apple iphone 15 ultra,149900,79.0,iOS v17,Dual,5g,True,True,False,Bionic  A17,Octa Core,,8,8,4700.0,,6.73,1290x2796,120.0,,"[48, 12, 12]",3,48.0,12.0,1,None,
+poco c50,6499,80.0,Android v12,Dual,4g,True,False,False,Helio A22,Quad Core,2.0,2,2,5000.0,10.0,6.52,720x1600,,Water Drop Notch,[8],1,8.0,5.0,1,Dedicated,512.0
+samsung galaxy note 30 ultra 5g,104999,80.0,Android v12,Dual,5g,True,True,False,Snapdragon  8+ Gen1,Octa Core,3.2,12,12,4500.0,67.0,6.71,1440x3214,120.0,Punch Hole,"[200, 12, 12]",3,200.0,10.0,1,Hybrid,1024.0
+realme 9i,13999,75.0,Android v11,Dual,4g,True,False,False,Snapdragon  680,Octa Core,2.4,4,4,5000.0,33.0,6.6,1080x2412,90.0,Punch Hole,"[50, 2, 2]",3,50.0,16.0,1,Dedicated,1024.0
+xiaomi redmi note 11t 5g,16999,79.0,Android v11,Dual,5g,True,False,True,Dimensity  810 5G,Octa Core,2.4,6,6,5000.0,33.0,6.6,1080x2400,90.0,Punch Hole,"[50, 8]",2,50.0,16.0,1,Hybrid,1024.0
+vivo x80 pro 5g,79999,80.0,Android v12,Dual,5g,True,True,False,Snapdragon  8 Gen1,Octa Core,3.0,12,12,4700.0,80.0,6.78,1440x3200,120.0,Punch Hole,[50],1,50.0,32.0,1,None,
+oppo reno 6 pro 5g,36760,87.0,Android v11,Dual,5g,True,True,False,Dimensity 1200,Octa Core,3.0,12,12,4500.0,65.0,6.55,1080x2400,90.0,Punch Hole,[64],1,64.0,32.0,1,None,
+xiaomi mi 11i 5g,23499,81.0,Android v11,Dual,5g,True,False,True,Dimensity  920 5G,Octa Core,2.5,6,6,5160.0,67.0,6.67,2400x1080,120.0,Punch Hole,"[108, 8, 2]",3,108.0,16.0,1,Hybrid,1024.0
+asus rog phone 7,75990,87.0,Android v13,Dual,5g,True,True,False,Snapdragon 8 Gen2,Octa Core,3.2,18,18,6000.0,120.0,6.8,1080x2448,165.0,,"[64, 16, 8]",3,64.0,32.0,1,None,
+oppo a77 5g,21990,76.0,Android v12,Dual,5g,True,False,False,Snapdragon  810,Octa Core,2.4,6,6,5000.0,33.0,6.56,720x1600,90.0,Water Drop Notch,"[48, 2]",2,48.0,8.0,1,Dedicated,
+realme 9 5g se,18999,80.0,Android v11,Dual,5g,True,False,False,Snapdragon  778G,Octa Core,2.4,6,6,5000.0,30.0,6.6,1080x2412,144.0,Punch Hole,"[48, 2, 2]",3,48.0,16.0,1,Dedicated,1024.0
+samsung galaxy a03,7249,66.0,Android v11,Dual,4g,True,False,False,Unisoc  T606,Octa Core,1.6,3,3,5000.0,15.0,6.5,720x1560,,Water Drop Notch,"[48, 2]",2,48.0,5.0,1,Dedicated,1024.0
+oneplus nord n200,16990,75.0,Android v11,Dual,5g,True,True,False,Snapdragon  480 ,Octa Core,2.0,4,4,5000.0,18.0,6.49,1080x2400,90.0,Punch Hole,"[13, 2, 2]",3,13.0,16.0,1,Dedicated,
+xiaomi mi 11x,23890,80.0,Android v11,Dual,5g,True,False,True,Snapdragon 870,Octa Core,3.2,6,6,4520.0,33.0,6.67,1080x2400,120.0,Punch Hole,"[48, 8, 5]",3,48.0,20.0,1,Dedicated,
+oppo reno 6,26380,83.0,Android v11,Dual,5g,True,True,False,Dimensity 900,Octa Core,2.0,8,8,4300.0,65.0,6.43,1080x2400,90.0,Punch Hole,"[64, 8, 2]",3,64.0,32.0,1,None,
+realme x50 pro 5g,27999,87.0,Android v10,Dual,5g,True,True,False,Snapdragon 865,Octa Core,2.84,12,12,4200.0,65.0,6.44,1080x2400,90.0,Dual Punch Hole,"[64, 32]",2,64.0,32.0,1,None,
+xiaomi redmi 10a,10850,70.0,Android v11,Dual,4g,True,False,False,Helio  G25,Octa Core,2.0,6,6,5000.0,,6.53,720x1600,,Water Drop Notch,[13],1,13.0,5.0,1,Dedicated,512.0
+redmi note 12 pro speed edition,19999,81.0,Android v13,Dual,5g,True,True,True,Snapdragon 778G,Octa Core,2.4,6,6,5000.0,67.0,6.67,1080x2400,120.0,Punch Hole,"[108, 8, 2]",3,108.0,16.0,1,None,
+apple iphone 14 pro,129990,76.0,iOS v16,Dual,5g,True,True,False,Bionic  A16,Hexa Core,,6,6,3200.0,,6.1,1179x2556,120.0,,"[48, 12, 12]",3,48.0,12.0,1,None,
+motorola moto g72,19990,81.0,Android v12,Dual,5g,True,True,False,Snapdragon 695,Octa Core,2.2,6,6,5000.0,33.0,6.5,1080x2400,120.0,Punch Hole,"[108, 8, 2]",3,108.0,16.0,1,None,
+motorola moto x30 pro,41990,80.0,Android v12,Dual,5g,True,True,False,Snapdragon 8+ Gen1,Octa Core,3.2,8,8,4450.0,125.0,6.67,1080x2400,144.0,Punch Hole,"[200, 50, 12]",3,200.0,60.0,1,Dedicated,
+xiaomi 12s ultra,69990,80.0,Android v12,Dual,5g,True,True,True,Snapdragon 8+ Gen1,Octa Core,3.2,8,8,4860.0,67.0,6.73,1440x3200,120.0,Punch Hole,"[50, 48, 48]",3,50.0,32.0,1,Dedicated,
+honor 70 5g,39990,88.0,Android v12,Dual,5g,True,True,False,Snapdragon  778G Plus,Octa Core,2.5,12,12,4800.0,66.0,6.67,1080x2400,120.0,Punch Hole,"[54, 50, 2]",3,54.0,32.0,1,Dedicated,
+oneplus 10 pro 5g,74999,80.0,Android v12.1,Dual,5g,True,True,False,Snapdragon  8 Gen1,Octa Core,3.0,12,12,5000.0,80.0,6.7,1440x3216,120.0,Punch Hole,"[50, 48, 8]",3,50.0,32.0,1,Dedicated,
+vivo v23 pro 5g,36994,87.0,Android v12,Dual,5g,True,False,False,Dimensity 1200,Octa Core,3.0,12,12,4300.0,44.0,6.56,1080x2376,90.0,Small Notch,"[108, 8, 2, 50]",4,108.0,50.0,1,None,
+oppo a55 4g,14700,76.0,Android v11,Dual,4g,True,False,False,Helio G35,Octa Core,2.3,6,6,5000.0,18.0,6.51,720x1600,,Punch Hole,"[50, 2, 2]",3,50.0,16.0,1,Dedicated,256.0
+xiaomi mi 11t pro 5g,34990,86.0,Android v11,Dual,5g,True,True,True,Snapdragon  888 ,Octa Core,2.84,8,8,5000.0,120.0,6.67,1080x2400,120.0,Punch Hole,"[108, 8, 5]",3,108.0,16.0,1,Dedicated,
+nokia x50 5g,34999,76.0,Android v11,Single,5g,True,False,False,Snapdragon 775,,,6,6,6000.0,33.0,6.81,1080x2400,,Punch Hole,[108],1,108.0,32.0,1,Dedicated,
+xiaomi redmi note 10,13990,75.0,Android v11,Dual,4g,True,False,True,Snapdragon 678,Octa Core,2.2,4,4,5000.0,33.0,6.43,1080x2400,,Punch Hole,[48],1,48.0,13.0,1,Dedicated,512.0
+vertu signature touch,650000,62.0,Android v4.4.2 (KitKat),Single,4g,False,True,False,Snapdragon 801,Octa Core,1.5,2,2,2275.0,,4.7,1080x1920,,,[13],1,13.0,,1,None,
+samsung galaxy m32 prime edition,14859,79.0,Android v11,Dual,4g,True,False,False,Helio G80,Octa Core,2.0,6,6,6000.0,15.0,6.4,1080x2400,90.0,Water Drop Notch,[64],1,64.0,20.0,1,Dedicated,1024.0
+tecno camon 19 pro mondrian edition,17999,84.0,Android v12,Dual,4g,True,True,False,Helio G96,Octa Core,2.05,8,8,5000.0,33.0,6.8,1080x2460,120.0,Punch Hole,"[64, 50, 2]",3,64.0,32.0,1,Dedicated,512.0
+poco f5,34990,85.0,Android v12,Dual,5g,True,True,False,Snapdragon 8+ Gen1,Octa Core,3.2,8,8,4700.0,67.0,6.7,1080x2400,120.0,Punch Hole,"[64, 8, 5]",3,64.0,32.0,1,Dedicated,
+blu f91 5g,14990,85.0,Android v11,Dual,5g,True,True,False,Dimensity  810 5G,Octa Core,2.4,8,8,5000.0,,6.8,1080x2460,,,[48],1,48.0,16.0,1,Dedicated,
+oppo a16e,8999,65.0,Android v11,Dual,4g,True,False,False,Helio P22,Octa Core,2.0,3,3,4230.0,,6.52,720x1600,,Water Drop Notch,[13],1,13.0,5.0,1,Hybrid,1024.0
+motorola moto e32,8999,71.0,Android v12,Dual,4g,True,False,False,Helio G37,Octa Core,2.3,4,4,5000.0,10.0,6.5,720x1600,90.0,Punch Hole,"[50, 2]",2,50.0,8.0,1,Dedicated,1024.0
+xiaomi redmi note 11s,15824,84.0,Android v11,Dual,4g,True,False,True,Helio  G96,Octa Core,2.05,8,8,5000.0,33.0,6.43,1080x2400,90.0,Punch Hole,[108],1,108.0,16.0,1,Dedicated,512.0
+apple iphone se 3 2022,43900,80.0,iOS v15,Dual,5g,True,True,False,Bionic  A15,Hexa Core,3.22,4,4,,,4.7,750x1334,,,[12],1,12.0,7.0,1,None,
+samsung galaxy a52,22494,86.0,Android v11,Dual,4g,True,False,False,Snapdragon  720G,Octa Core,2.3,8,8,4500.0,25.0,6.5,1080x2400,90.0,Punch Hole,[64],1,64.0,32.0,1,Dedicated,1024.0
+poco x3 pro,19650,82.0,Android v11,Dual,4g,True,False,True,Snapdragon 860,Octa Core,2.96,6,6,5160.0,33.0,6.67,1080x2400,120.0,Punch Hole,[48],1,48.0,20.0,1,Hybrid,
+xiaomi redmi 9a,6999,61.0,Android v10,Dual,4g,True,False,False,Helio G25,Octa Core,2.0,2,2,5000.0,,6.53,720x1600,,Water Drop Notch,[13],1,13.0,5.0,1,Dedicated,512.0
+samsung galaxy a32,16499,80.0,Android v11,Dual,4g,True,False,False,Helio G80,Octa Core,2.0,6,6,5000.0,15.0,6.4,1080x2400,90.0,Water Drop Notch,[64],1,64.0,20.0,1,Dedicated,1024.0
+motorola moto g13,15999,75.0,Android v13,Dual,4g,True,True,False,Helio G85,Octa Core,2.0,4,4,5000.0,10.0,6.5,720x1600,90.0,Punch Hole,"[50, 2, 2]",3,50.0,8.0,1,Hybrid,512.0
+asus rog phone 6 batman edition,72999,88.0,Android v12,Dual,5g,True,True,False,Dimensity 9000 Plus,Octa Core,3.2,16,16,6000.0,65.0,6.78,1080x2448,165.0,,"[50, 13, 5]",3,50.0,12.0,1,None,
+xiaomi redmi note 12 pro plus,26999,84.0,Android v12,Dual,5g,True,False,True,Dimensity 1080,Octa Core,2.6,6,6,4980.0,120.0,6.67,1080x2400,120.0,Punch Hole,"[200, 8, 2]",3,200.0,16.0,1,None,
+infinix smart 6 hd,6999,80.0,Android v11,Dual,4g,True,False,False,Helio A22,Quad Core,2.0,2,2,5000.0,,6.6,720x1600,,Water Drop Notch,[8],1,8.0,5.0,1,Dedicated,512.0
+apple iphone 15 pro,130990,75.0,iOS v15,Dual,5g,True,True,False,Bionic  A16,,,8,8,,,6.06,1170x2532,120.0,Punch Hole,"[50, 12, 12]",3,50.0,12.0,1,None,
+realme c35,12787,71.0,Android v11,Dual,4g,True,False,False,Tiger  T616,Octa Core,1.8,4,4,5000.0,18.0,6.6,1080x2408,90.0,Water Drop Notch,"[50, 2, 2]",3,50.0,8.0,1,Dedicated,1024.0
+infinix hot 12,9999,72.0,Android v11,Dual,4g,True,False,False,Helio G37,Octa Core,2.3,4,4,6000.0,18.0,6.82,720x1640,90.0,Water Drop Notch,"[50, 2]",2,50.0,8.0,1,Dedicated,512.0
+vivo x80 5g,54999,86.0,Android v12,Dual,5g,True,False,False,Dimensity  9000,Octa Core,3.05,8,8,4500.0,80.0,6.78,1080x2400,120.0,Punch Hole,"[50, 12, 12]",3,50.0,32.0,1,None,
+vivo y53s,15490,79.0,Android v11,Dual,4g,True,False,False,Helio G80,Octa Core,2.0,8,8,5000.0,19.0,6.58,1080x2408,,Water Drop Notch,"[64, 2, 2]",3,64.0,16.0,1,Dedicated,1024.0
+tecno phantom x,25999,84.0,Android v11,Dual,4g,True,False,False,Helio G95,Octa Core,2.05,8,8,4700.0,33.0,6.7,1080x2340,90.0,Punch Hole,"[50, 13, 8, 48]",4,50.0,48.0,1,Dedicated,
+samsung galaxy m04,9499,68.0,Android v12,Dual,4g,True,False,False,Helio P35,Octa Core,2.3,4,4,5000.0,15.0,6.5,720x1600,,Water Drop Notch,"[13, 2]",2,13.0,5.0,1,Dedicated,1024.0
+redmi 12c,7999,70.0,Android v12,Dual,4g,True,False,False,Helio  G85,Octa Core,2.0,4,4,5000.0,,6.71,720x1650,,Water Drop Notch,[50],1,50.0,5.0,1,Dedicated,512.0
+asus zenfone 9,63990,86.0,Android v12,Dual,5g,True,True,False,Snapdragon 8+ Gen1,Octa Core,3.2,8,8,4300.0,30.0,5.9,1080x2400,120.0,Punch Hole,"[50, 12]",2,50.0,12.0,1,Dedicated,
+sony xperia l5 5g,15990,73.0,Android v12,Single,4g,True,True,False,Helio  P35,Octa Core,2.3,4,4,4000.0,,6.2,720x1680,,,"[13, 5, 2]",3,13.0,8.0,1,Hybrid,512.0
+iqoo 9 se 5g,34949,85.0,Android v12,Dual,5g,True,True,False,Snapdragon  888 ,Octa Core,2.84,12,12,4500.0,66.0,6.62,1080x2400,120.0,Punch Hole,"[48, 13, 2]",3,48.0,16.0,1,Dedicated,
+tecno spark 8 pro,8799,72.0,Android v11,Dual,4g,True,False,False,Helio G85 ,Octa Core,2.0,4,4,5000.0,33.0,6.8,1080x2460,,Punch Hole,[48],1,48.0,8.0,1,Dedicated,
+xiaomi redmi 10 prime,12390,74.0,Android v11,Dual,4g,True,False,True,Helio G88,Octa Core,2.0,4,4,6000.0,18.0,6.5,1080x2400,90.0,Punch Hole,[50],1,50.0,8.0,1,Dedicated,512.0
+samsung galaxy f22,11499,73.0,Android v11,Dual,4g,True,False,False,Helio G80,Octa Core,2.0,4,4,6000.0,,6.4,720x1600,90.0,Water Drop Notch,[48],1,48.0,13.0,1,Dedicated,1024.0
+xiaomi redmi mix alpha,199990,80.0,Android v10,Dual,5g,True,False,False,Snapdragon 855+,Octa Core,2.96,12,12,4050.0,40.0,7.92,2088x2250,,,"[108, 20]",2,108.0,,1,None,
+oppo reno 10 pro,42990,86.0,Android v13,Dual,5g,True,True,False,Dimensity 9000,Octa Core,3.05,16,16,5000.0,120.0,6.73,1080x2412,120.0,Punch Hole,"[50, 8]",2,50.0,32.0,1,Dedicated,
+nubia z50,34999,82.0,Android v13,Dual,5g,True,True,False,Snapdragon  8 Gen2,Octa Core,3.2,8,8,5000.0,80.0,6.67,1080x2400,144.0,Punch Hole,"[64, 50]",2,64.0,16.0,1,Dedicated,
+samsung galaxy f13,11999,75.0,Android v12,Dual,4g,True,True,False,Exynos 850,Octa Core,2.0,4,4,6000.0,15.0,6.6,2408x1080,,Water Drop Notch,"[50, 5, 2]",3,50.0,8.0,1,Dedicated,1024.0
+nokia g11 plus,10499,70.0,Android v12,Dual,4g,True,False,False,Unisoc T606,Octa Core,1.6,4,4,5000.0,10.0,6.52,720x1600,90.0,Water Drop Notch,"[50, 2]",2,50.0,8.0,1,Dedicated,512.0
+infinix hot 12 play,8910,66.0,Android v11,Dual,4g,True,False,False,Tiger T610,Octa Core,1.82,4,4,6000.0,18.0,6.82,1640x720,90.0,Punch Hole,[13],1,13.0,8.0,1,Dedicated,256.0
+vivo t2 5g,24990,85.0,Android v12,Dual,5g,True,False,False,Snapdragon  870,Octa Core,3.2,8,8,4700.0,80.0,6.62,1080x2400,120.0,Punch Hole,"[64, 8, 2]",3,64.0,16.0,1,Hybrid,1024.0
+oppo reno7 z 5g,17999,84.0,Android v11,Dual,5g,True,True,False,Snapdragon  695 ,Octa Core,2.2,8,8,4500.0,33.0,6.43,1080x2400,,Punch Hole,"[64, 2, 2]",3,64.0,16.0,1,Dedicated,
+xiaomi redmi 11 lite ne 5g,22999,86.0,Android v11,Dual,5g,True,True,True,Snapdragon  778G ,Octa Core,2.4,8,8,4250.0,33.0,6.55,1080x2400,90.0,Punch Hole,"[64, 8, 5]",3,64.0,20.0,1,Hybrid,
+realme narzo 50i,6490,80.0,Android v11,Dual,4g,True,False,False,Unisoc  SC9863A,Octa Core,1.6,2,2,5000.0,,6.5,720x1600,,Water Drop Notch,[8],1,8.0,5.0,1,Dedicated,256.0
+infinix zero x pro,21990,85.0,Android v11,Dual,5g,True,False,False,Helio  G95,Octa Core,2.05,8,8,4500.0,45.0,6.67,1080x2400,120.0,Punch Hole,"[108, 8, 8]",3,108.0,16.0,1,Dedicated,512.0
+samsung galaxy m32,12364,76.0,Android v11,Dual,4g,True,False,False,Helio G80,Octa Core,2.0,4,4,6000.0,15.0,6.4,1080x2400,90.0,Water Drop Notch,[64],1,64.0,20.0,1,Dedicated,1024.0
+samsung galaxy a82 5g,39990,86.0,Android v11,Dual,5g,True,True,False,Snapdragon 855+,Octa Core,2.96,6,6,4500.0,25.0,6.71,1440x3200,120.0,Punch Hole,"[64, 12, 5]",3,64.0,10.0,1,Dedicated,1024.0
+xiaomi poco f1,11999,77.0,Android v8.1 (Oreo),Dual,4g,True,False,False,Snapdragon 845,Octa Core,2.8,6,6,4000.0,,6.18,1080x2246,,Large Notch,"[12, 5]",2,12.0,20.0,1,Hybrid,256.0
+vivo y25,7499,80.0,Android v5.1 (Lollipop),Dual,4g,False,False,False,Helio MT6580,Quad Core,1.3,1,1,1900.0,,4.5,480x854,,,[5],1,5.0,2.0,1,Dedicated,128.0
+motorola moto e13,10499,65.0,Android v13,Dual,4g,True,False,False,Tiger T606,Octa Core,2.0,2,2,5000.0,10.0,6.5,720x1600,,Punch Hole,[13],1,13.0,5.0,1,Hybrid,1024.0
+tecno pop 6 pro,6299,80.0,Android v12,Dual,4g,True,False,False,Helio A22,Quad Core,2.0,2,2,5000.0,,6.56,720x1600,,Water Drop Notch,[8],1,8.0,5.0,1,Dedicated,1024.0
+vivo x fold plus,113990,80.0,,Dual,5g,True,True,False,Snapdragon 8+ Gen1,Octa Core,3.2,12,12,4730.0,80.0,8.03,1916x2160,120.0,Punch Hole,"[50, 16]",2,50.0,16.0,1,Dedicated,
+huawei mate 50 rs porsche design,239999,81.0,Hongmeng OS v3.0,Dual,4g,True,True,True,Snapdragon 8+ Gen1,Octa Core,3.2,12,12,4700.0,66.0,6.74,1212x2616,120.0,,"[50, 48, 13]",3,50.0,13.0,1,Hybrid,256.0
+samsung galaxy f63,21999,84.0,Android v12,Dual,5g,True,True,False,Dimensity 900,Octa Core,2.0,6,6,7000.0,33.0,6.7,1080x2400,,Punch Hole,[64],1,64.0,32.0,1,Dedicated,1024.0
+iqoo z6 4g,15999,80.0,Android v12,Dual,4g,True,False,False,Snapdragon  680,Octa Core,2.4,6,6,5000.0,44.0,6.44,1080x2400,120.0,Water Drop Notch,"[50, 2, 2]",3,50.0,16.0,1,Hybrid,1024.0
+nokia 8000 4g,6899,80.0,0,Dual,4g,False,False,False,Snapdragon  210,Quad Core,1.1,512,512,1500.0,,2.8,240x320,,,[],0,,,1,Dedicated,
+sony xperia 5 ii,69990,86.0,Android v10,Dual,5g,True,True,False,Snapdragon 865 ,Octa Core,2.84,8,8,4000.0,21.0,6.1,1080x2520,120.0,,"[12, 12, 12]",3,12.0,8.0,1,Hybrid,
+vivo y3,12990,71.0,Android v9.0 (Pie),Dual,4g,True,False,False,Helio P35,Octa Core,2.3,4,4,5000.0,,6.35,720x1544,,Water Drop Notch,"[13, 8, 2]",3,13.0,16.0,1,Dedicated,256.0
+sony xperia 1 iv,92980,80.0,Android v12,Dual,5g,True,True,False,Snapdragon 8 Gen1,Octa Core,3.0,12,12,5000.0,30.0,6.5,1644x3840,120.0,,[12],1,12.0,12.0,1,Hybrid,
+tecno pova 4 pro,15999,74.0,Android v12,Dual,4g,True,False,False,Helio G99,Octa Core,2.2,8,8,6000.0,45.0,6.66,720x1600,90.0,Water Drop Notch,[50],1,50.0,8.0,1,Dedicated,1024.0
+huawei nova 10 se,23999,84.0,Android v12,Dual,4g,True,True,False,Sanpdragon 680,Octa Core,2.4,8,8,4500.0,66.0,6.67,1080x2160,90.0,Punch Hole,"[108, 8, 2]",3,108.0,16.0,1,Dedicated,
+vivo t1x,12999,75.0,Android v12,Dual,4g,True,False,False,Snapdragon 680,Octa Core,2.4,4,4,5000.0,18.0,6.58,1080x2408,90.0,Water Drop Notch,"[50, 2]",2,50.0,8.0,1,Dedicated,
+nubia red magic 7s pro,60990,86.0,Android v12,Dual,5g,True,True,False,Snapdragon  8+ Gen1,Octa Core,3.2,12,12,5000.0,135.0,6.8,1080x2400,120.0,,"[64, 8, 2]",3,64.0,8.0,1,Dedicated,
+motorola moto e32s,8859,67.0,Android v12,Dual,4g,True,False,False,Helio G37,Octa Core,1.8,4,4,5000.0,18.0,6.5,720x1600,90.0,Punch Hole,"[16, 2, 2]",3,16.0,8.0,1,Dedicated,
+iqoo neo 6 5g,33749,84.0,Android v12,Dual,5g,True,False,True,Snapdragon 870,Octa Core,3.2,12,12,4700.0,80.0,6.62,1080x2400,120.0,Punch Hole,"[64, 8, 2]",3,64.0,16.0,1,Dedicated,
+samsung galaxy a15,15990,63.0,Android v12,Dual,4g,True,False,False,Octa Core Processor,Octa Core,,6,6,5000.0,,6.5,720x1600,,Water Drop Notch,"[48, 8, 5]",3,48.0,8.0,1,Dedicated,1024.0
+poco x4 gt 5g,24990,84.0,Android v12,Dual,5g,True,True,True,Dimensity 8100,Octa Core,2.85,8,8,5080.0,67.0,6.6,1080x2460,144.0,Punch Hole,"[64, 8, 2]",3,64.0,16.0,1,None,
+realme narzo 50 5g,14999,76.0,Android v11,Dual,5g,True,False,False,Dimensity 810 5G,Octa Core,2.4,4,4,5000.0,33.0,6.6,1080x2400,90.0,Punch Hole,"[48, 2, 2]",3,48.0,16.0,1,Dedicated,1024.0
+vivo y77 5g,17990,76.0,Android v12,Dual,5g,True,False,False,Dimensity  930,Octa Core,2.2,6,6,4500.0,80.0,6.64,1080x2388,120.0,Punch Hole,"[50, 2]",2,50.0,8.0,1,Dedicated,1024.0
+honor 60 se 5g,24990,75.0,Android v11,Dual,5g,True,False,False,Dimensity 900,Octa Core,2.0,8,8,4300.0,66.0,6.67,1080x2340,120.0,Punch Hole,"[64, 8, 2]",3,64.0,16.0,1,Dedicated,
+xiaomi redmi 11 prime,11600,74.0,Android v12,Dual,4g,True,False,True,Helio G99,Octa Core,2.2,4,4,5000.0,18.0,6.58,1080x2400,90.0,Water Drop Notch,"[50, 2, 2]",3,50.0,8.0,1,Dedicated,512.0
+realme c31,8299,62.0,Android v11,Dual,4g,True,False,False,Tiger T612,Octa Core,1.82,3,3,5000.0,,6.52,720x1600,,Water Drop Notch,"[13, 2, 2]",3,13.0,5.0,1,Dedicated,1024.0
+motorola moto g31,11999,78.0,Android v11,Dual,4g,True,False,False,Helio  G85,Octa Core,2.0,6,6,5000.0,20.0,6.47,1080x2400,,Punch Hole,"[50, 8, 2]",3,50.0,13.0,1,Hybrid,1024.0
+samsung galaxy z flip 4 5g,89999,88.0,,Dual,5g,True,True,False,Snapdragon  8+ Gen1,Octa Core,3.2,8,8,3700.0,25.0,6.7,1080x2640,120.0,Punch Hole,[],0,,,1,None,
+oneplus 6,27999,77.0,Android v8.1 (Oreo),Dual,4g,True,True,False,Snapdragon 845,Octa Core,2.8,8,8,3300.0,,6.28,1080x2280,,,"[20, 16]",2,20.0,16.0,1,None,
+google pixel 2 xl,15990,69.0,Android v8.0 (Oreo),Single,4g,True,True,False,Snapdragon 835,Octa Core,2.35,4,4,3520.0,,6.0,1440x2880,,,[2],1,2.0,8.0,1,None,
+xiaomi redmi a1 plus,7289,60.0,Android v12,Dual,4g,True,False,False,Helio A22,Quad Core,2.0,2,2,5000.0,10.0,6.52,720x1600,,Water Drop Notch,"[8, 3]",2,8.0,5.0,1,Dedicated,512.0
+honor 70 5g,30990,86.0,Android v12,Dual,5g,True,True,False,Snapdragon  778G Plus,Octa Core,2.5,8,8,4800.0,66.0,6.67,1080x2400,120.0,Punch Hole,"[54, 50, 2]",3,54.0,32.0,1,Dedicated,
+realme narzo 50,15499,77.0,Android v11,Dual,4g,True,False,False,Helio G96,Octa Core,2.0,6,6,5000.0,33.0,6.6,1080x2412,120.0,Punch Hole,"[50, 2, 2]",3,50.0,16.0,1,Dedicated,256.0
+vivo y15s,8499,66.0,Android v11,Dual,4g,True,False,False,Helio P35 ,Octa Core,2.3,3,3,5000.0,,6.51,720x1600,,Water Drop Notch,"[13, 2]",2,13.0,8.0,1,Dedicated,1024.0
+samsung galaxy m32,14490,80.0,Android v11,Dual,4g,True,False,False,Helio G80,Octa Core,2.0,6,6,6000.0,15.0,6.4,1080x2400,90.0,Water Drop Notch,[64],1,64.0,20.0,1,Dedicated,1024.0
+samsung galaxy f42 5g,15490,80.0,Android v11,Dual,5g,True,False,False,Dimensity 700 5G,Octa Core,2.2,6,6,5000.0,15.0,6.6,1080x2408,90.0,Water Drop Notch,"[64, 5, 2]",3,64.0,8.0,1,Dedicated,1024.0
+realme q5 5g,14990,78.0,Android v12,Dual,5g,True,False,False,Snapdragon 695,Octa Core,2.2,6,6,5000.0,60.0,6.6,1080x2412,120.0,Punch Hole,"[50, 2, 2]",3,50.0,16.0,1,Hybrid,
+poco m3 pro 5g,15999,75.0,Android v11,Dual,5g,True,False,True,Dimensity 700 5G,Octa Core,2.2,4,4,5000.0,18.0,6.5,1080x2400,90.0,Punch Hole,"[48, 2, 2]",3,48.0,8.0,1,Hybrid,1024.0
+google pixel 5,36000,82.0,Android v11,Dual,5g,True,True,False,Snapdragon 765G ,Octa Core,2.4,8,8,4080.0,18.0,6.0,1080x2340,90.0,Punch Hole,"[16, 2]",2,16.0,8.0,1,Dedicated,
+oneplus 12 pro,69999,80.0,Android v13,Dual,5g,True,True,False,Snapdragon  8 Gen2,Octa Core,3.2,12,12,4800.0,150.0,6.73,1440x3412,144.0,Punch Hole,"[108, 50, 48]",3,108.0,32.0,1,Dedicated,
+xiaomi redmi note 12 discovery edition,26990,86.0,Android v12,Dual,5g,True,True,True,Dimensity 1080,Octa Core,2.6,8,8,4300.0,210.0,6.67,1080x2400,120.0,Punch Hole,"[200, 8, 2]",3,200.0,16.0,1,None,
+samsung galaxy m13,10630,71.0,Android v12,Dual,4g,True,False,False,Exynos  850,Octa Core,2.0,4,4,6000.0,15.0,6.6,1080x2400,,Water Drop Notch,"[50, 5, 2]",3,50.0,8.0,1,Dedicated,1024.0
+oppo reno 8 pro,42990,85.0,Android v12,Dual,5g,True,True,False,Dimensity 8100-Max,Octa Core,2.85,8,8,4500.0,80.0,6.7,1080x2412,120.0,Punch Hole,"[50, 8, 2]",3,50.0,32.0,1,Dedicated,
+vivo y78 5g,24990,77.0,Android v12,Dual,5g,True,False,False,Dimensity 1300,Octa Core,3.0,8,8,4500.0,,6.58,1080x2400,90.0,Punch Hole,"[50, 8, 2]",3,50.0,16.0,1,None,
+iqoo z6 4g,14489,77.0,Android v12,Dual,4g,True,False,False,Snapdragon  680,Octa Core,2.4,4,4,5000.0,44.0,6.44,1080x2400,120.0,Water Drop Notch,"[50, 2, 2]",3,50.0,16.0,1,Hybrid,1024.0
+oppo a76,16490,73.0,Android v11,Dual,4g,True,False,False,Snapdragon  680 ,Octa Core,2.4,6,6,5000.0,33.0,6.56,720x1612,90.0,Punch Hole,"[13, 2]",2,13.0,8.0,1,Dedicated,
+realme 9 pro plus 5g,24494,82.0,Android v12,Dual,5g,True,False,False,Dimensity  920 5G,Octa Core,2.5,8,8,4500.0,60.0,6.4,1080x2400,90.0,Punch Hole,"[50, 8, 2]",3,50.0,16.0,1,None,
+vivo y01,7999,61.0,Android v11,Dual,4g,True,False,False,Helio P35,Octa Core,2.3,2,2,5000.0,,6.51,720x1600,,Water Drop Notch,[8],1,8.0,5.0,1,Dedicated,1024.0
+motorola moto edge s30 5g,23990,85.0,Android v11,Dual,5g,True,False,False,Snapdragon 888+ ,Octa Core,2.9,6,6,5000.0,33.0,6.8,1080x2460,144.0,Punch Hole,"[108, 13, 2]",3,108.0,16.0,1,Dedicated,
+realme gt 2 pro 5g,49959,89.0,Android v12,Dual,5g,True,True,False,Snapdragon 8 Gen1,Octa Core,3.0,8,8,5000.0,65.0,6.7,1440x3216,120.0,Punch Hole,"[50, 50, 2]",3,50.0,32.0,1,Dedicated,
+apple iphone 13 pro,129900,83.0,iOS v15.0,Dual,5g,True,True,False,Bionic A15,Hexa Core,3.22,6,6,3095.0,,6.1,1170x2532,120.0,Large Notch,"[12, 12, 12]",3,12.0,12.0,1,None,
+vivo y73 2021,19990,80.0,Android v11,Dual,4g,True,False,False,Helio G95,Octa Core,2.05,8,8,4000.0,33.0,6.44,1080x2400,,Water Drop Notch,"[64, 2, 2]",3,64.0,16.0,1,Dedicated,
+samsung galaxy f14,14990,67.0,Android v13,Dual,4g,True,True,False,Octa Core Processor,Octa Core,,4,4,5000.0,25.0,6.62,2408x1080,,Punch Hole,"[50, 5, 2]",3,50.0,16.0,1,Dedicated,1024.0
+vivo v20,23269,85.0,Android v11,Dual,4g,True,False,False,Snapdragon  720G ,Octa Core,2.3,8,8,4000.0,33.0,6.44,1080x2400,,Water Drop Notch,"[64, 8, 2]",3,64.0,44.0,1,Dedicated,1024.0
+xiaomi redmi note 9 pro,13999,75.0,Android v10.0,Dual,4g,True,False,True,Snapdragon 720G,Octa Core,2.3,4,4,5020.0,18.0,6.67,1080x2400,,Punch Hole,[48],1,48.0,16.0,1,Dedicated,512.0
+oneplus 10r prime edition,35389,85.0,Android v12,Dual,5g,True,True,False,Dimensity 8100 Max,Octa Core,2.85,8,8,5000.0,80.0,6.7,1080x2412,120.0,Punch Hole,"[50, 8, 2]",3,50.0,16.0,1,Dedicated,
+google pixel 6 pro,79700,80.0,Android v12,Dual,5g,True,True,False,Google  Tensor,Octa Core,2.8,12,12,5003.0,30.0,6.71,1440x3120,120.0,Punch Hole,"[50, 48, 12]",3,50.0,,1,Dedicated,
+nokia c31,9499,62.0,Android v12,Dual,4g,True,False,False,Unisoc  SC9863A,Octa Core,1.6,3,3,5050.0,10.0,6.74,720x1600,,Water Drop Notch,"[13, 2, 2]",3,13.0,5.0,1,Dedicated,256.0
+infinix hot 12 pro,12340,76.0,Android v12,Dual,4g,True,False,False,Tiger T616,Octa Core,2.0,8,8,5000.0,18.0,6.6,720x1612,90.0,Water Drop Notch,[50],1,50.0,8.0,1,Dedicated,256.0
+poco m5,10799,74.0,Android v12,Dual,4g,True,False,True,Helio G99,Octa Core,2.2,4,4,5000.0,18.0,6.58,1080x2400,90.0,Water Drop Notch,"[50, 2, 2]",3,50.0,8.0,1,Dedicated,512.0
+xiaomi redmi 10c,14990,73.0,Android v11,Dual,4g,True,False,False,Snapdragon 680,Octa Core,2.4,4,4,6000.0,18.0,6.7,720x1600,,Water Drop Notch,"[50, 2]",2,50.0,5.0,1,Dedicated,512.0
+zte axon 40 ultra 5g,61990,89.0,Android v12,Dual,5g,True,True,False,Snapdragon 8 Gen1,Octa Core,3.0,8,8,5000.0,65.0,6.8,1116x2480,120.0,,"[64, 64, 64]",3,64.0,16.0,1,Dedicated,
+xiaomi 12 pro 5g,51880,80.0,Android v12,Dual,5g,True,True,True,Snapdragon 8 Gen1,Octa Core,3.0,12,12,4600.0,120.0,6.73,1440x3200,120.0,Punch Hole,"[50, 50, 50]",3,50.0,32.0,1,Dedicated,
+oppo k10,16990,80.0,Android v11,Dual,4g,True,False,False,Snapdragon 680,Octa Core,2.4,8,8,5000.0,33.0,6.59,1080x2412,90.0,Punch Hole,"[50, 2, 2]",3,50.0,16.0,1,Dedicated,1024.0
+huawei nova 9 se,19990,84.0,Android v11,Dual,4g,True,True,False,Snapdragon  680,Octa Core,2.4,8,8,4000.0,66.0,6.78,1080x2388,90.0,Punch Hole,[108],1,108.0,16.0,1,Dedicated,
+samsung galaxy s22 5g,57999,87.0,Android v12,Dual,5g,True,True,False,Snapdragon  8 Gen1,Octa Core,3.0,8,8,3700.0,25.0,6.1,1080x2340,120.0,Punch Hole,"[50, 12, 10]",3,50.0,10.0,1,Dedicated,
+lenovo legion y90,46990,87.0,Android v12,Dual,5g,True,True,False,Snapdragon  8 Gen1,Octa Core,3.0,12,12,5600.0,68.0,6.92,1080x2460,144.0,,"[64, 13]",2,64.0,16.0,1,Dedicated,
+vivo y55 5g,20990,77.0,Android v11,Dual,5g,True,True,False,Dimensity 700 5G,Octa Core,2.2,4,4,5000.0,18.0,6.58,1080x2408,,Water Drop Notch,"[50, 2, 2]",3,50.0,8.0,1,Dedicated,
+nokia x100 5g,17990,82.0,Android v11,Dual,5g,True,True,False,Snapdragon  480 ,Octa Core,2.0,6,6,4470.0,18.0,6.67,1080x2400,,Punch Hole,[48],1,48.0,16.0,1,Dedicated,1000.0
+realme 8s 5g,17499,82.0,Android v11,Dual,5g,True,False,False,Dimensity  810 5G,Octa Core,2.4,8,8,5000.0,33.0,6.5,1080x2400,90.0,Punch Hole,"[64, 2, 2]",3,64.0,16.0,1,Dedicated,1024.0
+realme 8s 5g,17999,80.0,Android v11,Dual,5g,True,False,False,Dimensity  810 5G,Octa Core,2.4,6,6,5000.0,33.0,6.5,1080x2400,90.0,Punch Hole,"[64, 2, 2]",3,64.0,16.0,1,Dedicated,1024.0
+nokia x60 pro 5g,49990,80.0,Android v11,Dual,5g,True,False,False,Snapdragon  870,Octa Core,3.2,8,8,6000.0,44.0,6.51,1080x2408,144.0,Punch Hole,[200],1,200.0,32.0,1,Dedicated,
+poco x5,14999,74.0,Android v12,Dual,5g,True,False,True,Snapdragon 695,Octa Core,2.2,4,4,5000.0,33.0,6.67,1080x2400,120.0,Punch Hole,"[48, 8, 2]",3,48.0,8.0,1,None,
+xiaomi redmi note 10 pro max,19980,82.0,Android v11,Dual,4g,True,False,True,Snapdragon  732G,Octa Core,2.3,6,6,5020.0,33.0,6.67,1080x2400,120.0,Punch Hole,[108],1,108.0,16.0,1,Dedicated,512.0
+iqoo 7,35990,85.0,Android v11,Dual,5g,True,True,False,Snapdragon 870,Octa Core,3.2,12,12,4400.0,66.0,6.62,1080x2400,120.0,Punch Hole,"[48, 13, 2]",3,48.0,16.0,1,Dedicated,
+realme 8,15999,78.0,Android v11,Dual,4g,True,False,False,Helio G95,Octa Core,2.0,4,4,5000.0,30.0,6.4,1080x2400,,Punch Hole,[64],1,64.0,16.0,1,Dedicated,256.0
+samsung galaxy s20,41999,88.0,Android v10.0,Dual,4g,True,True,False,Exynos  990,Octa Core,2.73,8,8,4000.0,25.0,6.2,1440x3200,120.0,Punch Hole,"[64, 12, 12]",3,64.0,10.0,1,Hybrid,1024.0
+xiaomi redmi k60e,25999,83.0,Android v12,Dual,5g,True,True,True,Dimensity 8200,Octa Core,3.1,8,8,5500.0,67.0,6.67,1440x3200,120.0,Punch Hole,"[48, 8, 2]",3,48.0,20.0,1,Dedicated,
+motorola moto e32s,7990,65.0,Android v12,Dual,4g,True,False,False,Helio G37,Octa Core,1.8,3,3,5000.0,18.0,6.5,720x1600,90.0,Punch Hole,"[16, 2, 2]",3,16.0,8.0,1,Dedicated,1024.0
+oneplus nord 3t 5g,29990,84.0,Android v12,Dual,5g,True,True,False,Dimensity  1300,Octa Core,3.0,8,8,4500.0,80.0,6.43,1080x2400,90.0,Punch Hole,"[50, 8, 2]",3,50.0,32.0,1,Dedicated,
+oppo f23 pro plus 5g,27990,83.0,Android v12,Dual,5g,True,False,False,Snapdragon  7 Gen1,Octa Core,2.36,8,8,4500.0,65.0,6.43,1080x2460,90.0,Punch Hole,[50],1,50.0,16.0,1,Dedicated,256.0
+poco f5 pro,29999,84.0,Android v13,Dual,5g,True,True,True,Snapdragon  8+ Gen1,Octa Core,3.2,8,8,5500.0,67.0,6.67,1440x3200,120.0,Punch Hole,"[64, 8, 2]",3,64.0,16.0,1,Dedicated,
+oppo a16e,8999,68.0,Android v11,Dual,4g,True,False,False,Helio P22,Octa Core,2.0,4,4,4230.0,,6.52,720x1600,,Water Drop Notch,[13],1,13.0,5.0,1,Hybrid,1024.0
+poco m4 pro 4g,13999,81.0,Android v11,Dual,4g,True,False,True,Helio G96,Octa Core,2.05,8,8,5000.0,33.0,6.43,1080x2400,90.0,Punch Hole,"[64, 8, 2]",3,64.0,16.0,1,Dedicated,1024.0
+realme narzo 50a,11499,71.0,Android v11,Dual,4g,True,False,False,Helio  G85,Octa Core,2.0,4,4,6000.0,18.0,6.5,720x1600,,Water Drop Notch,"[50, 2, 2]",3,50.0,8.0,1,Dedicated,256.0
+asus rog phone 5s 5g,39999,87.0,Android v11,Dual,5g,True,True,False,Snapdragon  888+,Octa Core,2.9,8,8,6000.0,65.0,6.78,1080x2448,144.0,,"[64, 13, 5]",3,64.0,24.0,1,Dedicated,
+realme gt master edition 5g,27999,84.0,Android v11,Dual,5g,True,True,False,Snapdragon  778G ,Octa Core,2.4,8,8,4300.0,65.0,6.43,1080x2400,120.0,Punch Hole,"[64, 8, 2]",3,64.0,32.0,1,Dedicated,
+samsung galaxy a32 5g,24499,79.0,Android v11,Dual,5g,True,True,False,Dimensity 720,Octa Core,2.0,6,6,5000.0,15.0,6.5,720x1600,90.0,Water Drop Notch,[48],1,48.0,13.0,1,Hybrid,1024.0
+nubia red magic 8 pro plus,60999,86.0,Android v13,Dual,5g,True,True,False,Snapdragon 8 Gen2,Octa Core,3.2,12,12,5000.0,165.0,6.8,1116x2480,120.0,,"[50, 8, 2]",3,50.0,16.0,1,Dedicated,
+samsung galaxy z fold 3,110999,89.0,,Dual,5g,True,True,False,Snapdragon 888,Octa Core,2.84,12,12,4400.0,25.0,7.6,1768x2208,120.0,Punch Hole,"[12, 12, 12, 10]",4,12.0,10.0,1,Dedicated,
+lg wing 5g,54999,89.0,,Dual,5g,True,True,False,Snapdragon  765G ,Octa Core,2.4,8,8,4000.0,,6.8,1080x2460,,,[],0,,,1,Hybrid,2048.0
+xiaomi redmi note 9 pro max,16490,80.0,Android v10.0,Dual,4g,True,False,True,Snapdragon 720G,Octa Core,2.3,6,6,5020.0,33.0,6.67,1080x2400,,Punch Hole,[64],1,64.0,32.0,1,Dedicated,512.0
+samsung galaxy a52,24990,83.0,Android v11,Dual,4g,True,False,False,Snapdragon  720G,Octa Core,2.3,6,6,4500.0,25.0,6.5,1080x2400,90.0,Punch Hole,[64],1,64.0,32.0,1,Dedicated,1024.0
+vivo y71,25000,80.0,Android v8.1 (Oreo),Dual,4g,True,False,False,Snapdragon 425,Quad Core,1.4,3,3,3360.0,,6.0,720x1440,,,[13],1,13.0,5.0,1,Dedicated,
+samsung galaxy a04e,9950,66.0,Android v12,Dual,4g,True,False,False,Helio P35,Octa Core,2.3,3,3,5000.0,,6.5,720x1600,,Water Drop Notch,"[13, 2]",2,13.0,5.0,1,Dedicated,1024.0
+oppo a56s,12999,75.0,Android v12,Dual,5g,True,False,False,Dimensity 810,Octa Core,2.4,8,8,5000.0,,6.56,720x1612,,Water Drop Notch,"[13, 2]",2,13.0,8.0,1,Dedicated,
+oppo reno 8t 4g,19999,83.0,Android v13,Dual,4g,True,True,False,Helio G99,Octa Core,2.2,8,8,5000.0,66.0,6.67,1080x2400,120.0,Punch Hole,"[50, 13, 2]",3,50.0,16.0,1,Dedicated,1024.0
+oppo reno 10,32999,84.0,Android v13,Dual,5g,True,True,False,Snapdragon 778G Plus,Octa Core,2.5,8,8,5000.0,120.0,6.73,1080x2412,120.0,Punch Hole,"[50, 8, 2]",3,50.0,32.0,1,Dedicated,
+nokia g60,28498,81.0,Android v12,Dual,5g,True,True,False,Snapdragon  695,Octa Core,2.2,6,6,4500.0,20.0,6.58,1080x2400,120.0,Water Drop Notch,"[50, 5, 2]",3,50.0,8.0,1,Hybrid,
+oppo a77,15998,71.0,Android v12,Dual,4g,True,False,False,Helio G35,Octa Core,2.3,4,4,5000.0,33.0,6.56,720x1600,,Water Drop Notch,[50],1,50.0,8.0,1,Dedicated,
+motorola edge 40 pro 5g,59990,89.0,Android v12,Dual,5g,True,True,False,Snapdragon 8 Gen2,Octa Core,3.2,8,8,4800.0,125.0,6.7,1080x2460,165.0,Punch Hole,"[50, 50, 12]",3,50.0,60.0,1,Dedicated,
+oppo k10x 5g,16990,78.0,Android v12,Dual,5g,True,False,False,Snapdragon 695,Octa Core,2.2,6,6,5000.0,67.0,6.59,1080x2412,120.0,Punch Hole,"[64, 8, 2]",3,64.0,16.0,1,Dedicated,
+iqoo z6 pro 5g,27999,82.0,Android v12,Dual,5g,True,False,False,Snapdragon  778G,Octa Core,2.4,12,12,4700.0,66.0,6.44,1080x2404,90.0,Water Drop Notch,"[64, 8, 2]",3,64.0,16.0,1,None,
+nokia g21,13499,75.0,Android v11,Dual,4g,True,False,False,Unisoc  T606,Octa Core,1.6,6,6,5050.0,18.0,6.5,720x1600,90.0,Water Drop Notch,"[50, 2, 2]",3,50.0,8.0,1,Dedicated,512.0
+samsung galaxy a13,16499,78.0,Android v12,Dual,4g,True,False,False,Octa Core,Octa Core,2.0,6,6,5000.0,25.0,6.6,1080x2408,,Water Drop Notch,[50],1,50.0,8.0,1,Dedicated,1024.0
+oppo a16k,10999,66.0,Android v11,Dual,4g,True,False,False,Helio G35,Octa Core,2.3,4,4,4230.0,,6.52,720x1600,,Water Drop Notch,[13],1,13.0,5.0,1,Dedicated,256.0
+xiaomi redmi 10c,13990,71.0,Android v11,Dual,4g,True,False,False,Snapdragon 680,Octa Core,2.4,4,4,6000.0,18.0,6.7,720x1600,,Water Drop Notch,"[50, 2]",2,50.0,5.0,1,Dedicated,512.0
+tecno spark 9 pro,9999,74.0,Android v12,Dual,4g,True,False,False,Helio  G85,Octa Core,2.0,4,4,5000.0,18.0,6.6,1080x2460,90.0,Water Drop Notch,"[48, 2, 2]",3,48.0,32.0,1,Dedicated,
+realme gt neo 3 5g,31994,83.0,Android v12,Dual,5g,True,True,False,Dimensity  8100,Octa Core,2.85,8,8,5000.0,80.0,6.7,1080x2412,120.0,Punch Hole,"[50, 8, 2]",3,50.0,16.0,1,Dedicated,
+xiaomi 11i hypercharge 5g,24820,83.0,Android v11,Dual,5g,True,False,True,Dimensity  920 5G,Octa Core,2.5,6,6,4500.0,120.0,6.67,2400x1080,120.0,Punch Hole,"[108, 8, 2]",3,108.0,16.0,1,Hybrid,1024.0
+iqoo neo 6 se 5g,22990,83.0,Android v12,Dual,5g,True,False,False,Snapdragon 870,Octa Core,3.2,8,8,4700.0,80.0,6.62,1080x2400,120.0,Punch Hole,"[64, 12, 2]",3,64.0,16.0,1,None,
+iqoo 9 pro 5g,59990,88.0,Android v12,Dual,5g,True,True,False,Snapdragon 8 Gen1,Octa Core,3.0,8,8,4700.0,120.0,6.78,1440x3200,120.0,Punch Hole,"[50, 50, 16]",3,50.0,16.0,1,Dedicated,
+realme narzo 50i,8999,62.0,Android v11,Dual,4g,True,False,False,Unisoc  SC9863A,Octa Core,1.6,4,4,5000.0,,6.5,720x1600,,Water Drop Notch,[8],1,8.0,5.0,1,Dedicated,256.0
+xiaomi redmi 9 activ,10499,72.0,Android v11,Dual,4g,True,False,False,Helio G35,Octa Core,2.3,6,6,5000.0,,6.53,720x1600,,Water Drop Notch,"[13, 2]",2,13.0,5.0,1,Dedicated,512.0
+jio jiophone next,7499,80.0,Pragati OS (Powered by Android),Dual,4g,True,False,False,Qualcomm 215,Quad Core,1.3,3,3,3000.0,,5.5,720x1440,,,[13],1,13.0,8.0,1,Dedicated,
+xiaomi redmi note 8 2021,9990,75.0,Android v11,Dual,4g,True,False,True,Helio G85,Octa Core,2.0,4,4,4000.0,18.0,6.3,1080x2340,,Water Drop Notch,[48],1,48.0,13.0,1,Dedicated,
+xiaomi redmi note 10 5g,12490,76.0,Android v11,Dual,5g,True,False,True,Dimensity 700 5G,Octa Core,2.2,4,4,5000.0,18.0,6.5,1080x2400,90.0,Punch Hole,"[48, 2, 2]",3,48.0,8.0,1,Dedicated,512.0
+vivo y20g,13990,69.0,Android v11,Dual,4g,True,False,False,Helio G80,Octa Core,2.0,4,4,5000.0,18.0,6.51,720x1600,,Water Drop Notch,"[13, 2, 2]",3,13.0,8.0,1,Dedicated,256.0
+samsung galaxy a22 5g,17990,79.0,Android v11,Dual,5g,True,False,False,Dimensity 700 5G,Octa Core,2.2,6,6,5000.0,15.0,6.6,1080x2408,90.0,Water Drop Notch,"[48, 5, 2]",3,48.0,8.0,1,Dedicated,1024.0
+vivo v21,24999,83.0,Android v11,Dual,4g,True,False,False,Dimensity 800U,Octa Core,2.4,8,8,4000.0,33.0,6.44,1080x2400,90.0,Water Drop Notch,"[64, 8, 2]",3,64.0,44.0,1,Hybrid,
+realme 7 pro,21999,85.0,Android v10,Dual,4g,True,False,False,Snapdragon 720G ,Octa Core,2.3,8,8,4500.0,65.0,6.4,1080x2400,,Punch Hole,[64],1,64.0,32.0,1,Dedicated,256.0
+oneplus nord lite,19999,77.0,Android v10,Dual,4g,True,False,False,Snapdragon 690,Octa Core,2.0,8,8,4300.0,30.0,6.55,1080x2400,90.0,Punch Hole,"[48, 16, 2]",3,48.0,16.0,1,None,
+samsung galaxy s20 ultra 5g,99999,80.0,Android v10.0,Dual,5g,True,True,False,Exynos 990,Octa Core,2.73,12,12,5000.0,45.0,6.9,1440x3200,,Punch Hole,[108],1,108.0,40.0,1,Hybrid,1024.0
+apple iphone 11 pro max,109900,77.0,iOS v13,Dual,4g,True,True,False,A13 Bionic,Hexa Core,2.65,4,4,3500.0,18.0,6.5,1242x2688,,Large Notch,"[12, 12, 12]",3,12.0,12.0,1,None,
+apple iphone 7s,52990,80.0,iOS v10,Single,4g,True,False,False,Fusion APL1024,Quad Core,2.37,3,3,2230.0,,4.7,750x1334,,,[13],1,13.0,7.0,1,Dedicated,
+sony xperia ace iv,19990,80.0,Android v13,Dual,4g,True,True,False,Snapdragon 4 Gen 1,Octa Core,2.0,8,8,5000.0,33.0,6.5,1080x2400,120.0,,"[50, 2]",2,50.0,16.0,1,Hybrid,1024.0
+samsung galaxy a04e,11499,69.0,Android v12,Dual,4g,True,False,False,Helio P35,Octa Core,2.3,4,4,5000.0,,6.5,720x1600,,Water Drop Notch,"[13, 2]",2,13.0,5.0,1,Dedicated,1024.0
+xiaomi redmi note 12 4g,13999,75.0,Android v13,Dual,4g,True,False,True,Helio G99,Octa Core,2.2,4,4,5000.0,33.0,6.67,1080x2400,120.0,Punch Hole,"[48, 8, 2]",3,48.0,13.0,1,Hybrid,1024.0
+oukitel wp21,22990,82.0,,Dual,4g,True,False,False,Helio G99,Octa Core,2.2,12,12,9800.0,66.0,6.78,1080x2400,120.0,,[],0,,,1,Hybrid,
+vivo v28,28990,84.0,Android v13,Dual,5g,True,False,False,Snapdragon 6 Gen 1,Octa Core,2.2,8,8,5000.0,80.0,6.7,1080x2400,120.0,Water Drop Notch,"[108, 13, 2]",3,108.0,32.0,1,Dedicated,
+poco f4 5g,27999,85.0,Android v12,Dual,5g,True,True,False,Snapdragon  870,Octa Core,3.2,8,8,4500.0,67.0,6.67,1080x2400,120.0,Punch Hole,"[64, 8, 2]",3,64.0,20.0,1,Dedicated,
+xiaomi redmi note 11t pro 5g,19990,82.0,Android v12,Dual,5g,True,True,True,Dimensity  8100,Octa Core,2.85,6,6,5080.0,67.0,6.6,1080x2460,144.0,Punch Hole,"[64, 8, 2]",3,64.0,16.0,1,Hybrid,1024.0
+realme narzo 50 pro 5g,22999,83.0,Android v12,Dual,5g,True,False,False,Dimensity 920 5G,Octa Core,2.5,8,8,5000.0,33.0,6.4,1080x2400,90.0,Punch Hole,"[48, 8, 2]",3,48.0,16.0,1,Hybrid,1024.0
+vivo t1 44w,17999,82.0,Android v12,Dual,4g,True,False,False,Snapdragon 680,Octa Core,2.4,8,8,5000.0,44.0,6.44,1080x2408,,Water Drop Notch,"[50, 2, 2]",3,50.0,16.0,1,Hybrid,1024.0
+xiaomi redmi note 11s,15499,81.0,Android v11,Dual,4g,True,False,True,Helio  G96,Octa Core,2.05,6,6,5000.0,33.0,6.43,1080x2400,90.0,Punch Hole,[108],1,108.0,16.0,1,Dedicated,512.0
+lava agni 5g,17990,84.0,Android v11,Dual,5g,True,False,False,Dimensity  810 5G,Octa Core,2.4,8,8,5000.0,30.0,6.78,1080x2460,90.0,Punch Hole,[64],1,64.0,16.0,1,Hybrid,1024.0
+realme 8i,13999,77.0,Android v11,Dual,4g,True,False,False,Helio G96,Octa Core,2.05,6,6,5000.0,18.0,6.6,1080x2412,120.0,Punch Hole,"[50, 2, 2]",3,50.0,16.0,1,Dedicated,256.0
+oppo a55 4g,13499,73.0,Android v11,Dual,4g,True,False,False,Helio G35,Octa Core,2.3,4,4,5000.0,18.0,6.51,720x1600,,Punch Hole,"[50, 2, 2]",3,50.0,16.0,1,Dedicated,256.0
+poco m3 pro 5g,14799,79.0,Android v11,Dual,5g,True,False,True,Dimensity 700 5G,Octa Core,2.2,6,6,5000.0,18.0,6.5,1080x2400,90.0,Punch Hole,"[48, 2, 2]",3,48.0,8.0,1,Hybrid,1024.0
+realme c21y,6999,62.0,Android v11,Dual,4g,True,False,False,Unisoc T610,Octa Core,1.8,3,3,5000.0,,6.5,720x1600,,Water Drop Notch,"[13, 2, 2]",3,13.0,5.0,1,Dedicated,256.0
+oppo a16,11999,69.0,Android v11,Dual,4g,True,False,False,Helio G35,Octa Core,2.3,4,4,5000.0,,6.52,720x1600,,Water Drop Notch,"[13, 2, 2]",3,13.0,8.0,1,Dedicated,
+vivo v21 5g,23994,85.0,Android v11,Dual,5g,True,False,False,Dimensity 800U,Octa Core,2.4,8,8,4000.0,33.0,6.44,1080x2400,90.0,Water Drop Notch,"[64, 8, 2]",3,64.0,44.0,1,Hybrid,
+apple iphone 12 pro,139900,80.0,iOS v14.0,Dual,5g,True,True,False,Bionic A14,Hexa Core,3.1,6,6,,,6.1,1170x2532,,Large Notch,"[12, 12, 12]",3,12.0,12.0,1,None,
+sony xperia 1 ii,69999,89.0,Android v10,Dual,5g,True,True,False,Snapdragon  865 ,Octa Core,2.84,8,8,4000.0,21.0,6.5,1644x3840,,,[12],1,12.0,8.0,1,Hybrid,
+motorola edge plus,57999,89.0,Android v10.0,Single,5g,True,True,False,Snapdragon  865 ,Octa Core,2.84,12,12,5000.0,18.0,6.7,1080x2340,90.0,Punch Hole,"[108, 16, 8]",3,108.0,25.0,1,Dedicated,
+samsung galaxy note 20,86000,87.0,Android v10,Dual,4g,True,True,False,Exynos  990,Octa Core,2.73,8,8,4300.0,25.0,6.7,1080x2400,,Punch Hole,"[64, 12, 12]",3,64.0,10.0,1,Dedicated,
+samsung galaxy a12,11999,71.0,Android v10,Dual,4g,True,False,False,Helio P35,Octa Core,2.3,4,4,5000.0,15.0,6.5,720x1560,,Water Drop Notch,[48],1,48.0,8.0,1,Dedicated,
+xiaomi redmi note 12 pro 4g,14999,77.0,Android v12,Dual,4g,True,True,True,Snapdragon 732G,Octa Core,2.3,6,6,5000.0,67.0,6.67,1080x2400,120.0,Punch Hole,"[50, 8, 2]",3,50.0,16.0,1,Dedicated,
+realme gt neo 3t,26499,81.0,Android v12,Dual,5g,True,False,False,Snapdragon 870,Octa Core,3.2,8,8,5000.0,80.0,6.62,1080x2400,120.0,Punch Hole,"[64, 8, 2]",3,64.0,16.0,1,Dedicated,
+realme c30s,8990,62.0,Android v12,Dual,4g,True,False,False,Unisoc SC9863A,Octa Core,1.6,4,4,5000.0,10.0,6.5,720x1600,,Water Drop Notch,[8],1,8.0,5.0,1,Dedicated,1024.0
+apple iphone 14,95999,82.0,iOS v16,Dual,5g,True,True,False,Bionic A15,Hexa Core,3.22,6,6,3279.0,,6.1,1170x2532,,Small Notch,"[12, 12]",2,12.0,12.0,1,None,
+iqoo 9t 5g,47990,85.0,Android v12,Dual,5g,True,True,True,Snapdragon  8+ Gen1,Octa Core,3.2,8,8,4700.0,120.0,6.78,1080x2400,120.0,Punch Hole,"[50, 13, 12]",3,50.0,16.0,1,Dedicated,
+tecno camon 19 pro,17990,81.0,Android v12,Dual,4g,True,False,False,Helio  G96,Octa Core,2.05,8,8,5000.0,33.0,6.8,1080x2460,120.0,Punch Hole,"[64, 50, 2]",3,64.0,32.0,1,Dedicated,
+oneplus nord 2 lite 5g,22999,83.0,Android v12,Dual,5g,True,True,False,Snapdragon 695 ,Octa Core,2.2,8,8,5000.0,33.0,6.59,1080x2412,120.0,Punch Hole,"[64, 2, 2]",3,64.0,16.0,1,Dedicated,
+samsung galaxy s22 ultra 5g,99990,80.0,Android v12,Dual,5g,True,True,False,Snapdragon  8 Gen1,Octa Core,3.0,8,8,5000.0,45.0,6.8,1440x3080,120.0,Punch Hole,[108],1,108.0,40.0,1,Dedicated,
+poco f4 gt 5g,39999,86.0,Android v12,Dual,5g,True,True,True,Snapdragon  8 Gen1,Octa Core,3.0,8,8,4700.0,120.0,6.67,1080x2400,120.0,Punch Hole,"[64, 8, 2]",3,64.0,20.0,1,None,
+xiaomi 11t pro 5g,38999,88.0,Android v11,Dual,5g,True,True,True,Snapdragon  888 ,Octa Core,2.84,12,12,5000.0,120.0,6.67,1080x2400,120.0,Punch Hole,"[108, 8, 5]",3,108.0,16.0,1,Dedicated,
+vivo y10,12490,63.0,Android v11,Dual,4g,True,False,False,Helio P35,Octa Core,2.3,4,4,5000.0,,6.51,720x1600,,Water Drop Notch,"[13, 2]",2,13.0,8.0,1,Dedicated,
+samsung galaxy a83 5g,39990,86.0,Android v11,Dual,5g,True,True,False,Snapdragon 870,Octa Core,3.2,6,6,4500.0,25.0,6.71,1440x3200,120.0,Punch Hole,"[64, 12, 5]",3,64.0,10.0,1,Dedicated,1024.0
+vivo y33s,16685,80.0,Android v11,Dual,4g,True,False,False,Helio G80,Octa Core,2.0,8,8,5000.0,18.0,6.58,1080x2408,,Water Drop Notch,"[50, 2, 2]",3,50.0,16.0,1,Dedicated,1024.0
+huawei mate 40 pro 4g,69990,80.0,Harmony v2.0,Dual,4g,True,True,True,Kirin  9000,Octa Core,3.13,8,8,4400.0,66.0,6.76,1344x2772,90.0,Punch Hole,"[50, 20, 12]",3,50.0,13.0,1,Hybrid,256.0
+micromax in 2b,6999,66.0,Android v11,Dual,4g,True,False,False,Unisoc  T610,Octa Core,1.8,4,4,5000.0,,6.52,720x1600,,Water Drop Notch,"[13, 2]",2,13.0,5.0,1,Dedicated,256.0
+asus rog phone 6,71999,86.0,Android v12,Dual,5g,True,True,False,Snapdragon 8+ Gen1,Octa Core,3.2,12,12,6000.0,65.0,6.78,1080x2448,165.0,,"[50, 13, 5]",3,50.0,12.0,1,None,
+realme x7 max,26999,84.0,Android v11,Dual,5g,True,True,False,Dimensity 1200,Octa Core,3.0,8,8,4500.0,50.0,6.43,1080x2400,120.0,Punch Hole,"[64, 8, 2]",3,64.0,16.0,1,Dedicated,
+realme 8 5g,16499,75.0,Android v11,Dual,5g,True,False,False,Dimensity 700 5G,Octa Core,2.2,4,4,5000.0,18.0,6.5,1080x2400,90.0,Punch Hole,"[48, 2, 2]",3,48.0,16.0,1,Dedicated,1024.0
+oppo a55 5g,17990,74.0,Android v11,Dual,5g,True,False,False,Dimensity 700,Octa Core,2.2,6,6,5000.0,,6.5,720x1600,,Water Drop Notch,"[13, 2, 2]",3,13.0,8.0,1,Dedicated,
+xiaomi redmi 9,8999,68.0,Android v10,Dual,4g,True,False,False,Helio G35,Octa Core,2.3,4,4,5000.0,,6.53,720x1600,,Water Drop Notch,"[13, 2]",2,13.0,5.0,1,Dedicated,512.0
+apple iphone se 2020,39900,63.0,iOS v13,Dual,4g,True,True,False,A13 Bionic,Hexa Core,2.65,3,3,1821.0,18.0,4.7,750x1334,,,[12],1,12.0,7.0,1,Dedicated,
+oneplus nord 5,34999,76.0,Android v13,Dual,5g,True,True,False,Dimensity  9200,Octa Core,,8,8,5000.0,120.0,6.57,1080x2400,120.0,Punch Hole,"[64, 12, 5]",3,64.0,32.0,1,Dedicated,
+vivo y73t,16990,77.0,Android v11,Dual,5g,True,False,False,Dimensity 700,Octa Core,2.0,8,8,6000.0,44.0,6.58,1080x2408,,Water Drop Notch,"[50, 2]",2,50.0,8.0,1,None,
+oppo reno 9 z,22990,84.0,Android v13,Dual,5g,True,True,False,Snapdragon  6 Gen 1,Octa Core,2.2,8,8,4800.0,33.0,6.58,1080x2400,120.0,Punch Hole,"[50, 13, 2]",3,50.0,32.0,1,Dedicated,
+vivo v25e,19990,84.0,Android v12,Dual,4g,True,False,False,Helio G99,Octa Core,2.2,8,8,4500.0,44.0,6.44,1080x2400,90.0,Punch Hole,"[64, 2, 2]",3,64.0,32.0,1,Hybrid,
+infinix hot 12 pro,10850,74.0,Android v12,Dual,4g,True,False,False,Tiger T616,Octa Core,2.0,6,6,5000.0,18.0,6.6,720x1612,90.0,Water Drop Notch,[50],1,50.0,8.0,1,Dedicated,256.0
+realme narzo 50 5g,13499,75.0,Android v11,Dual,5g,True,False,False,Dimensity 810 5G,Octa Core,2.4,4,4,5000.0,33.0,6.6,1080x2400,90.0,Punch Hole,"[48, 2, 2]",3,48.0,16.0,1,Dedicated,1024.0
+itel vision 3,6699,61.0,Android v11.0,Dual,4g,True,False,False,Unisoc  SC9863a,Octa Core,1.6,3,3,5000.0,18.0,6.6,1612x720,,Water Drop Notch,"[8, 8]",2,8.0,5.0,1,Dedicated,128.0
+oppo a96 4g,17999,80.0,Android v11,Dual,4g,True,False,False,Snapdragon  680,Octa Core,2.4,8,8,5000.0,33.0,6.59,1080x2412,90.0,Punch Hole,"[50, 2]",2,50.0,16.0,1,Dedicated,
+xiaomi redmi note 11e 5g,13990,69.0,Android v11,Dual,5g,True,False,True,Dimensity 700 5G,Octa Core,2.2,4,4,5000.0,18.0,6.58,1080x2408,90.0,Punch Hole,"[50, 2]",2,50.0,5.0,1,None,
+honor magic 4 pro plus 5g,94990,80.0,Android v12,Dual,5g,True,True,False,Snapdragon  8 Gen1,Octa Core,3.0,12,12,4600.0,120.0,6.76,1344x2772,120.0,Punch Hole,[50],1,50.0,13.0,1,Dedicated,
+tecno spark 9t,8968,72.0,Android v12,Dual,4g,True,False,False,Helio G35,Octa Core,2.3,4,4,5000.0,18.0,6.6,1080x2408,,Water Drop Notch,"[50, 2]",2,50.0,8.0,1,Dedicated,
+infinix smart 6,7320,60.0,Android v11,Dual,4g,True,False,False,Helio A22,Quad Core,2.0,2,2,5000.0,,6.6,720x1600,,Water Drop Notch,[8],1,8.0,5.0,1,Dedicated,512.0
+realme c25y,8999,69.0,Android v11,Dual,4g,True,False,False,Tiger  T610,Octa Core,1.8,4,4,5000.0,18.0,6.5,1600x720,,Water Drop Notch,"[50, 2, 2]",3,50.0,8.0,1,Dedicated,256.0
+samsung galaxy a12,13999,75.0,Android v10,Dual,4g,True,False,False,Helio P35,Octa Core,2.3,6,6,5000.0,15.0,6.5,720x1560,,Water Drop Notch,[48],1,48.0,8.0,1,Dedicated,
+tecno camon 19,14746,79.0,Android v12,Dual,4g,True,True,False,Helio  G85,Octa Core,2.0,6,6,5000.0,18.0,6.8,1080x2460,,Punch Hole,"[64, 2]",2,64.0,16.0,1,Dedicated,512.0
+xiaomi redmi note 10 pro 5g,16999,83.0,Android v11,Dual,5g,True,True,True,Dimensity 1100 5G,Octa Core,2.6,6,6,5000.0,67.0,6.6,1080x2400,120.0,Punch Hole,"[64, 8, 2]",3,64.0,16.0,1,Dedicated,
+xiaomi mi 11x 5g,25990,83.0,Android v11,Dual,5g,True,False,True,Snapdragon 870,Octa Core,3.2,8,8,4520.0,33.0,6.67,1080x2400,120.0,Punch Hole,"[48, 8, 5]",3,48.0,20.0,1,Dedicated,
+xiaomi redmi note 10,16499,78.0,Android v11,Dual,4g,True,False,True,Snapdragon 678,Octa Core,2.2,6,6,5000.0,33.0,6.43,1080x2400,,Punch Hole,[48],1,48.0,13.0,1,Dedicated,512.0
+xiaomi redmi note 10 pro max,19999,81.0,Android v11,Dual,4g,True,False,True,Snapdragon  732G,Octa Core,2.3,6,6,5020.0,33.0,6.67,1080x2400,120.0,Punch Hole,[108],1,108.0,16.0,1,Dedicated,512.0
+xiaomi mi 10t 5g,23500,80.0,Android v10,Dual,5g,True,True,False,Snapdragon 865,Octa Core,2.84,6,6,5000.0,33.0,6.67,2400x1080,144.0,Punch Hole,"[64, 13, 5]",3,64.0,20.0,1,Dedicated,
+lg velvet 5g,54999,85.0,Android v10,Dual,5g,True,True,False,Snapdragon  765G,Octa Core,2.4,6,6,4300.0,25.0,6.8,1080x2460,,Water Drop Notch,"[48, 8, 5]",3,48.0,16.0,1,Hybrid,
+motorola one fusion plus,19499,80.0,Android v10,Dual,4g,True,False,False,Snapdragon 730G,Octa Core,2.2,6,6,5000.0,18.0,6.5,1080x2340,,,[64],1,64.0,16.0,1,Hybrid,1024.0
+lg v60 thinq,79990,80.0,,Dual,5g,True,True,False,Snapdragon  865,Octa Core,2.84,8,8,5000.0,,6.8,1080x2460,,Punch Hole,[],0,,,1,Hybrid,2048.0
+samsung galaxy note 10 lite,39999,83.0,Android v10.0,Dual,4g,True,True,False,Exynos 9810,Octa Core,2.7,6,6,4500.0,25.0,6.7,1080x2400,,Punch Hole,"[12, 12, 12]",3,12.0,32.0,1,Hybrid,1024.0
+samsung galaxy note 10 plus 5g,92999,89.0,Android v9.0 (Pie),Dual,5g,True,True,True,Exynos 9825,Octa Core,2.7,12,12,4300.0,,6.8,1440x3040,,Punch Hole,[12],1,12.0,10.0,1,Hybrid,512.0
+iqoo neo 7 racing edition,32990,84.0,Android v13,Dual,5g,True,True,True,Snapdragon 8+ Gen1,Octa Core,3.2,8,8,5000.0,120.0,6.78,1080x2400,120.0,Punch Hole,"[50, 8, 2]",3,50.0,16.0,1,Dedicated,
+samsung galaxy a04s,14499,72.0,Android v12,Dual,4g,True,False,False,Exynos 850,Octa Core,2.0,4,4,5000.0,15.0,6.5,720x1600,90.0,Water Drop Notch,"[50, 2, 2]",3,50.0,5.0,1,Dedicated,1024.0
+vivo y35 5g,13999,70.0,Android v13,Dual,5g,True,False,False,Dimensity 700 5G,Octa Core,2.2,4,4,5000.0,15.0,6.51,720x1600,,Water Drop Notch,"[13, 2]",2,13.0,5.0,1,Dedicated,1024.0
+vivo y02,7999,80.0,Android v12,Dual,4g,True,False,False,Helio,Octa Core,,2,2,5000.0,10.0,6.51,720x1600,,Water Drop Notch,[8],1,8.0,5.0,1,Dedicated,1024.0
+itel vision 3,5785,80.0,Android v11.0,Dual,4g,True,False,False,Unisoc  SC9863a,Octa Core,1.6,2,2,5000.0,18.0,6.6,1612x720,,Water Drop Notch,"[8, 8]",2,8.0,5.0,1,Dedicated,128.0
+xiaomi redmi note 11r,12990,73.0,Android v12,Dual,5g,True,False,True,Dimensity 700 5G,Octa Core,2.2,4,4,5000.0,18.0,6.58,1080x2400,90.0,Water Drop Notch,"[13, 2]",2,13.0,5.0,1,Dedicated,512.0
+poco m6 pro,19990,84.0,Android v13,Dual,5g,True,False,True,Dimensity  920 5G,Octa Core,2.5,8,8,5100.0,120.0,6.73,1080x2400,120.0,Punch Hole,"[108, 13, 2]",3,108.0,32.0,1,Hybrid,1024.0
+oppo a97 5g,23990,79.0,Android v12,Dual,5g,True,False,False,Dimensity 810 5G,Octa Core,2.4,12,12,5000.0,33.0,6.56,1080x2400,90.0,Water Drop Notch,"[48, 2]",2,48.0,8.0,1,Dedicated,1024.0
+samsung galaxy a24,17999,77.0,Android v12,Dual,4g,True,False,False,Exynos 7904,Octa Core,1.8,6,6,4000.0,15.0,6.4,1080x2408,,Water Drop Notch,"[48, 8, 5]",3,48.0,16.0,1,Dedicated,1024.0
+infinix note 13 pro,16999,80.0,Android v12,Dual,4g,True,False,False,Helio  G99,Octa Core,2.2,6,6,5000.0,120.0,6.91,1080x2460,,Punch Hole,[108],1,108.0,16.0,1,Dedicated,256.0
+honor play 30,9999,68.0,Android v11,Dual,5g,True,False,False,Snapdragon 480+,Octa Core,2.2,4,4,5000.0,,6.5,720x1600,,Water Drop Notch,[13],1,13.0,5.0,1,Hybrid,
+infinix smart 6 plus,8299,63.0,Android v12,Dual,4g,True,False,False,Helio G25,Octa Core,2.0,3,3,5000.0,,6.82,720x1600,,Water Drop Notch,[8],1,8.0,5.0,1,Dedicated,512.0
+sony xperia 5 iv 5g,82199,89.0,Android v12,Dual,5g,True,True,False,Snapdragon 8 Gen1,Octa Core,3.0,8,8,5000.0,30.0,6.1,1080x2520,120.0,,"[12, 12, 12]",3,12.0,12.0,1,Hybrid,
+nubia z40 pro 5g,49990,84.0,Android v12,Dual,5g,True,True,False,Snapdragon  8 Gen1,Octa Core,3.0,8,8,5000.0,80.0,6.67,1080x2400,144.0,Punch Hole,"[64, 50, 8]",3,64.0,16.0,1,Dedicated,
+nokia g21,11999,71.0,Android v11,Dual,4g,True,False,False,Unisoc  T606,Octa Core,1.6,4,4,5050.0,18.0,6.5,720x1600,90.0,Water Drop Notch,"[50, 2, 2]",3,50.0,8.0,1,Dedicated,512.0
+xiaomi 12 lite 5g,29990,82.0,Android v12,Dual,5g,True,True,False,Snapdragon 778G,Octa Core,2.4,6,6,4300.0,67.0,6.55,1080x2400,120.0,Punch Hole,"[108, 8, 2]",3,108.0,32.0,1,None,
+oppo find n 5g,92249,80.0,,Dual,5g,True,True,False,Snapdragon  888,Octa Core,2.84,8,8,4500.0,33.0,7.1,1792x1920,120.0,Punch Hole,"[50, 16, 13]",3,50.0,32.0,1,Dedicated,
+apple iphone 13 pro max,139900,84.0,iOS v15,Dual,5g,True,True,False,Bionic A15,Hexa Core,3.22,6,6,4352.0,,6.7,1284x2778,120.0,Small Notch,"[12, 12, 12]",3,12.0,12.0,1,None,
+vivo y21s,14990,74.0,Android v11,Dual,4g,True,False,False,Helio G80,Octa Core,2.0,4,4,5000.0,18.0,6.51,720x1600,,Water Drop Notch,"[50, 2, 2]",3,50.0,8.0,1,Dedicated,1024.0
+oppo f19s,15988,79.0,Android v11,Dual,4g,True,False,False,Snapdragon 662 ,Octa Core,2.0,6,6,5000.0,33.0,6.43,1080x2400,,Punch Hole,"[48, 2, 2]",3,48.0,16.0,1,Dedicated,256.0
+samsung galaxy m21,11725,76.0,Android v11,Dual,4g,True,False,False,Exynos 9611,Octa Core,2.3,4,4,6000.0,15.0,6.4,1080x2340,,Water Drop Notch,"[48, 8, 5]",3,48.0,20.0,1,Dedicated,512.0
+oppo f19 pro,17994,80.0,Android v11,Dual,4g,True,False,False,Helio P95,Octa Core,2.2,8,8,4310.0,30.0,6.43,1080x2400,,Punch Hole,[48],1,48.0,16.0,1,Dedicated,256.0
+oppo x,134999,86.0,,Single,4g,True,False,False,Snapdragon 865,Octa Core,2.84,8,8,4000.0,45.0,7.4,1440x3200,,,"[64, 16, 12]",3,64.0,16.0,1,Dedicated,
+oneplus nord n10,25595,81.0,Android v10,Dual,5g,True,True,False,Snapdragon 690,Octa Core,2.0,6,6,4300.0,30.0,6.49,1080x2400,90.0,Punch Hole,[64],1,64.0,16.0,1,Dedicated,512.0
+gionee m12 pro,7499,67.0,Android v10,Dual,4g,False,False,False,Helio P60,Octa Core,1.99,6,6,4000.0,,6.2,720x1520,,Water Drop Notch,[16],1,16.0,13.0,1,Dedicated,256.0
+poco m2,10890,74.0,Android v10.0,Dual,4g,True,False,True,Helio G80,Octa Core,2.0,6,6,5000.0,18.0,6.53,1080x2340,,Water Drop Notch,[13],1,13.0,8.0,1,Dedicated,512.0
+oppo f17 pro,18990,83.0,Android v10,Dual,4g,True,False,False,Helio P95,Octa Core,2.2,8,8,4015.0,30.0,6.43,1080x2400,,Dual Punch Hole,"[48, 16]",2,48.0,16.0,1,Dedicated,256.0
+motorola moto g 5g,19990,82.0,Android v10,Dual,5g,True,True,False,Snapdragon  750G ,Octa Core,2.2,6,6,5000.0,20.0,6.67,1080x2400,,Punch Hole,"[48, 8, 2]",3,48.0,16.0,1,Hybrid,1024.0
+samsung galaxy a50s,15990,80.0,Android v9.0 (Pie),Dual,4g,True,True,False,Exynos  9611 ,Octa Core,2.3,4,4,4000.0,15.0,6.4,1080x2340,,Water Drop Notch,"[48, 8, 5]",3,48.0,32.0,1,Dedicated,512.0
+samsung galaxy note 10 plus,58999,89.0,Android v9.0 (Pie),Dual,4g,True,True,False,Exynos 9825,Octa Core,2.73,12,12,4300.0,45.0,6.8,1440x3040,,Punch Hole,[12],1,12.0,10.0,1,Hybrid,1024.0
+vivo y15,12500,71.0,Android v9.0 (Pie),Dual,4g,True,False,False,Helio P22,Octa Core,2.0,4,4,5000.0,,6.35,720x1544,,Water Drop Notch,"[13, 8, 2]",3,13.0,16.0,1,Dedicated,256.0
+vivo s1 pro,29999,82.0,Android v9.0 (Pie),Dual,4g,True,False,False,Snapdragon  665,Octa Core,2.0,8,8,4500.0,18.0,6.38,1080x2340,,Water Drop Notch,[48],1,48.0,32.0,1,Hybrid,256.0
+vivo t3 pro,31990,86.0,Android v13,Dual,5g,True,False,False,Snapdragon  782G,Octa Core,2.7,8,8,4700.0,80.0,6.67,1080x2408,120.0,Water Drop Notch,"[64, 8, 2]",3,64.0,32.0,1,Hybrid,1024.0
+vivo v21s,29999,86.0,Android v12,Dual,5g,True,True,False,Dimensity 800U ,Octa Core,2.4,8,8,4000.0,33.0,6.44,1080x2400,90.0,Water Drop Notch,"[64, 8, 2]",3,64.0,44.0,1,Hybrid,
+asus rog phone 6d ultimate,107990,80.0,,Dual,5g,True,True,False,Dimensity 9000 Plus,Octa Core,3.2,16,16,6000.0,65.0,6.78,1080x2448,165.0,,[],0,,,1,None,
+motorola moto edge 30 neo,31990,84.0,Android v12,Dual,5g,True,True,False,Snapdragon 695,Octa Core,2.2,8,8,4020.0,68.0,6.28,1080x2400,120.0,Punch Hole,"[64, 13]",2,64.0,32.0,1,Dedicated,
+xiaomi 12t,48990,87.0,Android v12,Dual,5g,True,True,True,Dimensity 8100 Ultra,Octa Core,2.85,8,8,5000.0,120.0,6.67,1220x2712,120.0,Punch Hole,"[108, 8, 2]",3,108.0,20.0,1,Dedicated,
+huawei mate 50 pro 5g,99990,85.0,Hongmeng OS v4.0,Dual,5g,True,True,False,Kirin 9000E,Octa Core,3.13,8,8,4500.0,66.0,6.76,1440x3200,120.0,Small Notch,"[64, 50, 13]",3,64.0,13.0,1,None,
+realme c32,9499,65.0,Android v12,Dual,4g,True,False,False,Tiger T612,Octa Core,1.82,4,4,5000.0,,6.52,720x1600,,Water Drop Notch,"[13, 2, 2]",3,13.0,5.0,1,Dedicated,1024.0
+huawei mate xs 2,162990,89.0,,Dual,4g,True,True,True,Snapdragon 888,Octa Core,2.84,8,8,4600.0,66.0,7.8,2200x2480,120.0,Punch Hole,[],0,,,1,Hybrid,256.0
+iqoo z7 pro 5g,24999,80.0,Android v12,Dual,5g,True,False,False,Snapdragon  7 Gen1,Octa Core,2.36,6,6,5000.0,67.0,6.62,1080x2412,144.0,Water Drop Notch,"[50, 2, 2]",3,50.0,16.0,1,Dedicated,1024.0
+apple iphone 15,82990,72.0,iOS v15,Dual,4g,True,True,False,Bionic  A16,,,6,6,3285.0,,6.06,1170x2532,,Punch Hole,"[50, 13]",2,50.0,13.0,1,None,
+infinix note 11s,15999,79.0,Android v11,Dual,4g,True,False,False,Helio G96,Octa Core,2.05,8,8,5000.0,33.0,6.95,1080x2460,120.0,Punch Hole,"[50, 2, 2]",3,50.0,16.0,1,Dedicated,2048.0
+tecno spark 8,8999,64.0,Android v11,Dual,4g,True,False,False,Helio A25,Octa Core,1.8,4,4,5000.0,,6.52,720x1600,,Water Drop Notch,"[16, 2]",2,16.0,8.0,1,Dedicated,256.0
+oppo a56 5g,17990,73.0,Android v11,Dual,5g,True,False,False,Dimensity 700 5G,Octa Core,2.2,6,6,5000.0,,6.5,720x1600,,Water Drop Notch,"[13, 2]",2,13.0,8.0,1,Dedicated,
+vivo x80 pro plus 5g,82990,80.0,Android v11,Dual,5g,True,True,False,Snapdragon 8+ Gen1,Octa Core,3.2,12,12,4500.0,120.0,6.78,1440x3200,120.0,Punch Hole,[50],1,50.0,32.0,1,Dedicated,
+xiaomi redmi 10 prime,12999,77.0,Android v11,Dual,4g,True,False,True,Helio G88,Octa Core,2.0,6,6,6000.0,18.0,6.5,1080x2400,90.0,Punch Hole,[50],1,50.0,8.0,1,Dedicated,512.0
+huawei nova 9,29990,83.0,HarmonyOS v2.0,Dual,4g,False,True,False,Snapdragon  778G ,Octa Core,2.4,8,8,4300.0,66.0,6.57,1080x2340,120.0,Punch Hole,[50],1,50.0,32.0,1,Dedicated,
+tecno pop 5 go,6999,80.0,Android v11,Dual,4g,False,False,False,Spreadtrum  SC7731,Quad Core,1.3,1,1,4000.0,,6.1,720x1520,,Water Drop Notch,"[5, 3]",2,5.0,5.0,1,Dedicated,
+huawei p50 pro 4g,60999,80.0,HarmonyOS v2.0,Dual,4g,True,True,True,Snapdragon 888,Octa Core,2.84,8,8,4360.0,66.0,6.6,1288x2700,120.0,Punch Hole,[50],1,50.0,13.0,1,Hybrid,256.0
+xiaomi redmi k50 5g,27990,83.0,Android v12,Dual,5g,True,True,True,Dimensity  8100,Octa Core,2.85,8,8,5500.0,67.0,6.67,1440x3200,120.0,Punch Hole,"[48, 8, 2]",3,48.0,20.0,1,Dedicated,
+nokia c01 plus,5249,80.0,Android v11,Dual,4g,True,False,False,Unisoc  SC9863A,Octa Core,1.6,2,2,3000.0,,5.45,720x1440,,,[5],1,5.0,5.0,1,Dedicated,256.0
+realme q3,14999,80.0,Android v11,Dual,5g,True,False,False,Snapdragon  750G ,Octa Core,2.2,6,6,5000.0,30.0,6.5,1080x2400,120.0,Punch Hole,"[48, 8, 2]",3,48.0,16.0,1,Dedicated,
+oppo reno 6 pro plus 5g,44990,87.0,Android v11,Dual,5g,True,True,False,Snapdragon 870,Octa Core,3.2,8,8,4500.0,65.0,6.55,1080x2400,90.0,Punch Hole,[50],1,50.0,32.0,1,Dedicated,
+motorola edge s,22490,87.0,Android v11,Dual,5g,True,True,False,Snapdragon 870,Octa Core,3.2,6,6,5000.0,20.0,6.7,1080x2520,90.0,Punch Hole,"[64, 16]",2,64.0,16.0,1,Dedicated,
+oppo find x3 pro,50990,80.0,Android v11,Dual,5g,True,True,False,Snapdragon  888 ,Octa Core,2.84,12,12,4500.0,65.0,6.7,1440x3216,120.0,Punch Hole,[50],1,50.0,32.0,1,Dedicated,
+poco m3,11499,75.0,Android v10,Dual,4g,True,False,True,Snapdragon 662,Octa Core,2.0,6,6,6000.0,18.0,6.53,1080x2340,,Water Drop Notch,"[48, 2, 2]",3,48.0,8.0,1,Dedicated,512.0
+itel s16,5990,80.0,Android v10,Dual,4g,True,False,False,Unisoc SC7731E,Quad Core,1.3,1,1,4000.0,,6.5,1600x720,,Water Drop Notch,"[8, 2, 3]",3,8.0,8.0,1,Dedicated,32.0
+vivo v20 pro,27000,84.0,Android v10,Dual,5g,True,False,False,Snapdragon 765G ,Octa Core,2.4,8,8,4000.0,33.0,6.44,1080x2400,,Small Notch,"[64, 8, 2, 44]",4,64.0,44.0,1,Dedicated,
+xiaomi mi 10t pro 5g,29999,86.0,Android v10,Dual,5g,True,True,True,Snapdragon 865 ,Octa Core,2.84,8,8,5000.0,33.0,6.67,1080x2400,144.0,Punch Hole,"[108, 13, 5]",3,108.0,20.0,1,Dedicated,
+vivo v19,27990,84.0,Android v10.0,Dual,4g,True,False,False,Snapdragon  712 ,Octa Core,2.3,8,8,4500.0,33.0,6.44,1080x2400,,Dual Punch Hole,"[48, 32]",2,48.0,32.0,1,Dedicated,512.0
+samsung galaxy s20 5g,74999,89.0,Android v10.0,Dual,5g,True,True,False,Exynos  990,Octa Core,2.73,8,8,4000.0,25.0,6.2,1440x3200,,Punch Hole,"[64, 12, 12]",3,64.0,10.0,1,Hybrid,1024.0
+vivo u3,9990,72.0,Android v9.0 (Pie),Dual,4g,True,False,False,Snapdragon  675,Octa Core,2.0,4,4,5000.0,18.0,6.53,1080x2340,,Water Drop Notch,"[16, 8, 2]",3,16.0,16.0,1,Dedicated,256.0
+oppo k5,19990,82.0,Android v9.0 (Pie),Dual,4g,True,False,False,Snapdragon  730G,Octa Core,2.2,8,8,4000.0,30.0,6.4,1080x2340,,Water Drop Notch,[64],1,64.0,32.0,1,Dedicated,256.0
+realme xt,13279,75.0,Android v9.0 (Pie),Dual,4g,True,False,False,Snapdragon 712,Octa Core,2.3,4,4,4000.0,20.0,6.4,1080x2340,,Water Drop Notch,[64],1,64.0,16.0,1,Dedicated,256.0
+vivo y12,11000,68.0,Android v9.0 (Pie),Dual,4g,True,False,False,Helio  P22,Octa Core,2.0,3,3,5000.0,,6.35,720x1544,,Water Drop Notch,"[13, 8, 2]",3,13.0,8.0,1,Dedicated,256.0
+xiaomi poco f1,12999,78.0,Android v8.1 (Oreo),Dual,4g,True,False,False,Snapdragon 845,Octa Core,2.8,6,6,4000.0,,6.18,1080x2246,,Large Notch,"[12, 5]",2,12.0,20.0,1,Hybrid,256.0
+poco c50,7299,61.0,Android v12,Dual,4g,True,False,False,Helio A22,Quad Core,2.0,3,3,5000.0,10.0,6.52,720x1600,,Water Drop Notch,[8],1,8.0,5.0,1,Dedicated,512.0
+ikall z19,7999,61.0,Android v11.0,Dual,4g,True,False,False,Quad Core,Quad Core,1.6,4,4,5000.0,,6.5,720x1600,,Water Drop Notch,[20],1,20.0,13.0,1,Hybrid,128.0
+xiaomi redmi k60 gaming edition,54990,86.0,Android v13,Dual,5g,True,True,True,Snapdragon 8 Gen2,Octa Core,3.2,8,8,5000.0,67.0,6.73,1440x3200,120.0,Punch Hole,"[50, 8, 2]",3,50.0,20.0,1,Dedicated,
+vivo s17 pro,49990,77.0,Android v13,Dual,5g,True,True,False,Dimensity 9200,Octa Core,,12,12,5000.0,120.0,6.67,1080x2400,120.0,Punch Hole,"[50, 13, 2]",3,50.0,32.0,1,Dedicated,
+honor 80 pro plus,54990,80.0,Android v12,Dual,5g,True,True,False,Snapdragon 8 Gen1 ,Octa Core,3.0,12,12,4500.0,100.0,6.78,1200x2652,120.0,Punch Hole,"[200, 50, 8]",3,200.0,50.0,1,Dedicated,
+apple iphone se 4,49990,60.0,iOS v16,Dual,5g,True,True,False,Bionic  A15,Hexa Core,3.22,8,8,,,,,,,[],0,,,1,Dedicated,
+tecno pova neo 5g,15499,71.0,Android v12,Dual,4g,True,False,False,Dimensity 810 5G,Octa Core,2.4,4,4,6000.0,18.0,6.8,1080x2400,120.0,Punch Hole,[50],1,50.0,8.0,1,Dedicated,1024.0
+apple iphone 14 pro max,169900,78.0,iOS v16,Dual,5g,True,True,False,Bionic  A16,Hexa Core,,6,6,4323.0,,6.7,1290x2796,120.0,,"[48, 12, 12]",3,48.0,12.0,1,None,
+google pixel 8,53990,75.0,Android v13,Dual,5g,True,True,False,Google Tensor 3,Octa Core,,8,8,4830.0,67.0,6.6,1080x2400,120.0,Punch Hole,"[50, 8]",2,50.0,,1,Dedicated,
+vivo t2x 5g,18990,80.0,Android v12,Dual,5g,True,False,False,Dimensity 1300,Octa Core,3.0,8,8,6000.0,44.0,6.58,1080x2408,120.0,Water Drop Notch,"[50, 2]",2,50.0,16.0,1,Dedicated,
+motorola moto g52 5g,16999,76.0,Android v12,Dual,5g,True,True,False,Snapdragon 695,Octa Core,2.2,4,4,5000.0,33.0,6.6,2460x1080,90.0,Punch Hole,"[50, 8, 2]",3,50.0,16.0,1,Hybrid,
+motorola edge 40 5g,34999,86.0,Android v12,Dual,5g,True,True,False,Snapdragon 7 Gen1,Octa Core,2.36,8,8,4200.0,67.0,6.5,1080x2412,144.0,,"[50, 50, 2]",3,50.0,32.0,1,Dedicated,
+vivo x note 5g,82990,80.0,Android v12,Dual,5g,True,True,True,Snapdragon 8 Gen1,Octa Core,3.0,12,12,5000.0,80.0,7.0,1440x3080,120.0,Punch Hole,[50],1,50.0,16.0,1,Dedicated,
+realme gt 2 pro 5g,46999,89.0,Android v12,Dual,5g,True,True,False,Snapdragon 8 Gen1,Octa Core,3.0,12,12,5000.0,65.0,6.7,1440x3216,120.0,Punch Hole,"[50, 50, 2]",3,50.0,32.0,1,Dedicated,
+vivo y15c,8499,66.0,Android v12,Dual,4g,True,False,False,Helio P35,Octa Core,2.3,3,3,5000.0,,6.51,720x1600,,Water Drop Notch,"[13, 2]",2,13.0,8.0,1,Dedicated,1024.0
+honor x8,16999,76.0,Android v11,Dual,4g,True,False,False,Snapdragon  680,Octa Core,2.4,6,6,4000.0,22.5,6.7,1080x2388,90.0,Punch Hole,[64],1,64.0,16.0,1,Dedicated,
+samsung galaxy a03,11499,69.0,Android v11,Dual,4g,True,False,False,Unisoc  T606,Octa Core,1.6,4,4,5000.0,15.0,6.5,720x1560,,Water Drop Notch,"[48, 2]",2,48.0,5.0,1,Dedicated,1024.0
+samsung galaxy s22 plus 5g,88999,88.0,Android v12,Dual,5g,True,True,False,Snapdragon  8 Gen1,Octa Core,3.0,8,8,4500.0,45.0,6.6,1080x2340,120.0,Punch Hole,"[50, 12, 10]",3,50.0,10.0,1,Dedicated,
+vivo y33t,15990,81.0,Android v12,Dual,4g,True,False,False,Snapdragon 680,Octa Core,2.4,8,8,5000.0,18.0,6.58,1080x2408,90.0,Water Drop Notch,"[50, 2, 2]",3,50.0,16.0,1,Dedicated,1024.0
+xiaomi 11i 5g,24990,83.0,Android v11,Dual,5g,True,False,True,Dimensity  920 5G,Octa Core,2.5,8,8,5160.0,67.0,6.67,2400x1080,120.0,Punch Hole,"[108, 8, 2]",3,108.0,16.0,1,Hybrid,1024.0
+oppo find x5 pro 5g,79990,80.0,Android v12,Dual,5g,True,True,False,Snapdragon 8 Gen1,Octa Core,3.0,8,8,5000.0,80.0,6.7,1440x3216,120.0,Punch Hole,"[50, 50, 13]",3,50.0,32.0,1,Dedicated,
+tecno spark go,6249,61.0,Android v11,Dual,4g,True,False,False,Octa Core,Octa Core,2.2,2,2,5000.0,,6.51,720x1600,,Water Drop Notch,"[13, 2]",2,13.0,8.0,1,Dedicated,256.0
+vivo y21e,12499,69.0,Android v12,Dual,4g,True,False,False,Snapdragon  680,Octa Core,2.4,3,3,5000.0,18.0,6.51,720x1600,,Water Drop Notch,"[13, 2]",2,13.0,8.0,1,Dedicated,1024.0
+xiaomi redmi 9a sport,6499,61.0,Android v11,Dual,4g,True,False,False,Helio G25,Octa Core,2.0,2,2,5000.0,,6.53,720x1600,,Water Drop Notch,[13],1,13.0,5.0,1,Dedicated,512.0
+apple iphone 13 pro max,179900,86.0,iOS v15,Dual,5g,True,True,False,Bionic A15,Hexa Core,3.22,6,6,4352.0,,6.7,1284x2778,120.0,Small Notch,"[12, 12, 12]",3,12.0,12.0,1,None,
+vivo y12g,11990,68.0,Android v11,Dual,4g,True,False,False,Snapdragon  439 ,Octa Core,2.0,3,3,5000.0,,6.51,720x1600,,Water Drop Notch,"[13, 2, 2]",3,13.0,8.0,1,Dedicated,
+vivo v23e,26990,82.0,Android v11,Dual,4g,True,False,False,Helio G96,Octa Core,2.05,8,8,4050.0,44.0,6.44,1080x2400,,Water Drop Notch,"[64, 8, 2]",3,64.0,50.0,1,None,
+samsung galaxy f22,13499,76.0,Android v11,Dual,4g,True,False,False,Helio G80,Octa Core,2.0,6,6,6000.0,,6.4,720x1600,90.0,Water Drop Notch,[48],1,48.0,13.0,1,Dedicated,1024.0
+xiaomi 12 ultra 5g,75999,80.0,Android v12,Dual,5g,True,True,True,Snapdragon 8+ Gen1,Octa Core,3.2,12,12,4800.0,67.0,6.73,1440x3200,120.0,Punch Hole,"[50, 50, 50]",3,50.0,20.0,1,Dedicated,
+micromax in 2c,5999,60.0,Android v11,Dual,4g,True,False,False,Tiger T610,Octa Core,1.8,3,3,5000.0,,6.52,720x1600,,Water Drop Notch,[8],1,8.0,5.0,1,Dedicated,256.0
+samsung galaxy a03s,8499,67.0,Android v11,Dual,4g,True,False,False,Helio P35,Octa Core,2.3,3,3,5000.0,15.0,6.5,720x1600,,Water Drop Notch,"[13, 2, 2]",3,13.0,5.0,1,Dedicated,1024.0
+oppo a54,11990,71.0,Android v10,Dual,4g,True,False,False,Helio P35,Octa Core,2.3,4,4,5000.0,,6.51,1600x720,,Punch Hole,"[13, 2, 2]",3,13.0,16.0,1,Dedicated,256.0
+xiaomi redmi 20x,10990,77.0,Android v10,Dual,5g,True,False,True,Dimensity 700 5G,Octa Core,2.2,4,4,5000.0,18.0,6.43,1080x2340,90.0,Punch Hole,[48],1,48.0,13.0,1,Dedicated,
+xiaomi mi mix fold,109990,80.0,,Dual,5g,True,True,True,Snapdragon  888 ,Octa Core,2.84,12,12,5020.0,67.0,8.01,1860x2480,90.0,,"[108, 13, 8]",3,108.0,20.0,1,Dedicated,
+realme narzo 30 5g,16999,80.0,Android v11,Dual,5g,True,True,False,Dimensity 700 5G,Octa Core,2.2,6,6,5000.0,18.0,6.5,1080x2400,90.0,Punch Hole,"[48, 2, 2]",3,48.0,16.0,1,Dedicated,1024.0
+oppo a54,12199,70.0,Android v10,Dual,4g,True,False,False,Helio P35,Octa Core,2.3,4,4,5000.0,,6.51,1600x720,,Punch Hole,"[13, 2, 2]",3,13.0,16.0,1,Dedicated,256.0
+oppo a15s,11490,72.0,Android v10,Dual,4g,True,False,False,Helio P35 ,Octa Core,2.3,4,4,4230.0,,6.52,720x1600,,Water Drop Notch,"[13, 2, 2]",3,13.0,8.0,1,Dedicated,256.0
+itel a56,5490,80.0,Android v9.0 (Pie),Dual,4g,True,False,False,Quad Core,Quad Core,1.3,1,1,4000.0,,6.0,720x1600,,,[8],1,8.0,5.0,1,Dedicated,32.0
+xiaomi redmi 9 power,11499,74.0,Android v10,Dual,4g,True,False,True,Snapdragon  662 ,Octa Core,2.0,4,4,6000.0,18.0,6.53,1080x2340,,Water Drop Notch,[48],1,48.0,8.0,1,Dedicated,512.0
+samsung galaxy s21 plus,59450,88.0,Android v10,Dual,5g,True,True,False,Exynos 2100,Octa Core,2.9,8,8,4800.0,25.0,6.7,1080x2400,120.0,Punch Hole,"[64, 12, 12]",3,64.0,10.0,1,Dedicated,
+poco m2 pro,12799,76.0,Android v10.0,Dual,4g,True,False,True,Snapdragon 720G,Octa Core,2.3,4,4,5000.0,33.0,6.67,1080x2400,,Punch Hole,[48],1,48.0,16.0,1,Dedicated,512.0
+samsung galaxy s20 plus,83000,88.0,Android v10,Dual,4g,True,True,False,Exynos 990,Octa Core,2.73,8,8,4500.0,25.0,6.7,1440x3200,120.0,Punch Hole,[64],1,64.0,10.0,1,Hybrid,1024.0
+realme 6 pro,14490,80.0,Android v10,Dual,4g,True,False,False,Snapdragon 720G,Octa Core,2.3,6,6,4300.0,30.0,6.6,1080x2400,90.0,Dual Punch Hole,"[64, 16]",2,64.0,16.0,1,Dedicated,256.0
+huawei p40 pro,82990,80.0,Android v10.0,Dual,5g,True,True,False,Kirin 990,Octa Core,2.86,8,8,4200.0,40.0,6.58,1200x2640,90.0,Dual Punch Hole,[50],1,50.0,32.0,1,Hybrid,256.0
+vivo y11,9490,64.0,Android v9.0 (Pie),Dual,4g,True,False,False,Snapdragon 439,Octa Core,2.0,3,3,5000.0,,6.35,720x1544,,Water Drop Notch,"[13, 2]",2,13.0,8.0,1,Dedicated,256.0
+vivo v15 pro,25000,78.0,Android v9.0 (Pie),Dual,4g,True,False,False,Snapdragon 675,Octa Core,2.0,8,8,3700.0,,6.39,1080x2316,,,"[48, 8, 5]",3,48.0,32.0,1,Dedicated,256.0
+vivo y95,15000,65.0,Android v8.1 (Oreo),Dual,4g,True,False,False,Snapdragon 439,Octa Core,1.95,4,4,4030.0,,6.22,1520x720,,Water Drop Notch,"[13, 2]",2,13.0,20.0,1,Dedicated,256.0
+vivo v11i,20990,70.0,Android v8.1 (Oreo),Dual,4g,True,False,False,Helio P60,Octa Core,2.0,4,4,3315.0,,6.3,1080x2280,,,"[16, 5]",2,16.0,25.0,1,Dedicated,256.0
+samsung galaxy s9 plus,34999,78.0,Android v8.0 (Oreo),Dual,4g,True,True,False,Exynos 9810,Octa Core,2.8,6,6,3500.0,,6.2,1440x2960,,,"[12, 12]",2,12.0,8.0,1,Hybrid,512.0
+realme gt neo 4t,29999,80.0,Android v13,Dual,5g,True,False,False,Snapdragon 8 Gen1,Octa Core,3.0,8,8,5000.0,120.0,6.73,1080x2400,144.0,Punch Hole,"[50, 8, 2]",3,50.0,16.0,1,Dedicated,
+vivo y53t,11999,67.0,Android v13,Dual,5g,True,False,False,Dimensity 700,Octa Core,2.0,4,4,6000.0,15.0,6.51,720x1600,,Water Drop Notch,"[13, 2]",2,13.0,5.0,1,None,
+samsung galaxy a04,12999,72.0,Android v12,Dual,4g,True,False,False,Helio P35,Octa Core,2.3,4,4,5000.0,,6.5,720x1600,,Water Drop Notch,"[50, 2]",2,50.0,5.0,1,Dedicated,1024.0
+leitz phone 2,124990,89.0,Android v12,Dual,5g,True,True,False,Snapdragon  8 Gen1,Octa Core,3.0,12,12,5000.0,,6.6,1260x2730,240.0,Punch Hole,"[2, 9]",2,9.0,,1,Dedicated,1024.0
+xiaomi redmi k60i,28999,85.0,Android v13,Dual,5g,True,False,True,Dimensity  8200,Octa Core,3.1,8,8,5080.0,120.0,6.67,1080x2460,120.0,Punch Hole,"[50, 13, 2]",3,50.0,32.0,1,Dedicated,
+infinix hot 20s,12999,77.0,Android v12,Dual,4g,True,False,False,Helio G96,Octa Core,2.05,8,8,5000.0,18.0,6.78,1080x2460,,Water Drop Notch,[50],1,50.0,8.0,1,Dedicated,
+realme gt neo 3t,28499,82.0,Android v12,Dual,5g,True,False,False,Snapdragon 870,Octa Core,3.2,8,8,5000.0,80.0,6.62,1080x2400,120.0,Punch Hole,"[64, 8, 2]",3,64.0,16.0,1,Dedicated,
+apple iphone 14 plus,104999,83.0,iOS v16,Dual,5g,True,True,False,Bionic A15,Hexa Core,3.22,6,6,4325.0,,6.7,1284x2778,,Small Notch,"[12, 12]",2,12.0,12.0,1,None,
+apple iphone 14 pro,172999,77.0,iOS v16,Dual,5g,True,True,False,Bionic  A16,Hexa Core,,6,6,3200.0,,6.1,1179x2556,120.0,,"[48, 12, 12]",3,48.0,12.0,1,None,
+xiaomi redmi 13 prime 5g,17990,79.0,Android v13,Dual,5g,True,False,True,Snapdragon 4 Gen 1,Octa Core,2.0,6,6,5100.0,18.0,6.73,1080x2408,120.0,Punch Hole,"[64, 2]",2,64.0,16.0,1,Dedicated,1024.0
+nokia c21 plus,8999,64.0,Android v11,Dual,4g,True,False,False,Unisoc  SC9863A,Octa Core,1.6,4,4,5050.0,,6.52,720x1600,,Water Drop Notch,"[13, 2]",2,13.0,5.0,1,Dedicated,
+oneplus nord n300,18990,75.0,Android v12,Dual,5g,True,True,False,Dimensity 810 5G,Octa Core,2.4,4,4,5000.0,33.0,6.56,720x1612,90.0,Water Drop Notch,"[48, 2]",2,48.0,16.0,1,Dedicated,
+tecno camon 19 neo,14999,77.0,Android v12,Dual,4g,True,True,False,Helio  G85,Octa Core,2.0,6,6,5000.0,18.0,6.8,1080x2400,90.0,Punch Hole,"[48, 2]",2,48.0,32.0,1,Dedicated,
+realme narzo 50i prime,7999,61.0,Android v11,Dual,4g,True,False,False,Tiger T612,Octa Core,1.82,3,3,5000.0,10.0,6.5,720x1600,,Water Drop Notch,[8],1,8.0,5.0,1,Dedicated,1024.0
+xiaomi redmi k50 ultra 5g,39999,85.0,Android v12,Dual,5g,True,True,True,Snapdragon 8+ Gen1,Octa Core,3.2,8,8,5000.0,120.0,6.67,1220x2712,144.0,Punch Hole,"[108, 8, 2]",3,108.0,20.0,1,Dedicated,
+oppo a57 4g,11990,67.0,Android v12,Dual,4g,True,False,False,Helio G35,Octa Core,2.3,3,3,5000.0,33.0,6.56,720x1612,,Water Drop Notch,"[13, 2]",2,13.0,8.0,1,Dedicated,
+infinix note 12,12999,77.0,Android v11,Dual,4g,True,False,False,Helio G88,Octa Core,2.0,6,6,5000.0,33.0,6.7,2400x1080,,Punch Hole,"[50, 2]",2,50.0,16.0,1,Dedicated,512.0
+samsung galaxy s23 fe 5g,54999,77.0,Android v12,Dual,5g,True,True,False,Octa Core Processor,Octa Core,,8,8,4500.0,,6.5,1080x2400,,Punch Hole,[64],1,64.0,32.0,1,None,
+samsung galaxy m51s 5g,24990,72.0,Android v12,Dual,5g,True,False,False,Octa Core Processor,Octa Core,,6,6,6000.0,,6.7,1080x2400,,Punch Hole,"[64, 8, 5]",3,64.0,32.0,1,Dedicated,1024.0
+vivo x80 5g,59999,88.0,Android v12,Dual,5g,True,False,False,Dimensity  9000,Octa Core,3.05,12,12,4500.0,80.0,6.78,1080x2400,120.0,Punch Hole,"[50, 12, 12]",3,50.0,32.0,1,None,
+infinix note 12 (g96),16999,79.0,Android v12,Dual,4g,True,False,False,Helio G96,Octa Core,2.05,8,8,5000.0,33.0,6.7,1080x2400,,Punch Hole,"[50, 2]",2,50.0,16.0,1,Dedicated,
+samsung galaxy m14,14999,60.0,Android v13,Dual,4g,True,False,False,Exynos 1330,Octa Core,,4,4,6000.0,,6.5,720x1600,,Water Drop Notch,"[48, 8, 2]",3,48.0,8.0,1,Dedicated,512.0
+vivo t2 pro 5g,29990,76.0,Android v12,Dual,5g,True,False,False,Snapdragon  778G+,Octa Core,,8,8,4500.0,67.0,6.44,1080x2408,90.0,Water Drop Notch,"[50, 8, 2]",3,50.0,16.0,1,Hybrid,1024.0
+xiaomi redmi 10 prime plus 5g,13990,69.0,Android v11,Dual,5g,True,False,True,Dimensity 700 5G,Octa Core,2.2,4,4,5000.0,18.0,6.58,1080x2408,90.0,Punch Hole,"[50, 2]",2,50.0,5.0,1,None,
+xiaomi redmi note 11 pro 4g,17999,81.0,Android v11,Dual,4g,True,False,True,Helio  G96,Octa Core,2.05,6,6,5000.0,67.0,6.67,1080x2400,120.0,Punch Hole,[108],1,108.0,16.0,1,Hybrid,1024.0
+realme narzo 50a prime,11399,73.0,Android v11,Dual,4g,True,False,False,Tiger T612,Octa Core,1.82,4,4,5000.0,18.0,6.6,1080x2408,,Water Drop Notch,"[50, 3, 2]",3,50.0,8.0,1,Dedicated,1024.0
+vivo y55s 5g,19990,79.0,Android v11,Dual,5g,True,False,False,Dimensity 700 5G,Octa Core,2.2,8,8,6000.0,18.0,6.58,1080x2408,,Water Drop Notch,"[50, 2]",2,50.0,8.0,1,Dedicated,
+vivo y21t,15499,74.0,Android v11,Dual,4g,True,False,False,Snapdragon 680 ,Octa Core,2.4,4,4,5000.0,18.0,6.51,1600x720,90.0,Water Drop Notch,"[50, 2, 2]",3,50.0,8.0,1,Dedicated,1024.0
+gionee k10,6999,80.0,Android v10,Dual,4g,True,False,False,Tiger  T310,Quad Core,2.0,3,3,4800.0,,6.8,720x1600,,Punch Hole,[13],1,13.0,5.0,1,Dedicated,
+xiaomi redmi note 10 lite,12499,77.0,Android v10.0,Dual,4g,True,False,True,Snapdragon 720G,Octa Core,2.3,4,4,5020.0,18.0,6.67,1080x2400,,Punch Hole,[48],1,48.0,16.0,1,Dedicated,512.0
+apple iphone 13,91999,80.0,iOS v15,Dual,5g,True,True,False,Bionic A15,Hexa Core,3.22,4,4,3240.0,,6.1,1170x2532,,Small Notch,"[12, 12]",2,12.0,12.0,1,None,
+infinix hot 11s,9690,71.0,Android v11,Dual,4g,True,False,False,Helio G88,Octa Core,2.0,4,4,5000.0,,6.78,1080x2480,90.0,Punch Hole,"[50, 2]",2,50.0,8.0,1,Dedicated,256.0
+realme gt explorer master edition,32990,85.0,Android v11,Dual,5g,True,True,False,Snapdragon  870,Octa Core,3.2,8,8,4500.0,65.0,6.55,1080x2400,120.0,Punch Hole,"[50, 13, 2]",3,50.0,32.0,1,Dedicated,
+xiaomi mi 12 5g,42990,87.0,Android v12,Dual,5g,True,True,True,Snapdragon 8 Gen1,Octa Core,3.0,8,8,4500.0,67.0,6.28,1080x2400,120.0,Punch Hole,"[50, 13, 5]",3,50.0,32.0,1,Dedicated,
+cat s22 flip,14999,80.0,,Single,4g,True,False,False,Qualcomm 215,Quad Core,1.3,2,2,2000.0,,4.0,480x640,,,[],0,,,1,Dedicated,128.0
+xiaomi mi 11 lite,18699,82.0,Android v11,Dual,4g,True,False,True,Snapdragon 732G ,Octa Core,2.3,8,8,4250.0,33.0,6.55,1080x2400,90.0,Punch Hole,"[64, 8, 5]",3,64.0,16.0,1,Hybrid,512.0
+realme q3i 5g,10990,76.0,Android v11,Dual,5g,True,False,False,Dimensity 700 5G,Octa Core,2.2,4,4,5000.0,18.0,6.5,1080x2400,,Punch Hole,"[48, 2, 2]",3,48.0,16.0,1,Dedicated,
+xiaomi mi 11x pro,30990,85.0,Android v11,Dual,5g,True,False,True,Snapdragon 888,Octa Core,2.84,8,8,4520.0,33.0,6.67,1080x2400,120.0,Punch Hole,"[108, 8, 5]",3,108.0,20.0,1,Dedicated,
+lenovo legion pro 2,59999,89.0,Android v10,Dual,5g,True,True,False,Snapdragon  888,Octa Core,2.84,16,16,5000.0,120.0,6.5,1080x2400,144.0,,"[64, 16]",2,64.0,20.0,1,Dedicated,
+samsung galaxy m62,23999,83.0,Android v11,Dual,4g,True,True,False,Exynos 9825,Octa Core,2.73,6,6,7000.0,,6.71,1080x2400,,Punch Hole,[64],1,64.0,32.0,1,Dedicated,1024.0
+apple iphone 12 pro,119900,80.0,iOS v14.0,Dual,5g,True,True,False,Bionic A14,Hexa Core,3.1,6,6,,,6.1,1170x2532,,Large Notch,"[12, 12, 12]",3,12.0,12.0,1,None,
+xiaomi redmi 9i,9299,67.0,Android v10,Dual,4g,True,False,False,Helio G25,Octa Core,2.0,4,4,5000.0,10.0,6.53,720x1600,,Water Drop Notch,[13],1,13.0,5.0,1,Dedicated,512.0
+realme 6,12989,77.0,Android v10,Dual,4g,True,False,False,Helio   G90T ,Octa Core,2.05,6,6,4300.0,30.0,6.5,1080x2400,90.0,Punch Hole,[64],1,64.0,16.0,1,Dedicated,256.0
+samsung galaxy a01 core,4999,80.0,Android v10,Dual,4g,True,False,False,(28 nm),Quad Core,1.5,1,1,3000.0,,5.3,720x1480,,,[8],1,8.0,5.0,1,Dedicated,
+oppo reno 5,29990,83.0,Android v11,Dual,5g,True,False,False,Snapdragon  765G ,Octa Core,2.4,8,8,4300.0,65.0,6.43,1080x2400,,Punch Hole,[64],1,64.0,32.0,1,Dedicated,
+oppo a31 2020,12490,72.0,Android v9.0 (Pie),Dual,4g,True,False,False,Helio P35,Octa Core,2.3,6,6,4230.0,,6.5,720x1600,,Water Drop Notch,"[12, 2, 2]",3,12.0,8.0,1,Dedicated,256.0
+sony xperia 10 ii,27999,75.0,Android v10.0,Dual,4g,True,True,False,Snapdragon  665,Octa Core,2.0,4,4,3600.0,18.0,6.0,1080x2520,90.0,,"[12, 8, 8]",3,12.0,8.0,1,Hybrid,
+vivo y91c,8199,80.0,Android v8.1 (Oreo),Dual,4g,True,False,False,Helio P22,Octa Core,2.0,2,2,4030.0,,6.22,720x1520,,Water Drop Notch,[13],1,13.0,5.0,1,Dedicated,256.0
+huawei nova 7i,21990,81.0,Android v10,Dual,4g,True,False,False,Kirin  810,Octa Core,2.2,8,8,4200.0,40.0,6.4,1080x2340,,Punch Hole,[48],1,48.0,16.0,1,Hybrid,256.0
+vivo y19,20000,73.0,Android v9.0 (Pie),Dual,4g,True,False,False,Helio  P65 ,Octa Core,2.0,4,4,5000.0,18.0,6.53,1080x2340,,Water Drop Notch,"[16, 8, 2]",3,16.0,16.0,1,Dedicated,256.0
+vivo u3,11990,74.0,Android v9.0 (Pie),Dual,4g,True,False,False,Snapdragon  675,Octa Core,2.0,6,6,5000.0,18.0,6.53,1080x2340,,Water Drop Notch,"[16, 8, 2]",3,16.0,16.0,1,Dedicated,256.0
+xiaomi redmi note 9,11989,75.0,Android v10.0,Dual,4g,True,False,True,Helio G85,Octa Core,2.0,4,4,5020.0,22.5,6.53,1080x2340,,Punch Hole,[48],1,48.0,13.0,1,Dedicated,512.0
+xiaomi redmi 8,11490,66.0,Android v9.0 (Pie),Dual,4g,True,False,True,Snapdragon 439,Octa Core,2.0,4,4,5000.0,18.0,6.22,720x1520,,Water Drop Notch,"[12, 2]",2,12.0,8.0,1,Dedicated,512.0
+motorola one macro,11490,68.0,Android v9.0 (Pie),Dual,4g,True,False,False,Helio P70,Octa Core,2.0,4,4,4000.0,10.0,6.2,720x1520,,Water Drop Notch,"[13, 2, 2]",3,13.0,8.0,1,Hybrid,512.0
+google pixel 3a xl,15999,67.0,Android v9.0 (Pie),Single,4g,True,True,False,Qualcomm Snapdragon 670,Octa Core,2.0,4,4,3700.0,18.0,6.0,1080x2160,,,[2],1,2.0,8.0,1,Dedicated,
+samsung galaxy a40,17990,69.0,Android v9.0 (Pie),Dual,4g,True,False,False,Samsung Exynos 7885,Octa Core,2.2,4,4,3100.0,15.0,5.9,1080x2340,,Water Drop Notch,"[16, 5]",2,16.0,25.0,1,Dedicated,512.0
+samsung galaxy s10 5g,78990,86.0,Android v9.0 (Pie),Single,5g,True,True,False,Exynos 9820,Octa Core,2.7,8,8,4500.0,25.0,6.7,1440x3040,,,"[16, 12, 12]",3,16.0,10.0,1,Hybrid,512.0
+huawei honor 9n,10949,66.0,Android v8.0 (Oreo),Dual,4g,True,False,False,Kirin 659,Octa Core,2.36,4,4,3000.0,,5.84,1080x2280,,Small Notch,"[13, 2]",2,13.0,16.0,1,Hybrid,256.0
+doogee v max,45999,88.0,Android v12,Dual,5g,True,False,False,Dimensity 1080,Octa Core,2.6,12,12,22000.0,33.0,6.58,1080x2408,120.0,Water Drop Notch,"[108, 20, 16]",3,108.0,32.0,1,Hybrid,2048.0
+huawei nova y61,21990,63.0,EMUI v12,Dual,4g,True,False,False,Octa Core Processor,Octa Core,,4,4,5000.0,22.5,6.52,720x1600,,Water Drop Notch,"[50, 2]",2,50.0,5.0,1,Hybrid,
+iqoo z9,19990,76.0,Android v13,Dual,5g,True,False,False,Snapdragon  7 Gen2,Octa Core,,8,8,5000.0,45.0,6.67,1080x2412,120.0,Water Drop Notch,"[64, 8, 2]",3,64.0,16.0,1,Hybrid,1024.0
+vivo v29,32990,84.0,Android v13,Dual,5g,True,False,False,Snapdragon  7 Gen1,Octa Core,2.4,8,8,5000.0,80.0,6.67,1080x2400,120.0,Punch Hole,"[64, 8, 2]",3,64.0,32.0,1,Dedicated,
+poco m5,14499,77.0,Android v12,Dual,4g,True,False,True,Helio G99,Octa Core,2.2,6,6,5000.0,18.0,6.58,1080x2400,90.0,Water Drop Notch,"[50, 2, 2]",3,50.0,8.0,1,Dedicated,512.0
+nokia x30,41990,85.0,Android v12,Dual,5g,True,True,False,Snapdragon  695,Octa Core,2.2,6,6,4200.0,33.0,6.43,1080x2400,90.0,Punch Hole,"[50, 13]",2,50.0,16.0,1,Dedicated,1024.0
+vivo y15c,10490,67.0,Android v12,Dual,4g,True,False,False,Helio P35,Octa Core,2.3,3,3,5000.0,,6.51,720x1600,,Water Drop Notch,"[13, 2]",2,13.0,8.0,1,Dedicated,1024.0
+huawei nova 10,29990,82.0,HarmonyOS,Dual,4g,False,False,False,Snapdragon 778G,Octa Core,2.4,8,8,4000.0,66.0,6.67,1080x2400,120.0,Punch Hole,"[50, 8, 2]",3,50.0,60.0,1,Dedicated,
+huawei nova y90,22990,82.0,EMUI v12,Dual,4g,True,True,False,Snapdragon  680,Octa Core,2.4,8,8,5000.0,40.0,6.7,1080x2388,90.0,Punch Hole,[50],1,50.0,8.0,1,Dedicated,
+samsung galaxy a92 5g,47990,80.0,Android v12,Dual,5g,True,False,False,Dimensity 1300,Octa Core,3.0,8,8,5000.0,,6.7,1080x2400,,Punch Hole,"[48, 12, 5]",3,48.0,16.0,1,None,
+infinix note 12 vip,19999,84.0,Android v12,Dual,4g,True,False,False,Helio  G96,Octa Core,2.05,8,8,4500.0,120.0,6.7,1080x2400,120.0,Punch Hole,"[108, 13, 2]",3,108.0,16.0,1,Dedicated,256.0
+oneplus nord 4 5g,29999,83.0,Android v12,Dual,5g,True,True,False,Snapdragon  7 Gen1,Octa Core,2.36,8,8,4500.0,80.0,6.43,1080x2412,120.0,Punch Hole,"[50, 12, 5]",3,50.0,32.0,1,Dedicated,
+realme narzo 50a prime,11879,74.0,Android v11,Dual,4g,True,False,False,Tiger T612,Octa Core,1.82,4,4,5000.0,18.0,6.6,1080x2408,,Water Drop Notch,"[50, 2, 2]",3,50.0,8.0,1,Dedicated,1024.0
+oneplus ace 5g,28990,84.0,Android v12,Dual,5g,True,True,False,Dimensity 8100 Max,Octa Core,2.85,8,8,4500.0,150.0,6.7,1080x2412,120.0,Punch Hole,"[50, 8, 2]",3,50.0,16.0,1,Dedicated,
+iqoo 9 5g,39990,85.0,Android v12,Dual,5g,True,False,False,Snapdragon  888+,Octa Core,2.9,12,12,4350.0,120.0,6.56,1080x2376,120.0,Punch Hole,"[48, 13, 13]",3,48.0,16.0,1,Dedicated,
+xiaomi redmi note 12t 5g,15999,78.0,Android v12,Dual,5g,True,False,True,Dimensity 720,Octa Core,2.0,6,6,5000.0,33.0,6.52,1080x2400,90.0,Punch Hole,"[64, 8, 2]",3,64.0,16.0,1,Dedicated,512.0
+oppo a96 5g,22990,82.0,Android v11,Dual,5g,True,False,False,Snapdragon 695 ,Octa Core,2.2,8,8,4500.0,33.0,6.43,1080x2400,,Punch Hole,"[48, 2]",2,48.0,16.0,1,Dedicated,
+royole flexpai 3 5g,149999,87.0,,Dual,5g,True,False,False,Snapdragon 888,Octa Core,2.84,8,8,3360.0,,7.2,1440x1920,,,[],0,,,1,Dedicated,256.0
+tecno camon 18,11499,75.0,Android v11,Dual,4g,True,True,False,Helio  G88,Octa Core,2.0,4,4,5000.0,18.0,6.8,1080x2460,90.0,Punch Hole,"[48, 2, 2]",3,48.0,16.0,1,Dedicated,
+tecno phantom x pro,22999,84.0,Android v11,Dual,4g,True,False,False,Helio G95,Octa Core,2.05,8,8,5000.0,44.0,6.7,1080x2400,120.0,Punch Hole,"[50, 48]",2,50.0,48.0,1,Dedicated,
+tecno spark 8t,7999,70.0,Android v11,Dual,4g,True,False,False,Helio G35,Octa Core,2.3,4,4,5000.0,,6.6,720x1600,,Water Drop Notch,"[50, 2]",2,50.0,8.0,1,Dedicated,
+realme gt neo2 5g,31999,82.0,Android v11,Dual,5g,True,True,False,Snapdragon 870,Octa Core,3.2,8,8,5000.0,65.0,6.62,2400x1080,120.0,Punch Hole,"[64, 8, 2]",3,64.0,16.0,1,Dedicated,
+sony xperia 10 iii lite 5g,30990,78.0,Android v11,Single,5g,True,True,False,Snapdragon  690 ,Octa Core,2.0,6,6,4500.0,30.0,6.0,1080x2520,,,"[12, 8, 8]",3,12.0,8.0,1,Dedicated,
+realme g1,7999,64.0,Android v11,Dual,4g,True,False,False,Helio G35,Octa Core,2.3,3,3,6000.0,,6.52,720x1600,,Water Drop Notch,"[13, 2, 2]",3,13.0,5.0,1,Dedicated,256.0
+tecno pova 2,10999,74.0,Android v11,Dual,4g,True,False,False,Helio G85,Octa Core,2.0,4,4,7000.0,18.0,6.95,1080x2460,,Punch Hole,[48],1,48.0,8.0,1,Dedicated,256.0
+poco x4,14990,79.0,Android v12,Dual,5g,True,False,False,Dimensity 700 5G,Octa Core,2.2,6,6,5000.0,67.0,6.67,1080x2400,120.0,Punch Hole,"[50, 8, 2]",3,50.0,16.0,1,Dedicated,1024.0
+motorola moto g40 fusion,14499,77.0,Android v11,Dual,4g,True,False,False,Snapdragon  732G,Octa Core,2.3,4,4,6000.0,20.0,6.78,1080x2460,120.0,Punch Hole,"[64, 8, 2]",3,64.0,16.0,1,Hybrid,256.0
+oneplus 9t,44999,86.0,Android v11,Dual,5g,True,True,False,Snapdragon 888,Octa Core,2.84,8,8,4500.0,65.0,6.55,1080x2400,120.0,Punch Hole,[108],1,108.0,16.0,1,None,
+realme 8,17999,83.0,Android v11,Dual,4g,True,False,False,Helio G95,Octa Core,2.0,8,8,5000.0,30.0,6.4,1080x2400,,Punch Hole,[64],1,64.0,16.0,1,Dedicated,256.0
+realme narzo 30 pro 5g,19999,83.0,Android v10,Dual,5g,True,False,False,Dimensity 800U,Octa Core,2.4,8,8,5000.0,30.0,6.5,1080x2400,120.0,Punch Hole,"[48, 8, 2]",3,48.0,16.0,1,Hybrid,256.0
+samsung galaxy s21 ultra 5g,101999,80.0,Android v10,Dual,5g,True,True,False,Exynos  2100,Octa Core,2.9,12,12,5000.0,25.0,6.8,1440x3200,120.0,Punch Hole,[108],1,108.0,40.0,1,Dedicated,
+oppo reno 5 pro 5g,38700,84.0,Android v11,Dual,5g,True,False,False,Dimensity 1000+,Octa Core,2.6,8,8,4350.0,65.0,6.53,1080x2400,90.0,Punch Hole,[64],1,64.0,32.0,1,Dedicated,
+oneplus nord se,19999,73.0,Android v10,Dual,4g,True,False,False,Snapdragon 665,Octa Core,2.0,4,4,4500.0,65.0,6.3,1080x2400,,Punch Hole,[48],1,48.0,13.0,1,Dedicated,256.0
+samsung galaxy m12,10999,72.0,Android v11,Dual,4g,True,False,False,Exynos  850,Octa Core,2.0,4,4,6000.0,15.0,6.5,720x1600,90.0,Water Drop Notch,[48],1,48.0,8.0,1,Dedicated,1024.0
+oneplus nord n100,16990,68.0,Android v10,Dual,4g,True,False,False,Snapdragon 460,Octa Core,1.8,4,4,5000.0,18.0,6.52,720x1600,90.0,Punch Hole,"[13, 2, 2]",3,13.0,8.0,1,Dedicated,256.0
+apple iphone 12 mini,55999,75.0,iOS v14,Dual,5g,True,True,False,Bionic A14,Hexa Core,3.1,4,4,,,5.4,1080x2340,,,"[12, 12]",2,12.0,12.0,1,None,
+apple iphone 12,67999,76.0,iOS v14,Dual,5g,True,True,False,Bionic A14,Hexa Core,3.1,4,4,,,6.1,1170x2532,,Large Notch,"[12, 12]",2,12.0,12.0,1,None,
+oppo a15,9999,66.0,Android v10.0,Dual,4g,True,False,False,Helio P35,Octa Core,2.3,3,3,4230.0,,6.52,720x1600,,Water Drop Notch,"[13, 2, 2]",3,13.0,5.0,1,Dedicated,256.0
+xiaomi redmi note 9 pro,14439,77.0,Android v10.0,Dual,4g,True,False,True,Snapdragon 720G,Octa Core,2.3,4,4,5020.0,18.0,6.67,1080x2400,,Punch Hole,[48],1,48.0,16.0,1,Dedicated,512.0
+oppo a12,9990,64.0,Android v9.0 (Pie),Dual,4g,True,False,False,Helio P35,Octa Core,1.8,3,3,4230.0,,6.22,1520x720,,Water Drop Notch,"[13, 2]",2,13.0,5.0,1,Dedicated,256.0
+realme x50 pro 5g,24999,85.0,Android v10,Dual,5g,True,True,False,Snapdragon 865,Octa Core,2.84,8,8,4200.0,65.0,6.44,1080x2400,90.0,Dual Punch Hole,"[64, 32]",2,64.0,32.0,1,None,
+samsung galaxy s20 plus 5g,85990,80.0,Android v10,Dual,5g,True,True,False,Exynos 990,Octa Core,2.73,8,8,4500.0,25.0,6.7,1440x3200,,Punch Hole,[64],1,64.0,10.0,1,Hybrid,1024.0
+xiaomi redmi k20 pro signature edition,480000,88.0,Android v9.0 (Pie),Dual,4g,True,True,False,Snapdragon  855,Octa Core,2.8,8,8,4000.0,27.0,6.39,1080x2340,,,"[48, 13, 8]",3,48.0,20.0,1,None,
+xiaomi redmi note 8 pro,16999,78.0,Android v9.0 (Pie),Dual,4g,True,False,True,Helio  G90T,Octa Core,2.05,6,6,4500.0,18.0,6.53,1080x2340,,Water Drop Notch,[64],1,64.0,20.0,1,Dedicated,512.0
+realme a1,8999,80.0,Android v8.1 (Oreo),Dual,4g,True,False,False,Helio P70,Octa Core,2.1,2,2,4000.0,,6.2,720x1520,,Water Drop Notch,"[13, 2]",2,13.0,8.0,1,Dedicated,256.0
+apple iphone 15 plus,84990,75.0,iOS v16,Dual,5g,True,True,False,Bionic A16,Hexa Core,,8,8,4532.0,,6.71,1284x2778,120.0,Small Notch,"[12, 12]",2,12.0,12.0,1,None,
+tecno camon 20 premier,20999,79.0,Android v13,Dual,5g,True,True,False,Dimensity  700 5G,Octa Core,2.2,6,6,5000.0,33.0,6.83,1080x2460,120.0,Punch Hole,"[50, 2, 2]",3,50.0,16.0,1,Dedicated,
+oppo reno 8 house of dragon edition,32990,84.0,Android v12,Dual,5g,True,True,False,Dimensity 1300,Octa Core,3.0,8,8,4500.0,80.0,6.43,1080x2400,90.0,Punch Hole,"[50, 8, 2]",3,50.0,32.0,1,Dedicated,
+motorola moto e22s,9022,70.0,Android v12,Dual,4g,True,False,False,Helio G37,Octa Core,2.3,4,4,5000.0,10.0,6.5,720x1600,90.0,Punch Hole,"[16, 2]",2,16.0,8.0,1,Dedicated,
+xiaomi redmi a1 plus,8399,61.0,Android v12,Dual,4g,True,False,False,Helio A22,Quad Core,2.0,3,3,5000.0,10.0,6.52,720x1600,,Water Drop Notch,"[8, 3]",2,8.0,5.0,1,Dedicated,512.0
+infinix hot 20i,9999,64.0,Android v12,Dual,4g,True,False,False,Helio G25,Octa Core,2.0,3,3,5000.0,,6.6,720x1612,,Water Drop Notch,[13],1,13.0,8.0,1,Dedicated,
+tecno spark 9,8390,63.0,Android v12,Dual,4g,True,False,False,Helio G37,Octa Core,2.3,3,3,5000.0,,6.6,720x1600,90.0,Water Drop Notch,[13],1,13.0,8.0,1,Dedicated,256.0
+zte axon 30s,19999,82.0,Android v12,Dual,5g,True,True,False,Snapdragon 870 ,Octa Core,3.2,6,6,4200.0,55.0,6.9,1080x2460,120.0,,[50],1,50.0,16.0,1,Hybrid,
+honor x6,13999,71.0,Android v12,Dual,4g,True,False,False,Helio G25,Octa Core,2.0,4,4,5000.0,10.0,6.5,720x1600,,Water Drop Notch,"[50, 2, 2]",3,50.0,5.0,1,Hybrid,
+xiaomi civi 2,29999,85.0,Android v12,Dual,5g,True,True,True,Snapdragon 7 Gen1,Octa Core,2.4,8,8,4500.0,67.0,6.55,1080x2400,120.0,Punch Hole,"[50, 20, 2, 32]",4,50.0,32.0,1,Dedicated,
+tcl ion x,8990,60.0,Android,Dual,4g,True,False,False,Helio G25,Octa Core,2.0,3,3,3000.0,10.0,6.0,720x1440,,,[13],1,13.0,5.0,1,Hybrid,
+samsung galaxy z fold 4,163980,80.0,,Dual,5g,True,True,False,Snapdragon  8+ Gen1,Octa Core,3.2,12,12,4400.0,25.0,7.6,1812x2176,120.0,Punch Hole,"[50, 12, 10, 10]",4,50.0,10.0,1,Dedicated,
+nothing phone 1 lite,24990,80.0,Android v12,Dual,5g,True,True,False,Snapdragon 778G Plus,Octa Core,2.5,6,6,5000.0,33.0,6.55,1080x2400,120.0,Punch Hole,"[50, 12]",2,50.0,16.0,1,Dedicated,
+motorola moto edge x30 pro,59990,80.0,Android v12,Dual,5g,True,True,False,Snapdragon 8+ Gen1,Octa Core,3.2,8,8,4450.0,125.0,6.67,1080x2340,144.0,Punch Hole,"[200, 50, 12]",3,200.0,60.0,1,Dedicated,
+oneplus ace pro,47990,86.0,Android v12,Dual,5g,True,True,False,Snapdragon 8+ Gen1,Octa Core,3.2,12,12,4800.0,150.0,6.7,1080x2412,120.0,Punch Hole,"[50, 8, 2]",3,50.0,16.0,1,Dedicated,
+realme gt 2 explorer master edition,40990,86.0,Android v12,Dual,5g,True,True,False,Snapdragon 8+ Gen1,Octa Core,3.2,8,8,5000.0,100.0,6.7,1080x2412,120.0,Punch Hole,"[50, 50]",2,50.0,16.0,1,Dedicated,
+samsung galaxy m35,22999,74.0,Android v12,Dual,4g,True,True,False,Octa Core Processor,Octa Core,,8,8,6000.0,,6.5,1080x2400,,Water Drop Notch,"[64, 8, 5]",3,64.0,32.0,1,Dedicated,1024.0
+samsung galaxy a05,12990,63.0,Android v12,Dual,4g,True,False,False,Octa Core Processor,Octa Core,,4,4,5000.0,18.0,6.5,720x1560,,Water Drop Notch,"[48, 2]",2,48.0,5.0,1,Dedicated,1024.0
+infinix note 12 turbo,14999,79.0,Android v12,Dual,4g,True,False,False,Helio G96,Octa Core,2.0,8,8,5000.0,33.0,6.7,2400x1080,,Punch Hole,"[50, 2]",2,50.0,16.0,1,Dedicated,512.0
+poco f5 gt 5g,42999,86.0,Android v12,Dual,5g,True,True,True,Dimensity 1300,Octa Core,3.0,8,8,4500.0,150.0,6.67,1080x2412,120.0,Punch Hole,"[64, 8, 2]",3,64.0,20.0,1,None,
+iqoo z8 5g,14999,78.0,Android v12,Dual,5g,True,False,False,Snapdragon  695 ,Octa Core,2.2,4,4,5000.0,18.0,6.58,1080x2412,120.0,Water Drop Notch,"[50, 2, 2]",3,50.0,16.0,1,Hybrid,1024.0
+vivo y55 4g,22990,83.0,Android v12,Dual,4g,True,False,False,Snapdragon  680,Octa Core,2.4,8,8,5000.0,44.0,6.44,1080x2400,120.0,Water Drop Notch,"[50, 2, 2]",3,50.0,16.0,1,Hybrid,1024.0
+vivo x fold 5g,118990,80.0,,Dual,5g,True,True,False,Snapdragon 8 Gen1,Octa Core,3.0,12,12,4600.0,66.0,8.03,1916x2160,120.0,,[50],1,50.0,16.0,1,Dedicated,
+oppo k10 pro 5g,29990,81.0,Android v12,Dual,5g,True,False,False,Snapdragon 888,Octa Core,2.84,8,8,5000.0,80.0,6.62,1080x2400,120.0,Punch Hole,"[50, 8, 2]",3,50.0,16.0,1,None,
+tecno spark 8c,7399,62.0,Android v11,Dual,4g,True,False,False,Unisoc  T606,Octa Core,2.0,3,3,5000.0,,6.6,720x1612,90.0,Water Drop Notch,[13],1,13.0,8.0,1,Dedicated,256.0
+iqoo z7 5g,17999,80.0,Android v12,Dual,5g,True,False,False,Snapdragon  695,Octa Core,2.2,8,8,4200.0,55.0,6.67,1080x2400,120.0,Punch Hole,"[50, 8, 2]",3,50.0,16.0,1,None,
+infinix note 11,12799,77.0,Android v11,Dual,4g,True,False,False,Helio G88,Octa Core,2.0,6,6,5000.0,33.0,6.7,1080x2400,,Water Drop Notch,"[50, 2]",2,50.0,16.0,1,Dedicated,
+xiaomi 11i hypercharge 5g,26999,86.0,Android v11,Dual,5g,True,False,True,Dimensity  920 5G,Octa Core,2.5,8,8,4500.0,120.0,6.67,2400x1080,120.0,Punch Hole,"[108, 8, 2]",3,108.0,16.0,1,Hybrid,1024.0
+samsung galaxy f42 5g,22999,82.0,Android v11,Dual,5g,True,False,False,Dimensity 700 5G,Octa Core,2.2,8,8,5000.0,15.0,6.6,1080x2408,90.0,Water Drop Notch,"[64, 5, 2]",3,64.0,8.0,1,Dedicated,1024.0
+apple iphone 13 pro,147900,84.0,iOS v15.0,Dual,5g,True,True,False,Bionic A15,Hexa Core,3.22,6,6,3095.0,,6.1,1170x2532,120.0,Large Notch,"[12, 12, 12]",3,12.0,12.0,1,None,
+nubia red magic 6s 5g,44999,84.0,Android v11,Dual,5g,True,True,False,Snapdragon 888+,Octa Core,2.9,8,8,5050.0,30.0,6.8,1080x2400,165.0,,"[64, 8, 2]",3,64.0,8.0,1,Dedicated,
+micromax in 2b,7790,68.0,Android v11,Dual,4g,True,False,False,Unisoc  T610,Octa Core,1.8,6,6,5000.0,,6.52,720x1600,,Water Drop Notch,"[13, 2]",2,13.0,5.0,1,Dedicated,256.0
+nokia x60 5g,39990,87.0,Harmony v2.0,Dual,5g,True,False,False,Snapdragon  870,Octa Core,3.2,6,6,6000.0,33.0,6.51,1080x2400,144.0,Punch Hole,[200],1,200.0,16.0,1,Dedicated,
+vivo y12a,9999,65.0,Android v11,Dual,4g,True,False,False,Snapdragon  439 ,Octa Core,2.0,3,3,5000.0,,6.51,720x1600,,Water Drop Notch,"[13, 2]",2,13.0,8.0,1,Dedicated,
+oppo reno 5a,22990,80.0,Android v11,Dual,5g,True,False,False,Snapdragon 765G,Octa Core,2.4,6,6,4000.0,18.0,6.5,1080x2400,90.0,Punch Hole,[64],1,64.0,16.0,1,Dedicated,1024.0
+poco f3 gt,32999,79.0,Android v11,Dual,5g,True,False,True,Dimensity 1200,Octa Core,3.0,6,6,5065.0,67.0,6.67,1080x2400,120.0,Punch Hole,"[64, 8, 2]",3,64.0,16.0,1,Dedicated,
+honor 50,32990,85.0,Android v11,Dual,5g,True,True,False,Snapdragon 778G,Octa Core,2.4,6,6,4300.0,66.0,6.57,1080x2340,120.0,Punch Hole,[108],1,108.0,32.0,1,None,
+oppo a54,14999,74.0,Android v10,Dual,4g,True,False,False,Helio P35,Octa Core,2.3,6,6,5000.0,,6.51,1600x720,,Punch Hole,"[13, 2, 2]",3,13.0,16.0,1,Dedicated,256.0
+realme 8i,12499,74.0,Android v11,Dual,4g,True,False,False,Helio G96,Octa Core,2.05,4,4,5000.0,18.0,6.6,1080x2412,120.0,Punch Hole,"[50, 2, 2]",3,50.0,16.0,1,Dedicated,256.0
+iqoo 7 legend,39990,84.0,Android v11,Dual,5g,True,True,False,Snapdragon  888 ,Octa Core,2.84,8,8,4000.0,66.0,6.62,1080x2400,120.0,Punch Hole,"[48, 13, 13]",3,48.0,16.0,1,Dedicated,
+realme c11 2021,6499,61.0,Android v11,Dual,4g,True,False,False,SC9863A,Octa Core,1.6,2,2,5000.0,,6.52,720x1600,,Water Drop Notch,[8],1,8.0,5.0,1,Dedicated,
+samsung galaxy a22,18499,76.0,Android v11,Dual,4g,True,False,False,Helio G80,Octa Core,2.0,6,6,5000.0,15.0,6.4,720x1600,,Water Drop Notch,[48],1,48.0,13.0,1,Dedicated,1024.0
+realme gt 5g,30994,85.0,Android v11,Dual,5g,True,True,False,Snapdragon  888 ,Octa Core,2.84,8,8,4500.0,65.0,6.43,1080x2400,120.0,Punch Hole,"[64, 8, 2]",3,64.0,16.0,1,Dedicated,
+google pixel 5a,32999,78.0,Android v11,Single,5g,True,True,False,Snapdragon 765G,Octa Core,2.4,6,6,4620.0,18.0,6.34,1080x2400,,Punch Hole,"[16, 2]",2,16.0,8.0,1,Dedicated,
+samsung galaxy f12,10499,73.0,Android v11,Dual,4g,True,False,False,Exynos 850,Octa Core,2.0,4,4,6000.0,15.0,6.5,720x1600,90.0,Water Drop Notch,[48],1,48.0,8.0,1,Dedicated,512.0
+samsung galaxy f41,19999,82.0,Android v10.0,Dual,4g,True,False,False,Exynos 9611,Octa Core,2.3,6,6,6000.0,15.0,6.4,1080x2340,,Water Drop Notch,"[64, 8, 5]",3,64.0,32.0,1,Dedicated,512.0
+samsung galaxy a21s,17499,75.0,Android v10,Dual,4g,True,False,False,Exynos 850,Octa Core,2.0,6,6,5000.0,,6.5,720x1600,,Punch Hole,[48],1,48.0,13.0,1,Dedicated,512.0
+xiaomi redmi 9a,10990,69.0,Android v10,Dual,4g,True,False,False,Helio G25,Octa Core,2.0,6,6,5000.0,,6.53,720x1600,,Water Drop Notch,[13],1,13.0,5.0,1,Dedicated,512.0
+vivo v20 se,19000,82.0,Android v10.0,Dual,4g,True,False,False,Snapdragon  665,Octa Core,2.0,8,8,4100.0,33.0,6.44,1080x2400,,Water Drop Notch,"[48, 8, 2]",3,48.0,32.0,1,Dedicated,
+oppo a53 2020,13990,70.0,Android v10,Dual,4g,True,False,False,Snapdragon 460,Octa Core,1.8,6,6,5000.0,18.0,6.5,1600x720,90.0,Punch Hole,"[13, 2, 2]",3,13.0,16.0,1,Dedicated,256.0
+realme narzo 20,10499,72.0,Android v10,Dual,4g,True,False,False,Helio G85 ,Octa Core,2.0,4,4,6000.0,18.0,6.5,720x1600,,Water Drop Notch,"[48, 8, 2]",3,48.0,8.0,1,Dedicated,256.0
+itel vision 1,5890,80.0,Android v9 (Pie),Dual,4g,True,False,False,Unisoc  A55,Octa Core,1.6,3,3,4000.0,,6.09,1520x720,,Water Drop Notch,"[8, 3]",2,8.0,5.0,1,Dedicated,128.0
+realme c11,6490,61.0,Android v10,Dual,4g,True,False,False,Helio G35,Octa Core,2.3,2,2,5000.0,,6.5,720x1600,,Water Drop Notch,"[13, 2]",2,13.0,5.0,1,Dedicated,256.0
+xiaomi mi 10 5g,54999,88.0,Android v10.0,Dual,5g,True,True,True,Snapdragon  865 ,Octa Core,2.84,8,8,4780.0,30.0,6.67,1080x2340,90.0,Punch Hole,[108],1,108.0,20.0,1,None,
+vivo y21,9990,65.0,Android v10,Dual,4g,True,False,False,Snapdragon 450,Octa Core,1.8,4,4,5000.0,,6.5,720x1544,,Water Drop Notch,"[13, 2]",2,13.0,13.0,1,Dedicated,256.0
+oneplus z,24999,79.0,Android v10,Dual,4g,True,False,False,Snapdragon 765G,Octa Core,2.4,8,8,4300.0,30.0,6.55,1080x2400,90.0,Punch Hole,"[64, 16, 2]",3,64.0,16.0,1,None,
+sharp aquos r5g,59990,88.0,Android v10,Dual,4g,True,True,False,Snapdragon 865,Octa Core,2.84,12,12,3730.0,,6.5,1440x3168,,Water Drop Notch,"[48, 2, 2]",3,48.0,16.0,1,Hybrid,1024.0
+huawei mate 30 rs porsche design,214990,80.0,Android v10,Dual,5g,True,True,True,Kirin  990,Octa Core,2.86,12,12,4500.0,,6.53,1176x2400,,Large Notch,[40],1,40.0,32.0,1,Hybrid,256.0
+samsung galaxy a11,9990,63.0,Android v10,Dual,4g,True,False,False,Octa Core,Octa Core,1.8,2,2,4000.0,15.0,6.4,720x1560,,Punch Hole,"[13, 5, 2]",3,13.0,8.0,1,Dedicated,512.0
+realme c2,6999,80.0,Android v9.0 (Pie),Dual,4g,True,False,False,Helio P22,Octa Core,2.0,2,2,4000.0,,6.1,1560x720,,Water Drop Notch,"[13, 2]",2,13.0,5.0,1,Dedicated,256.0
+huawei mate x,169000,80.0,,Dual,5g,True,True,True,Kirin  990,Octa Core,2.86,8,8,4500.0,55.0,8.0,2200x2480,,,[],0,,,1,Hybrid,256.0
+samsung galaxy a9 pro,39990,78.0,Android v9.0 (Pie),Dual,4g,True,True,False,Snapdragon 710,Octa Core,2.2,6,6,3400.0,,6.4,1080x2340,,Punch Hole,"[24, 10, 5]",3,24.0,24.0,1,Dedicated,512.0
+samsung galaxy a7,21490,70.0,Android v8.0 (Oreo),Dual,4g,True,False,False,Exynos 7885,Octa Core,2.2,4,4,3300.0,,6.0,2220x1080,,,"[24, 8, 5]",3,24.0,24.0,1,Dedicated,512.0
+vivo y55s,13490,80.0,Android v6.0 (Marshmallow),Dual,4g,True,False,False,Snapdragon 425,Quad Core,1.2,3,3,2730.0,,5.2,720x1280,,,[13],1,13.0,5.0,1,Dedicated,
+poco c55,7999,70.0,Android v12,Dual,4g,True,False,False,Helio  G85,Octa Core,2.0,4,4,5000.0,,6.71,720x1650,,Water Drop Notch,[50],1,50.0,5.0,1,Dedicated,512.0
+blackview bv5200 pro,8990,67.0,Android v12,Dual,5g,True,True,False,Helio G35,Octa Core,2.3,4,4,5180.0,10.0,6.1,720x1560,,Punch Hole,[13],1,13.0,8.0,1,Dedicated,
+honor x7a,13999,75.0,Android v12,Dual,4g,True,False,False,Helio G37,Octa Core,2.3,6,6,5000.0,22.5,6.75,720x1600,90.0,Water Drop Notch,[50],1,50.0,8.0,1,Dedicated,
+oppo a58x,13990,72.0,Android v12,Dual,5g,True,False,False,Dimensity 700 5G,Octa Core,2.2,6,6,5000.0,10.0,6.56,720x1612,90.0,Water Drop Notch,"[13, 2]",2,13.0,8.0,1,Dedicated,1024.0
+doogee s99,14999,84.0,Android v12,Dual,4g,True,True,False,Helio G96,Octa Core,2.05,8,8,6000.0,33.0,6.3,1080x2340,,Water Drop Notch,"[108, 64, 16]",3,108.0,32.0,1,Dedicated,1024.0
+lava x3,6999,80.0,Android v12,Dual,4g,True,False,False,Helio A22,Quad Core,2.0,3,3,4000.0,,6.5,1600x720,,Water Drop Notch,[8],1,8.0,5.0,1,Hybrid,512.0
+ikall z18,6799,61.0,Android v10.0,Dual,4g,True,False,False,Quad Core,Quad Core,1.3,4,4,5000.0,,6.82,720x1560,,Punch Hole,[20],1,20.0,13.0,1,Hybrid,64.0
+oukitel wp9,25899,72.0,Android v10,Dual,4g,False,True,False,Helio P60,Octa Core,2.0,6,6,8000.0,,5.86,720x1520,,Large Notch,"[16, 13, 13]",3,16.0,8.0,1,Dedicated,
+xiaomi 14,54999,89.0,Android v13,Dual,5g,True,True,True,Snapdragon 8 Gen2,Octa Core,3.2,12,12,5000.0,67.0,6.43,1440x3200,120.0,Punch Hole,"[50, 50, 50]",3,50.0,32.0,1,Dedicated,
+motorola thinkphone,49990,89.0,Android v13,Dual,5g,True,True,False,Snapdragon 8+ Gen1,Octa Core,3.2,8,8,5000.0,68.0,6.6,1080x2400,144.0,,"[50, 13, 2, 32]",4,50.0,32.0,1,Dedicated,
+xiaomi civi 3,32990,86.0,Android v13,Dual,5g,True,True,True,Dimensity 8200,Octa Core,3.1,8,8,5000.0,80.0,6.7,1080x2400,120.0,Punch Hole,"[64, 20, 2, 32]",4,64.0,32.0,1,Dedicated,
+realme narzo 50i prime,8720,64.0,Android v11,Dual,4g,True,False,False,Tiger T612,Octa Core,1.82,4,4,5000.0,10.0,6.5,720x1600,,Water Drop Notch,[8],1,8.0,5.0,1,Dedicated,1024.0
+oppo find x6,69990,89.0,Android v12,Dual,5g,True,True,False,Snapdragon 8 Gen2,Octa Core,3.2,8,8,4700.0,120.0,6.73,1080x2400,120.0,Punch Hole,"[50, 48, 32]",3,50.0,32.0,1,Dedicated,
+itel a23s,4787,80.0,Android v11,Dual,4g,False,False,False,Spreadtrum  SC9832E,Quad Core,1.4,2,2,3020.0,,5.0,854x480,,,[],0,,,1,Dedicated,
+google pixel 8 pro,70990,80.0,Android v13,Dual,5g,True,True,False,Google  Tensor 3,Octa Core,,12,12,5000.0,67.0,6.73,1440x3120,120.0,Punch Hole,"[50, 50, 50]",3,50.0,12.0,1,Dedicated,
+vivo x fold 2,119990,80.0,,Dual,5g,True,True,False,Snapdragon 8 Gen2,Octa Core,3.2,12,12,4800.0,66.0,8.03,1916x2160,120.0,,"[50, 50, 10]",3,50.0,32.0,1,Dedicated,
+motorola moto edge s30 pro,34990,83.0,Android v12,Dual,5g,True,False,False,Snapdragon 8 Gen1,Octa Core,3.0,8,8,5000.0,68.2,6.67,1080x2460,120.0,Punch Hole,"[64, 8, 2]",3,64.0,16.0,1,Dedicated,
+honor x8 5g,14990,75.0,Android v11,Dual,5g,True,False,False,Snapdragon  480+,Octa Core,2.2,6,6,5000.0,22.5,6.5,720x1600,,Water Drop Notch,"[48, 2]",2,48.0,8.0,1,Dedicated,1024.0
+poco x4 gt 5g,28990,85.0,Android v12,Dual,5g,True,True,True,Dimensity 8100,Octa Core,2.85,8,8,5080.0,67.0,6.6,1080x2460,144.0,Punch Hole,"[64, 8, 2]",3,64.0,16.0,1,None,
+motorola moto g91 5g,19990,80.0,Android v12,Dual,5g,True,True,False,Snapdragon 695,Octa Core,2.2,6,6,5000.0,,6.8,1080x2400,,Punch Hole,"[108, 8, 2]",3,108.0,32.0,1,Dedicated,1024.0
+samsung galaxy m52s 5g,24990,74.0,Android v12,Dual,5g,True,False,False,Octa Core Processor,Octa Core,,8,8,5000.0,,6.5,1080x2400,,Water Drop Notch,"[64, 8, 5]",3,64.0,32.0,1,Dedicated,1024.0
