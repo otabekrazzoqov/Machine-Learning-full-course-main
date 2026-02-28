@@ -1,0 +1,157 @@
+There are 5 types of encoding.
+
+1. One-hot encoding 
+2. Label encoding 
+3. Frequence encoding 
+4. Target encoding 
+5. Ordinal encoding 
+
+
+
+1. One-hot encoding is a way of encoding in which categorical data is turned into numerical data.
+One-hot encoding is used when the class of a column is lower. For example, it can be up to 10. Otherwise dataset can be big.
+
+we can find classes of columns with df.unique() 
+
+
+
+
+
+2. Label encoding is a way to convert categorical values into numbers by assigning each category a unique integer.
+When categories have natural order (ordinal data) we can use Label encoding.
+
+| Size   |     
+| ------ |
+| Small  |
+| Medium |
+| Large  |
+
+suppose we have above column that needs to be encoded with Label encoding:
+
+Small  → 0  
+Medium → 1  
+Large  → 2
+
+
+3. Frequency encoding is a way of converting categorical values into numerical values by replacing each category 
+with how often it appears in the dataset. 
+How it is done:
+
+freq = df["City"].value_counts()
+df["City_encoded"] = df["City"].map(freq)
+
+| City     |
+| -------- |
+| Seoul    |
+| Busan    |
+| Seoul    |
+| Tashkent |
+| Seoul    |
+| Busan    |
+
+
+suppose we have above column that needs to be encoded with Frequency encoding.
+
+Seoul     → 3  Seoul appears 3 times in the column 
+Busan     → 2  Busan appears 2 times in the column
+Tashkent  → 1  Tashkent appears only 1 time in the column
+
+| City_Freq |   
+| --------- |
+| 3         |
+| 2         |
+| 3         |
+| 1         |
+| 3         |
+| 2         |
+
+Keeps only one column (unlike one-hot)
+Good for high-cardinality features (many unique values)
+Simple and fast
+
+
+4. Target encoding replaces each category with the average value of the target variable for that category.
+Each category gets replaced by how it performs on the target.
+
+suppose we are predicting Fraud.
+
+| City     | Fraud |
+| -------- | ----- |
+| Seoul    | 1     |
+| Busan    | 0     |
+| Seoul    | 0     |
+| Tashkent | 1     |
+| Seoul    | 1     |
+| Busan    | 0     |
+
+compute average Fraud per city 
+
+Seoul     → (1 + 0 + 1) / 3 = 0.67
+Busan     → (0 + 0) / 2 = 0
+Tashkent  → (1) / 1 = 1
+
+now we have encoded the column City with Target encoding.
+
+| City_encoded |
+| ------------ |
+| 0.67         |
+| 0            |
+| 0.67         |
+| 1            |
+| 0.67         |
+| 0            |
+
+Keeps only one column
+Captures real relationship with target
+Very useful for high-cardinality features
+
+
+target_means = df.groupby("City")["Fraud"].mean()
+df["City_encoded"] = df["City"].map(target_means)
+print(df)
+
+
+5. Ordinal encoding replaces categorical values into numbers based on their natural order. 
+It is used when the categories have meaningful ranking. Suppose we have a column below.
+
+
+
+| Education   |
+| ----------- |
+| High School |
+| Bachelor    |
+| Master      |
+| PhD         |
+
+High School < Bachelor < Master < PhD
+
+High School → 0
+Bachelor    → 1
+Master      → 2
+PhD         → 3
+
+✔ Keeps only one column
+✔ Preserves order
+✔ Works well for ordinal features
+
+
+
+from sklearn.preprocessing import OrdinalEncoder
+import pandas as pd
+
+df = pd.DataFrame({
+    "Education": ["High School", "Bachelor", "Master", "PhD"]
+})
+
+encoder = OrdinalEncoder(categories=[[
+    "High School", "Bachelor", "Master", "PhD"
+]])
+
+df["Education_encoded"] = encoder.fit_transform(df[["Education"]])
+print(df)
+
+
+
+
+A for loop is used to repeat an action for each item in a sequence.
+In simple words: For every item in something, do this.
