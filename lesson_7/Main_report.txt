@@ -162,7 +162,9 @@ In simple words: For every item in something, do this.
 
 
 df=pd.get_dummies(df,columns=['Bathrooms'],prefix='bath_num',dtype=int)   # one-hot encoding
+
 df['Status'] = encoder.fit_transform(df['Status'])                        # Label encoding
+
 df['Bedroom_freq']=df['Bedrooms'].map(df['Bedrooms'].value_counts())      # Frequency encoding
 
 target_encoding = df.groupby('City')['Days on Market'].mean()
