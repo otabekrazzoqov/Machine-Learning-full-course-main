@@ -1,0 +1,21 @@
+Lesson 9
+
+Model building stages:
+- data collection
+- data preprocessing
+- model (algorithm) selection 
+- model training
+- evaluation 
+- testing
+- deployment
+
+
+| Model               | Use Case                    |
+| ------------------- | --------------------------- |
+| Linear Regression   | Predict numbers             |
+| Logistic Regression | Classification              |
+| Decision Tree       | Rule-based prediction       |
+| Random Forest       | Powerful tree ensemble      |
+| KNN                 | Similarity-based prediction |
+| SVM                 | Strong classifier           |
+| Gradient Boosting   | Very powerful ensemble      |
