@@ -1,0 +1,18 @@
+Report for lesson 10 
+
+Linear Regression works for Regression tasks.
+
+there are 2 types of linear Regression 
+- Simple Linear Regression
+- Multiple Linear Regression
+
+We can check classification tasks with 
+- accuracy score
+- classification report 
+
+We can check Regression tasks with
+- Mean absolute error (MAE)
+- Mean Squared Error (MSE)
+- Root MSE (RMSE)
+- R^2 Score (Coefficient of determination)
+
