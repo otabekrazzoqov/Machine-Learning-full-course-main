@@ -1,0 +1,18 @@
+Model evaluation is different for classification and regression tasks:
+
+For classification:
+- accuracy 
+- precision
+- Recall 
+- F1-score
+- Support
+
+all metrics can be implemented with classification report function.
+
+
+For regression:
+- mean absolute error (MAE)
+- mean squared error (MSE)
+- root mean squared error (RMSE)
+- R^2 score (coefficient of determination)
+
