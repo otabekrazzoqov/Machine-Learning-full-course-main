@@ -1,0 +1,301 @@
+Name,YearsExperience,Skills,Education,JobRole
+Fatima Noor,1,"Leadership, Deep Learning, Communication, Project Management, SQL",Masters,Project Manager
+Hassan Raza,4,"Project Management, Java, Leadership, Python",Bachelors,Data Analyst
+Sara Ahmed,10,"Deep Learning, Data Analysis, Project Management, SQL, Leadership, Machine Learning",Bachelors,Data Analyst
+Sara Ahmed,6,"Excel, Python, Project Management, Leadership, Deep Learning, SQL",PhD,Project Manager
+Hassan Raza,10,"Data Analysis, Project Management, Deep Learning, Java, Communication",PhD,Data Scientist
+David Lee,2,"Java, SQL, Leadership",PhD,Data Scientist
+Hassan Raza,4,"Deep Learning, Excel, Java",Bachelors,Data Analyst
+Ali Khan,4,"Communication, Excel, Java, SQL, Machine Learning, Leadership",Bachelors,ML Engineer
+Fatima Noor,6,"Python, Data Analysis, Machine Learning, Leadership, Java, Project Management",Masters,Project Manager
+David Lee,1,"Communication, Python, Java, Project Management, Machine Learning, Leadership",Bachelors,ML Engineer
+Emily Davis,4,"Deep Learning, Project Management, Machine Learning, Java",Masters,Data Analyst
+David Lee,1,"Project Management, Data Analysis, Deep Learning, Machine Learning, Leadership, Python",PhD,ML Engineer
+Ayesha Malik,2,"Python, Deep Learning, Machine Learning, Java, Excel",PhD,Data Scientist
+Hassan Raza,5,"Machine Learning, Data Analysis, Leadership, Python",Masters,Project Manager
+Ali Khan,8,"Deep Learning, SQL, Python, Leadership, Communication, Java",Bachelors,Data Analyst
+Ayesha Malik,7,"Python, Leadership, Deep Learning",PhD,Data Scientist
+Fatima Noor,10,"Project Management, Machine Learning, SQL, Excel, Data Analysis, Communication",PhD,Data Analyst
+Sara Ahmed,6,"SQL, Python, Excel, Leadership, Communication",Masters,Data Scientist
+John Smith,3,"Deep Learning, Communication, Project Management, Machine Learning, Python, Leadership",PhD,Data Analyst
+Hassan Raza,8,"Data Analysis, Leadership, Python, Java",PhD,Software Engineer
+Ayesha Malik,9,"Project Management, Java, Deep Learning",PhD,Data Analyst
+Ayesha Malik,10,"Excel, Deep Learning, Python",Masters,Data Scientist
+Emily Davis,8,"Deep Learning, Communication, Excel, Java, Data Analysis",Masters,Software Engineer
+Ali Khan,7,"Deep Learning, Project Management, Python, Data Analysis",Bachelors,Data Analyst
+Emily Davis,9,"SQL, Project Management, Machine Learning",Masters,Data Analyst
+David Lee,4,"Java, Leadership, SQL, Machine Learning, Excel",PhD,Software Engineer
+Ali Khan,8,"Excel, Machine Learning, Python, Communication",Masters,Software Engineer
+Emily Davis,6,"Python, Deep Learning, Machine Learning",Masters,Project Manager
+Emily Davis,7,"Deep Learning, SQL, Java, Excel, Python, Data Analysis",Masters,Data Scientist
+Emily Davis,5,"SQL, Data Analysis, Excel, Java, Leadership",Masters,Data Analyst
+Ali Khan,5,"Machine Learning, Deep Learning, SQL, Communication, Leadership",Masters,Data Scientist
+David Lee,8,"Leadership, Data Analysis, Machine Learning, Excel, Python",Masters,Data Scientist
+David Lee,3,"Communication, Data Analysis, Leadership, Excel",Masters,Project Manager
+John Smith,4,"Communication, Machine Learning, Leadership, Java, SQL",PhD,Project Manager
+John Smith,7,"Project Management, Communication, SQL, Data Analysis, Deep Learning",PhD,Data Analyst
+Ali Khan,9,"Project Management, Communication, Deep Learning",Masters,Project Manager
+Fatima Noor,10,"SQL, Java, Communication, Deep Learning",Masters,Data Analyst
+Ali Khan,7,"Python, Java, Communication",PhD,Data Analyst
+David Lee,7,"Excel, Python, SQL, Machine Learning",Masters,Software Engineer
+Sara Ahmed,3,"Excel, Data Analysis, Communication, SQL, Machine Learning, Python",Bachelors,Software Engineer
+Hassan Raza,2,"Deep Learning, SQL, Data Analysis, Excel",PhD,ML Engineer
+John Smith,1,"Communication, Data Analysis, Python, Machine Learning",PhD,Project Manager
+Ayesha Malik,5,"Python, Project Management, Machine Learning, Leadership, Communication",Masters,Project Manager
+Fatima Noor,2,"Project Management, Excel, Deep Learning, Machine Learning, Communication, SQL",PhD,Project Manager
+Ali Khan,2,"Machine Learning, Communication, SQL, Leadership, Java, Excel",Masters,Data Analyst
+Emily Davis,1,"Data Analysis, Excel, Leadership, Project Management, Python, SQL",Masters,Software Engineer
+Fatima Noor,9,"Communication, Leadership, Excel",Bachelors,Data Scientist
+Ayesha Malik,8,"Project Management, Machine Learning, Python, Leadership",Bachelors,Software Engineer
+Sara Ahmed,8,"Python, Leadership, Deep Learning, Excel, Java",PhD,ML Engineer
+Ayesha Malik,10,"Communication, Data Analysis, Java, Python, Deep Learning",PhD,Project Manager
+John Smith,9,"SQL, Project Management, Communication, Deep Learning, Leadership",PhD,Project Manager
+Ayesha Malik,8,"Excel, Machine Learning, SQL, Deep Learning",Bachelors,Project Manager
+Emily Davis,10,"SQL, Deep Learning, Java, Machine Learning, Excel",Masters,Software Engineer
+Ayesha Malik,9,"Communication, Excel, Python, Leadership",Bachelors,Software Engineer
+Hassan Raza,8,"Data Analysis, Deep Learning, Project Management, Excel",PhD,Software Engineer
+Ayesha Malik,1,"Machine Learning, Data Analysis, SQL, Deep Learning, Leadership, Project Management",Bachelors,Data Scientist
+Hassan Raza,10,"Java, Python, Excel, Leadership",PhD,Data Analyst
+John Smith,8,"Machine Learning, SQL, Java, Project Management, Excel, Communication",Masters,ML Engineer
+David Lee,5,"Communication, Python, SQL",PhD,Data Analyst
+Emily Davis,5,"Python, Project Management, Leadership, SQL",Masters,Data Scientist
+Emily Davis,6,"Project Management, Machine Learning, Deep Learning, Communication, Excel",Masters,Project Manager
+Emily Davis,7,"Communication, SQL, Excel",Masters,Project Manager
+Sara Ahmed,8,"Communication, Python, Data Analysis, Leadership",PhD,ML Engineer
+John Smith,8,"Communication, Project Management, SQL, Excel, Deep Learning",Masters,Data Scientist
+Fatima Noor,1,"Machine Learning, SQL, Leadership",Masters,ML Engineer
+Emily Davis,7,"Data Analysis, Project Management, Machine Learning",Bachelors,ML Engineer
+Ayesha Malik,5,"Data Analysis, Project Management, Communication, Excel, Leadership",Masters,Software Engineer
+Emily Davis,2,"Leadership, Deep Learning, Excel",Bachelors,Data Analyst
+Ali Khan,8,"Excel, Python, Communication",Masters,Data Scientist
+Emily Davis,10,"Machine Learning, Communication, Leadership, Python, Java, Data Analysis",Masters,ML Engineer
+Ayesha Malik,6,"Python, Data Analysis, Leadership",PhD,ML Engineer
+David Lee,4,"Deep Learning, Machine Learning, Data Analysis",Bachelors,Project Manager
+Fatima Noor,3,"Python, Java, Machine Learning, Deep Learning",Masters,Data Scientist
+Ayesha Malik,5,"Machine Learning, Leadership, Communication, Data Analysis, Python, Project Management",PhD,ML Engineer
+John Smith,6,"Leadership, Java, Data Analysis, SQL, Excel, Communication",Masters,Data Analyst
+David Lee,3,"Excel, Communication, Leadership, Python",Masters,Project Manager
+Sara Ahmed,8,"Leadership, SQL, Communication",Masters,Data Scientist
+David Lee,10,"Deep Learning, Machine Learning, Python, Java",PhD,Project Manager
+Sara Ahmed,5,"Deep Learning, Communication, Python, Excel",Bachelors,Data Scientist
+Emily Davis,7,"Leadership, Project Management, Python, Data Analysis, Excel, SQL",Masters,Project Manager
+Hassan Raza,5,"SQL, Project Management, Communication, Deep Learning, Leadership",Masters,Software Engineer
+Ayesha Malik,9,"Communication, Machine Learning, Python, Data Analysis, Project Management",PhD,Data Analyst
+John Smith,8,"Machine Learning, Leadership, Project Management",Masters,Project Manager
+David Lee,4,"Project Management, Leadership, Deep Learning, Python",Bachelors,Data Analyst
+Fatima Noor,6,"Leadership, Python, Java, Data Analysis",Masters,Software Engineer
+John Smith,5,"Machine Learning, Java, Python, Excel",Masters,Data Scientist
+David Lee,7,"Project Management, SQL, Data Analysis",Masters,Data Scientist
+John Smith,10,"Java, Python, Excel, Data Analysis",PhD,Software Engineer
+David Lee,1,"Machine Learning, SQL, Deep Learning, Project Management, Data Analysis",Masters,Data Scientist
+Emily Davis,3,"Java, SQL, Project Management, Machine Learning",Bachelors,ML Engineer
+Sara Ahmed,3,"Deep Learning, Communication, Machine Learning, Data Analysis, Java",PhD,Project Manager
+Ali Khan,5,"Java, SQL, Excel, Data Analysis",Bachelors,Data Scientist
+Ali Khan,2,"Deep Learning, Java, SQL, Machine Learning, Python",Masters,Data Scientist
+John Smith,3,"Python, Project Management, Communication",Bachelors,Project Manager
+David Lee,8,"Python, Data Analysis, Project Management, Leadership, Machine Learning, Excel",PhD,Software Engineer
+Hassan Raza,6,"Python, Deep Learning, Data Analysis",PhD,Data Scientist
+David Lee,5,"Leadership, Machine Learning, Deep Learning, Project Management, Communication",Bachelors,Data Analyst
+John Smith,6,"Python, Data Analysis, Communication, Deep Learning, Machine Learning",Masters,Project Manager
+Ayesha Malik,8,"Python, SQL, Java, Project Management",Masters,Software Engineer
+Emily Davis,8,"SQL, Data Analysis, Java, Python, Project Management, Machine Learning",PhD,ML Engineer
+Ali Khan,3,"Data Analysis, Deep Learning, SQL, Project Management",PhD,Project Manager
+Ayesha Malik,8,"Machine Learning, Deep Learning, Data Analysis, Project Management",PhD,Project Manager
+Emily Davis,8,"Leadership, Deep Learning, SQL, Excel",Bachelors,ML Engineer
+Emily Davis,4,"SQL, Communication, Java, Project Management, Deep Learning",Bachelors,Data Scientist
+Emily Davis,5,"Deep Learning, Data Analysis, Java",PhD,Project Manager
+John Smith,5,"Communication, Leadership, SQL, Deep Learning",Bachelors,Data Scientist
+Ayesha Malik,4,"Project Management, Leadership, Machine Learning, Java, Deep Learning, Communication",Bachelors,Software Engineer
+David Lee,1,"Leadership, Excel, Communication, Machine Learning, Project Management, SQL",PhD,ML Engineer
+Hassan Raza,3,"Excel, SQL, Leadership",Masters,ML Engineer
+Ayesha Malik,7,"Communication, Deep Learning, Project Management, Python",PhD,Data Analyst
+John Smith,3,"Data Analysis, Python, Leadership, Excel, SQL",Masters,ML Engineer
+Fatima Noor,6,"Deep Learning, Excel, Project Management, Data Analysis, Leadership",Bachelors,Data Scientist
+Hassan Raza,1,"Python, Excel, Machine Learning, Deep Learning, Leadership, Data Analysis",Masters,Data Scientist
+John Smith,2,"Java, Data Analysis, Leadership, Python, Excel",Bachelors,ML Engineer
+Ali Khan,4,"Data Analysis, SQL, Excel, Project Management",Bachelors,Data Scientist
+Emily Davis,5,"Java, SQL, Project Management, Machine Learning, Leadership, Communication",PhD,Data Scientist
+Ali Khan,6,"Deep Learning, Leadership, Python",Bachelors,Data Analyst
+Emily Davis,8,"Excel, Communication, Machine Learning, Project Management, Leadership",Bachelors,Software Engineer
+Ali Khan,7,"Machine Learning, Data Analysis, Excel, Java, Project Management",Bachelors,Software Engineer
+David Lee,7,"Project Management, Leadership, Data Analysis",Bachelors,Project Manager
+David Lee,6,"Deep Learning, Excel, Machine Learning, Project Management, SQL",Masters,Project Manager
+Fatima Noor,7,"Excel, Java, Project Management, SQL, Python, Leadership",PhD,Data Analyst
+Ayesha Malik,1,"SQL, Machine Learning, Leadership, Data Analysis, Communication, Java",PhD,Software Engineer
+Ayesha Malik,5,"Leadership, Machine Learning, Deep Learning, Java",Bachelors,Project Manager
+Ali Khan,3,"Java, Data Analysis, SQL, Deep Learning",Masters,ML Engineer
+Sara Ahmed,3,"Leadership, Project Management, Deep Learning, Python, Communication",Bachelors,Data Analyst
+David Lee,9,"Communication, Excel, SQL, Python, Deep Learning, Java",PhD,ML Engineer
+John Smith,9,"Python, Excel, Communication",Bachelors,Data Scientist
+Emily Davis,2,"Excel, Project Management, SQL, Deep Learning",PhD,ML Engineer
+Ayesha Malik,10,"Leadership, Communication, Java",Bachelors,Project Manager
+Emily Davis,9,"Java, Deep Learning, Machine Learning, Communication, Excel",Masters,Data Scientist
+Ali Khan,2,"Excel, Communication, Machine Learning, Python, SQL, Data Analysis",PhD,ML Engineer
+Fatima Noor,9,"Data Analysis, Communication, SQL",Masters,Software Engineer
+Hassan Raza,5,"SQL, Java, Leadership",Bachelors,Data Analyst
+Ali Khan,7,"Project Management, Machine Learning, Java, Data Analysis",PhD,Project Manager
+Emily Davis,3,"SQL, Excel, Communication",Masters,Data Analyst
+Emily Davis,8,"Data Analysis, Python, Project Management, SQL, Leadership",Bachelors,Data Scientist
+John Smith,10,"Java, Python, Project Management, Excel",Bachelors,ML Engineer
+Sara Ahmed,6,"Communication, Java, Excel, SQL, Leadership, Python",Masters,ML Engineer
+Hassan Raza,1,"Project Management, SQL, Java",PhD,Data Scientist
+John Smith,10,"Leadership, Machine Learning, Deep Learning, Project Management, Communication",PhD,ML Engineer
+Hassan Raza,3,"Java, Data Analysis, Project Management, Communication, Excel, SQL",Bachelors,Data Scientist
+John Smith,10,"Leadership, Communication, Deep Learning, SQL",Masters,Project Manager
+Ali Khan,4,"SQL, Python, Deep Learning",Masters,Software Engineer
+John Smith,7,"Communication, SQL, Leadership, Java, Deep Learning, Machine Learning",Masters,Data Scientist
+Fatima Noor,3,"Project Management, Machine Learning, Python, Leadership",Masters,Software Engineer
+John Smith,2,"Project Management, Communication, Data Analysis, Excel, Machine Learning",Bachelors,Data Analyst
+David Lee,9,"Excel, Java, SQL",Bachelors,Software Engineer
+Ali Khan,1,"Leadership, Excel, Deep Learning, Communication, Java, Machine Learning",PhD,Data Analyst
+Ayesha Malik,4,"Deep Learning, Excel, SQL, Data Analysis",PhD,ML Engineer
+Sara Ahmed,7,"Python, Data Analysis, Java",Bachelors,Data Scientist
+Ali Khan,8,"Leadership, Project Management, Deep Learning, Excel, Machine Learning, Data Analysis",Masters,Software Engineer
+David Lee,1,"Python, Java, Excel, Machine Learning, Deep Learning",Masters,ML Engineer
+Fatima Noor,5,"SQL, Data Analysis, Deep Learning, Java, Leadership",PhD,Software Engineer
+David Lee,2,"Machine Learning, SQL, Communication, Project Management, Excel, Deep Learning",Bachelors,Software Engineer
+David Lee,5,"Excel, Java, Data Analysis, Machine Learning",Bachelors,Project Manager
+John Smith,8,"Deep Learning, Python, Project Management, Excel",Bachelors,Data Scientist
+Fatima Noor,10,"Java, SQL, Deep Learning, Data Analysis, Project Management",PhD,Project Manager
+Sara Ahmed,7,"Machine Learning, Data Analysis, Python, Java, SQL, Deep Learning",PhD,Software Engineer
+Emily Davis,5,"Communication, Python, Deep Learning",Masters,Project Manager
+John Smith,10,"SQL, Project Management, Machine Learning, Java, Leadership",Bachelors,Data Scientist
+Hassan Raza,8,"Project Management, Leadership, SQL, Data Analysis, Python",PhD,Data Scientist
+Ali Khan,2,"Excel, Java, Leadership, Machine Learning, Python",PhD,Project Manager
+Ali Khan,7,"Python, Data Analysis, SQL, Leadership",Masters,Data Scientist
+Sara Ahmed,1,"Leadership, Excel, Data Analysis, Project Management, Python, SQL",PhD,ML Engineer
+Hassan Raza,9,"Leadership, Data Analysis, Excel",Masters,Software Engineer
+Hassan Raza,10,"Machine Learning, Project Management, Python",Masters,Data Scientist
+Hassan Raza,1,"Python, Leadership, SQL, Java, Communication",Bachelors,ML Engineer
+Hassan Raza,3,"Excel, Machine Learning, Project Management, Communication, Leadership",PhD,Software Engineer
+Sara Ahmed,10,"Project Management, Python, Leadership",Bachelors,Data Analyst
+David Lee,7,"Machine Learning, Data Analysis, Deep Learning",Bachelors,Software Engineer
+Sara Ahmed,4,"Excel, Machine Learning, SQL, Java, Communication, Python",Bachelors,Software Engineer
+John Smith,3,"Excel, SQL, Machine Learning, Python, Leadership, Data Analysis",PhD,ML Engineer
+Ali Khan,10,"Communication, Java, Excel, Leadership",PhD,Data Scientist
+Ayesha Malik,10,"SQL, Leadership, Deep Learning, Machine Learning, Communication, Java",PhD,Software Engineer
+Emily Davis,6,"Communication, Project Management, SQL",Masters,Data Analyst
+Sara Ahmed,9,"Deep Learning, Excel, Machine Learning",Masters,Data Analyst
+Fatima Noor,4,"Python, Deep Learning, Java",Bachelors,Software Engineer
+Fatima Noor,10,"Python, Leadership, Data Analysis, Deep Learning, Project Management, Machine Learning",Masters,ML Engineer
+Emily Davis,10,"Data Analysis, Project Management, Deep Learning, SQL, Leadership, Excel",Masters,Data Analyst
+Emily Davis,2,"Leadership, Communication, Data Analysis, SQL",Masters,Data Scientist
+Hassan Raza,10,"Communication, Python, Data Analysis, Leadership, Project Management, SQL",Bachelors,Data Scientist
+Fatima Noor,1,"Deep Learning, Excel, Python",Bachelors,Data Scientist
+Hassan Raza,1,"Machine Learning, Communication, Project Management, Python, Data Analysis",Masters,Data Scientist
+Fatima Noor,9,"Excel, Java, Project Management, Deep Learning, Python, Communication",Bachelors,Data Scientist
+Emily Davis,4,"Deep Learning, Excel, Java",PhD,ML Engineer
+Hassan Raza,8,"Python, Excel, Deep Learning, Java",PhD,ML Engineer
+Ali Khan,10,"Python, SQL, Data Analysis, Leadership",Bachelors,Data Scientist
+Emily Davis,10,"Project Management, Machine Learning, Java, Excel, Leadership, Communication",Masters,Software Engineer
+Ali Khan,6,"Python, Java, Data Analysis, Deep Learning",Bachelors,ML Engineer
+Fatima Noor,1,"Project Management, Excel, Leadership, Python, Deep Learning",Bachelors,Data Analyst
+Hassan Raza,6,"Project Management, SQL, Data Analysis",PhD,Data Analyst
+Hassan Raza,1,"SQL, Machine Learning, Data Analysis, Excel, Deep Learning, Python",Masters,Data Scientist
+John Smith,9,"Python, Project Management, Deep Learning",PhD,Software Engineer
+Emily Davis,9,"SQL, Deep Learning, Leadership, Machine Learning, Communication",Masters,Data Analyst
+Ali Khan,9,"Communication, Deep Learning, Project Management, Machine Learning, Leadership",Bachelors,Data Analyst
+Sara Ahmed,8,"Java, Communication, Python",Masters,Software Engineer
+David Lee,7,"Leadership, SQL, Excel",PhD,Software Engineer
+Hassan Raza,6,"Data Analysis, Machine Learning, Communication, Python, Deep Learning, Leadership",Masters,Data Scientist
+Emily Davis,5,"Python, Excel, Java, SQL, Deep Learning, Leadership",PhD,ML Engineer
+Sara Ahmed,2,"Project Management, Data Analysis, Excel, Leadership, Java",PhD,Data Analyst
+Fatima Noor,3,"Java, Deep Learning, Excel, Machine Learning, SQL, Python",Bachelors,Data Scientist
+Ayesha Malik,4,"Excel, Data Analysis, SQL, Machine Learning",PhD,Project Manager
+David Lee,8,"Project Management, Java, Machine Learning, SQL",Masters,Data Scientist
+Fatima Noor,7,"Machine Learning, Data Analysis, Communication, Deep Learning, Java",Bachelors,Project Manager
+Ayesha Malik,3,"Data Analysis, Excel, Python, Deep Learning",Masters,Project Manager
+Fatima Noor,2,"Machine Learning, Python, Project Management",PhD,ML Engineer
+Sara Ahmed,10,"Leadership, Communication, Machine Learning, Excel, Data Analysis",Bachelors,Software Engineer
+John Smith,9,"Data Analysis, Project Management, Leadership",Masters,Software Engineer
+Ayesha Malik,3,"Java, Excel, SQL, Data Analysis, Project Management",Bachelors,Project Manager
+Fatima Noor,5,"Leadership, Data Analysis, Machine Learning, Java, Deep Learning, Communication",Masters,Data Scientist
+David Lee,8,"Leadership, Machine Learning, Communication, Python, Excel, Deep Learning",PhD,Data Analyst
+Hassan Raza,1,"SQL, Deep Learning, Python, Project Management, Machine Learning, Excel",Masters,ML Engineer
+John Smith,5,"Python, Excel, Machine Learning, Deep Learning, Data Analysis",PhD,Project Manager
+Ali Khan,2,"Data Analysis, Deep Learning, Python, Leadership",Bachelors,Data Analyst
+Ayesha Malik,7,"Machine Learning, Data Analysis, Deep Learning, Leadership, Python",Bachelors,Data Scientist
+Emily Davis,10,"Leadership, Excel, Data Analysis, Deep Learning, Java, SQL",PhD,Software Engineer
+Emily Davis,1,"Data Analysis, Deep Learning, SQL, Leadership",Bachelors,Data Scientist
+Emily Davis,1,"Communication, Data Analysis, Project Management, Machine Learning",Bachelors,Data Analyst
+Sara Ahmed,9,"Leadership, Java, Excel, Project Management, Data Analysis",PhD,ML Engineer
+David Lee,6,"Excel, Deep Learning, Project Management, Python, Data Analysis, Java",Masters,ML Engineer
+Emily Davis,4,"Java, Python, Leadership, Deep Learning, SQL",Bachelors,ML Engineer
+Ayesha Malik,5,"Python, Excel, Communication, Deep Learning, SQL, Machine Learning",Bachelors,ML Engineer
+Ayesha Malik,9,"Deep Learning, Excel, Leadership, Java",Masters,ML Engineer
+Fatima Noor,8,"Communication, Excel, Leadership",Bachelors,Data Scientist
+Hassan Raza,9,"Data Analysis, Deep Learning, Communication, Machine Learning",PhD,ML Engineer
+Emily Davis,9,"Leadership, Python, Machine Learning",Bachelors,Data Scientist
+Fatima Noor,2,"Leadership, Python, Communication",PhD,Software Engineer
+Ali Khan,4,"Deep Learning, SQL, Java",PhD,Data Analyst
+Hassan Raza,6,"Leadership, Machine Learning, Project Management, Java",Masters,Data Analyst
+Sara Ahmed,1,"Deep Learning, Python, SQL",Masters,Project Manager
+Ayesha Malik,2,"SQL, Python, Leadership",PhD,Data Analyst
+Ali Khan,6,"Machine Learning, Java, Project Management, Deep Learning, Excel",Masters,Project Manager
+David Lee,6,"Project Management, Data Analysis, Communication, Python, SQL, Leadership",Masters,Project Manager
+Hassan Raza,10,"Java, Machine Learning, Data Analysis, Project Management, Excel",PhD,Software Engineer
+Ayesha Malik,8,"Leadership, Communication, Excel, Data Analysis",Masters,Data Scientist
+Ali Khan,8,"Data Analysis, Java, Deep Learning, Excel",Bachelors,Data Scientist
+Ayesha Malik,9,"Deep Learning, Excel, Python, SQL, Machine Learning, Leadership",Masters,Software Engineer
+Hassan Raza,5,"Machine Learning, Deep Learning, Data Analysis",Masters,Data Scientist
+Hassan Raza,5,"Deep Learning, Leadership, Python, Machine Learning",Bachelors,Data Scientist
+John Smith,10,"SQL, Deep Learning, Leadership, Communication",Masters,ML Engineer
+Ali Khan,3,"Java, SQL, Leadership, Python, Communication",PhD,Data Analyst
+Hassan Raza,1,"Project Management, Communication, Machine Learning",PhD,Project Manager
+Ali Khan,1,"Excel, Leadership, Machine Learning",PhD,Project Manager
+Ayesha Malik,4,"Data Analysis, Leadership, Excel, Java",Bachelors,Data Analyst
+Emily Davis,9,"Excel, SQL, Communication",Bachelors,Software Engineer
+Emily Davis,6,"Leadership, Machine Learning, Project Management",Bachelors,Project Manager
+John Smith,8,"Deep Learning, Project Management, SQL, Machine Learning, Leadership",Masters,Software Engineer
+Fatima Noor,3,"Project Management, Excel, Data Analysis, SQL, Communication",PhD,Data Analyst
+David Lee,10,"Python, Excel, Machine Learning",PhD,Data Analyst
+Emily Davis,4,"Machine Learning, SQL, Data Analysis",PhD,Software Engineer
+Ayesha Malik,5,"Data Analysis, Excel, Java, Project Management",Masters,Data Analyst
+Fatima Noor,8,"Machine Learning, Java, Excel",PhD,Software Engineer
+Ayesha Malik,4,"Java, Python, Deep Learning, Data Analysis, SQL, Leadership",Masters,Software Engineer
+Hassan Raza,10,"Leadership, Java, Deep Learning, Python, Data Analysis, SQL",PhD,ML Engineer
+John Smith,8,"Data Analysis, Communication, Machine Learning, Python, Java",PhD,Project Manager
+John Smith,7,"Excel, Deep Learning, Data Analysis",Masters,ML Engineer
+John Smith,7,"Data Analysis, Python, Java, SQL",Masters,Data Scientist
+David Lee,3,"SQL, Deep Learning, Communication, Python",PhD,Software Engineer
+Ali Khan,7,"Machine Learning, Leadership, Deep Learning",Masters,ML Engineer
+Hassan Raza,1,"Project Management, Python, Java, Communication, SQL, Deep Learning",PhD,Software Engineer
+David Lee,6,"Excel, Java, Project Management",Bachelors,ML Engineer
+Hassan Raza,8,"Machine Learning, Communication, Java, Leadership, Data Analysis",PhD,Software Engineer
+Ayesha Malik,1,"Java, Data Analysis, Deep Learning, Leadership",PhD,ML Engineer
+Emily Davis,4,"Python, Deep Learning, Project Management",PhD,Software Engineer
+Fatima Noor,7,"Communication, Data Analysis, SQL, Java, Leadership",Bachelors,Software Engineer
+Hassan Raza,5,"Deep Learning, SQL, Java, Project Management, Leadership, Data Analysis",PhD,ML Engineer
+Hassan Raza,7,"Leadership, Data Analysis, Python",Bachelors,ML Engineer
+Emily Davis,10,"Data Analysis, Deep Learning, Leadership, Communication",Masters,Project Manager
+Ali Khan,2,"Excel, SQL, Leadership, Data Analysis",Bachelors,Data Analyst
+Ali Khan,7,"SQL, Data Analysis, Communication",Bachelors,Software Engineer
+Ali Khan,2,"Excel, Leadership, Project Management",Masters,Project Manager
+Sara Ahmed,3,"Data Analysis, SQL, Python",PhD,Project Manager
+David Lee,5,"Data Analysis, Machine Learning, Java, Excel, Project Management, Leadership",PhD,Data Scientist
+David Lee,7,"Java, Data Analysis, Machine Learning, Communication, Leadership, Deep Learning",Masters,Project Manager
+Hassan Raza,8,"Excel, Python, Leadership, Machine Learning, Java, Data Analysis",PhD,Project Manager
+David Lee,7,"SQL, Java, Project Management",Masters,Project Manager
+Emily Davis,6,"SQL, Data Analysis, Java, Leadership",Masters,ML Engineer
+Hassan Raza,1,"Machine Learning, Data Analysis, Deep Learning, Leadership, Python",Masters,Data Scientist
+Sara Ahmed,3,"Java, Project Management, Communication, Machine Learning",Bachelors,ML Engineer
+Hassan Raza,8,"Communication, Data Analysis, Leadership, Deep Learning, Excel, Python",PhD,Software Engineer
+Emily Davis,9,"Java, Communication, Project Management",PhD,ML Engineer
+Ali Khan,6,"Project Management, Data Analysis, Machine Learning, Communication, Deep Learning, SQL",Bachelors,Project Manager
+Sara Ahmed,1,"SQL, Excel, Project Management, Leadership, Machine Learning",Masters,Data Analyst
+Emily Davis,9,"Leadership, Machine Learning, SQL",Bachelors,Data Scientist
+Sara Ahmed,2,"Leadership, Excel, Communication, Java, SQL, Deep Learning",Masters,Data Analyst
+Hassan Raza,6,"Java, Excel, Project Management, Machine Learning",PhD,ML Engineer
+Ayesha Malik,5,"Python, SQL, Communication, Java, Data Analysis, Excel",PhD,Data Analyst
+Ayesha Malik,6,"Excel, Python, Project Management, Machine Learning",Masters,Data Analyst
+John Smith,2,"Deep Learning, Machine Learning, Excel, SQL, Java",Masters,Project Manager
+Emily Davis,1,"Leadership, Deep Learning, Python, Excel, SQL",Bachelors,Data Analyst
+Sara Ahmed,2,"Machine Learning, Java, Data Analysis",Bachelors,Data Analyst
+Sara Ahmed,8,"Excel, Communication, Deep Learning, Python",PhD,Data Analyst
+Sara Ahmed,7,"Java, Deep Learning, Leadership, Communication, Data Analysis, SQL",Masters,Data Scientist
+Emily Davis,7,"Leadership, Java, Excel, Deep Learning, Project Management",PhD,Data Scientist
+Hassan Raza,10,"Excel, Python, SQL, Data Analysis, Deep Learning",Bachelors,Project Manager
+Hassan Raza,4,"SQL, Data Analysis, Communication, Project Management, Leadership",Masters,Data Scientist
+David Lee,7,"Machine Learning, Deep Learning, Data Analysis, Project Management, Communication, Excel",Bachelors,Data Scientist
+Ali Khan,10,"Excel, Machine Learning, Java, Data Analysis, Deep Learning, Project Management",Bachelors,ML Engineer
+John Smith,10,"Project Management, Java, Deep Learning",Masters,Data Scientist
