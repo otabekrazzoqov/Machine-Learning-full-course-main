@@ -1,0 +1,18 @@
+K cross validation:
+Split data into K parts.
+Train on K-1 folds
+Test on the remaining fold
+Repeat until every fold was used as test
+
+
+if k=5
+Split data into 5 parts
+Train 5 times
+Each time → different test set
+
+Final result will be average of all scores
+
+
+More accurate than single train/test split
+Reduces overfitting risk
+Uses all data for both training and testing
