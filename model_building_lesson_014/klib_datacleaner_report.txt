@@ -1,0 +1,89 @@
+klib is a Python library for easy data cleaning, analysis, and visualization built on top of pandas, seaborn and matplotlib.
+
+pip install klib
+import klib
+
+
+1.  Data cleaning  
+
+
+# Clean column names (lowercase, remove spaces/special chars)
+df = klib.clean_column_names(df)
+
+# Auto convert dtypes (reduces memory usage)
+df = klib.convert_datatypes(df)
+
+# Full cleaning pipeline (combines both above + more)
+df = klib.data_cleaning(df)
+
+# Pool infrequent categories into "other"
+df = klib.pool_duplicate_subsets(df)
+
+
+2. Data Visualization
+
+# Missing value heatmap
+klib.missingval_plot(df)
+
+# Correlation heatmap (cleaner than seaborn)
+klib.corr_mat(df)
+klib.corr_plot(df)
+
+# Distribution of all numeric columns
+klib.dist_plot(df)
+
+# Category distribution
+klib.cat_plot(df)
+
+
+3. Data Analysis
+
+# Detailed summary (dtypes, nulls, uniques, memory)
+klib.data_cleaning(df, show="all")
+
+# Find and drop duplicate rows/columns
+klib.pool_duplicate_subsets(df)
+
+
+
+
+4.  Quick EDA workflow:
+
+import klib
+
+# Step 1 - visualize missing values
+klib.missingval_plot(df)
+
+# Step 2 - clean
+df = klib.data_cleaning(df)
+
+# Step 3 - check correlations
+klib.corr_plot(df)
+
+# Step 4 - distributions
+klib.dist_plot(df)
+
+
+
+
+
+Datacleaner usage and specifications !!!
+
+
+
+from datacleaner import autoclean
+import pandas as pd
+
+df = pd.read_csv("data.csv")
+
+# Basic clean
+df_cleaned = autoclean(df)
+
+# Drop NaN rows instead of filling
+df_cleaned = autoclean(df, drop_nans=True)
+
+# Protect target column from encoding
+df_cleaned = autoclean(df, target_column="label")
+
+# Keep original df unchanged
+df_cleaned = autoclean(df, copy=True)
