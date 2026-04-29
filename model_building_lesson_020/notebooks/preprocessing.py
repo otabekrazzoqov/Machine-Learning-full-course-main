@@ -29,6 +29,6 @@ class Preprocessing:
     def scaling(self):
         scaler = StandardScaler()
         for col in self.df.columns:
-            num_col = self.df.select_dtypes(include=["int64", "float64"]).columns
+            num_col = self.df.select_dtypes(include=["int64", "float64"]).columns.drop("academic_performance")
             self.df[num_col] = scaler.fit_transform(self.df[num_col])
         return self
