@@ -17,7 +17,7 @@ class Preprocessing:
     
     def encoding(self):
         encoder = LabelEncoder()
-        for col in self.df.colums:
+        for col in self.df.columns:
             if self.df[col].dtype == "object":
                 if self.df[col].nunique() <=5:
                     dummies = pd.get_dummies(self.df[col], prefix=col, dtype=int)
@@ -26,5 +26,9 @@ class Preprocessing:
                     self.df[col] = encoder.fit_transform(self.df[col])
         return self
 
-
-    
+    def scaling(self):
+        scaler = StandardScaler()
+        for col in self.df.columns:
+            num_col = self.df.select_dtypes(include=["int64", "float64"]).columns
+            self.df[num_col] = scaler.fit_transform(self.df[num_col])
+        return self
