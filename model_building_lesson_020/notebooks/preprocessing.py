@@ -21,7 +21,7 @@ class Preprocessing:
             if self.df[col].dtype == "object":
                 if self.df[col].nunique() <=5:
                     dummies = pd.get_dummies(self.df[col], prefix=col, dtype=int)
-                    self.df = pd.concat(self.df.drop(columns=col), dummies, axis=1)
+                    self.df = pd.concat([self.df.drop(columns=col), dummies], axis=1)
                 else:
                     self.df[col] = encoder.fit_transform(self.df[col])
         return self
