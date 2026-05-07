@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ML Pipeline — Complete Guide</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600;700&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0a0c10;
+    --surface: #111318;
+    --surface2: #181c24;
+    --border: #1e2430;
+    --accent: #00e5ff;
+    --accent2: #7c3aed;
+    --accent3: #f59e0b;
+    --accent4: #10b981;
+    --text: #e2e8f0;
+    --muted: #64748b;
+    --code-bg: #0d1117;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Syne', sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* GRID BACKGROUND */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(0,229,255,0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0,229,255,0.03) 1px, transparent 1px);
+    background-size: 40px 40px;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 60px 24px 100px;
+    position: relative;
+    z-index: 1;
+  }
+
+  /* HEADER */
+  header {
+    margin-bottom: 64px;
+    position: relative;
+  }
+
+  .header-tag {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--accent);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .header-tag::before {
+    content: '';
+    width: 24px; height: 1px;
+    background: var(--accent);
+  }
+
+  h1 {
+    font-size: clamp(36px, 6vw, 64px);
+    font-weight: 800;
+    line-height: 1.05;
+    letter-spacing: -1px;
+  }
+  h1 .dim { color: var(--muted); }
+  h1 .bright { color: #fff; }
+
+  .subtitle {
+    margin-top: 16px;
+    color: var(--muted);
+    font-size: 15px;
+    font-weight: 400;
+    max-width: 500px;
+    line-height: 1.6;
+    font-family: 'JetBrains Mono', monospace;
+  }
+
+  /* PIPELINE FLOW */
+  .pipeline-strip {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px 28px;
+    margin-bottom: 64px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+  }
+
+  .pip-step {
+    background: var(--code-bg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 5px 12px;
+    color: var(--text);
+    white-space: nowrap;
+    transition: border-color 0.2s, color 0.2s;
+  }
+  .pip-step:hover { border-color: var(--accent); color: var(--accent); }
+  .pip-arrow { color: var(--muted); font-size: 14px; }
+
+  /* SECTION GRID */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
+    gap: 20px;
+  }
+
+  /* CARDS */
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 28px;
+    position: relative;
+    overflow: hidden;
+    transition: border-color 0.25s, transform 0.2s;
+  }
+  .card:hover {
+    border-color: rgba(0,229,255,0.25);
+    transform: translateY(-2px);
+  }
+  .card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+  }
+  .card.c-cyan::before   { background: linear-gradient(90deg, var(--accent), transparent); }
+  .card.c-purple::before { background: linear-gradient(90deg, var(--accent2), transparent); }
+  .card.c-amber::before  { background: linear-gradient(90deg, var(--accent3), transparent); }
+  .card.c-green::before  { background: linear-gradient(90deg, var(--accent4), transparent); }
+
+  .card-num {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+  }
+  .c-cyan   .card-num { color: var(--accent); }
+  .c-purple .card-num { color: var(--accent2); }
+  .c-amber  .card-num { color: var(--accent3); }
+  .c-green  .card-num { color: var(--accent4); }
+
+  .card h2 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 18px;
+    color: #fff;
+  }
+
+  /* BULLET LIST */
+  .bullet-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .bullet-list li {
+    font-size: 13.5px;
+    color: #94a3b8;
+    padding-left: 16px;
+    position: relative;
+    line-height: 1.5;
+  }
+  .bullet-list li::before {
+    content: '▸';
+    position: absolute;
+    left: 0;
+    font-size: 10px;
+    top: 3px;
+  }
+  .c-cyan   .bullet-list li::before { color: var(--accent); }
+  .c-purple .bullet-list li::before { color: var(--accent2); }
+  .c-amber  .bullet-list li::before { color: var(--accent3); }
+  .c-green  .bullet-list li::before { color: var(--accent4); }
+
+  .bullet-list code, li code {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.1);
+    padding: 1px 7px;
+    border-radius: 4px;
+    color: #e2e8f0;
+  }
+
+  /* CODE BLOCK */
+  .code-block {
+    margin-top: 16px;
+    background: var(--code-bg);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .code-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 14px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .code-lang {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+  }
+
+  .dots { display: flex; gap: 5px; }
+  .dot  { width: 8px; height: 8px; border-radius: 50%; }
+  .dot-r { background: #ff5f57; }
+  .dot-y { background: #febc2e; }
+  .dot-g { background: #28c840; }
+
+  pre {
+    padding: 16px;
+    overflow-x: auto;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12.5px;
+    line-height: 1.7;
+    color: #cdd6f4;
+  }
+
+  /* Syntax colors */
+  .kw   { color: #cba6f7; }   /* keyword */
+  .fn   { color: #89b4fa; }   /* function */
+  .str  { color: #a6e3a1; }   /* string */
+  .cm   { color: #585b70; font-style: italic; } /* comment */
+  .num  { color: #fab387; }   /* number */
+  .cls  { color: #f38ba8; }   /* class */
+  .var  { color: #cdd6f4; }   /* variable */
+  .op   { color: #89dceb; }   /* operator/symbol */
+
+  /* METRIC TAGS */
+  .tag-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 14px;
+  }
+  .tag {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    padding: 4px 12px;
+    border-radius: 20px;
+    border: 1px solid;
+  }
+  .tag-reg  { color: var(--accent);  border-color: rgba(0,229,255,0.3);  background: rgba(0,229,255,0.07); }
+  .tag-cls  { color: var(--accent3); border-color: rgba(245,158,11,0.3); background: rgba(245,158,11,0.07); }
+  .tag-both { color: var(--accent4); border-color: rgba(16,185,129,0.3); background: rgba(16,185,129,0.07); }
+
+  /* DIVIDER LABEL */
+  .section-divider {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 52px 0 28px;
+    font-size: 11px;
+    font-family: 'JetBrains Mono', monospace;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .section-divider::before, .section-divider::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--border);
+  }
+
+  /* MODEL LIST */
+  .model-ladder {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 14px;
+  }
+  .model-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 9px 14px;
+    background: rgba(255,255,255,0.03);
+    border-radius: 7px;
+    border: 1px solid transparent;
+    transition: border-color 0.2s;
+  }
+  .model-row:hover { border-color: var(--border); }
+  .model-name {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    color: #e2e8f0;
+    flex: 1;
+  }
+  .complexity-bar {
+    display: flex;
+    gap: 3px;
+  }
+  .bar-seg {
+    width: 14px; height: 6px;
+    border-radius: 2px;
+    background: var(--border);
+  }
+  .bar-seg.on { background: var(--accent4); }
+  .model-type {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: var(--muted);
+  }
+
+  /* WIDE CARD */
+  .card.wide {
+    grid-column: 1 / -1;
+  }
+
+  /* SCALER TABLE */
+  .scaler-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 14px;
+    font-size: 13px;
+    font-family: 'JetBrains Mono', monospace;
+  }
+  .scaler-table th {
+    text-align: left;
+    color: var(--muted);
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 6px 12px;
+    border-bottom: 1px solid var(--border);
+  }
+  .scaler-table td {
+    padding: 10px 12px;
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+    color: #94a3b8;
+    vertical-align: top;
+  }
+  .scaler-table tr:last-child td { border-bottom: none; }
+  .scaler-table .scaler-name { color: var(--accent); }
+
+  /* DEPLOYMENT ROW */
+  .deploy-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-top: 16px;
+  }
+  .deploy-card {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px;
+    text-align: center;
+  }
+  .deploy-icon { font-size: 22px; margin-bottom: 8px; }
+  .deploy-title {
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 4px;
+  }
+  .deploy-desc {
+    font-size: 11px;
+    color: var(--muted);
+    font-family: 'JetBrains Mono', monospace;
+    line-height: 1.5;
+  }
+
+  @media (max-width: 680px) {
+    .grid { grid-template-columns: 1fr; }
+    .deploy-row { grid-template-columns: 1fr; }
+    .pipeline-strip { font-size: 11px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrapper">
+
+  <!-- HEADER -->
+  <header>
+    <div class="header-tag">Machine Learning Reference</div>
+    <h1>
+      <span class="dim">Complete</span><br>
+      <span class="bright">ML Pipeline</span>
+    </h1>
+    <p class="subtitle">// 14-step guide: raw data → production model</p>
+  </header>
+
+  <!-- PIPELINE STRIP -->
+  <div class="pipeline-strip">
+    <span class="pip-step">Raw Data</span>
+    <span class="pip-arrow">→</span>
+    <span class="pip-step">EDA</span>
+    <span class="pip-arrow">→</span>
+    <span class="pip-step">Preprocessing</span>
+    <span class="pip-arrow">→</span>
+    <span class="pip-step">Feature Eng.</span>
+    <span class="pip-arrow">→</span>
+    <span class="pip-step">Encoding</span>
+    <span class="pip-arrow">→</span>
+    <span class="pip-step">Scaling</span>
+    <span class="pip-arrow">→</span>
+    <span class="pip-step">Split</span>
+    <span class="pip-arrow">→</span>
+    <span class="pip-step">Train</span>
+    <span class="pip-arrow">→</span>
+    <span class="pip-step">Evaluate</span>
+    <span class="pip-arrow">→</span>
+    <span class="pip-step">Tune</span>
+    <span class="pip-arrow">→</span>
+    <span class="pip-step">Save</span>
+    <span class="pip-arrow">→</span>
+    <span class="pip-step">Deploy</span>
+  </div>
+
+  <!-- PHASE 1: SETUP -->
+  <div class="section-divider">Phase 1 — Problem Setup</div>
+  <div class="grid">
+
+    <!-- 1. Problem Definition -->
+    <div class="card c-cyan">
+      <div class="card-num">01 / Problem Definition</div>
+      <h2>Define the Task</h2>
+      <ul class="bullet-list">
+        <li>Identify task type: <code>regression</code> or <code>classification</code></li>
+        <li>Understand the business goal and success criteria</li>
+        <li>Define measurable success metrics upfront</li>
+        <li>Regression → predict continuous values (price, score)</li>
+        <li>Classification → predict discrete labels (spam, churn)</li>
+      </ul>
+    </div>
+
+    <!-- 2. Data Collection -->
+    <div class="card c-purple">
+      <div class="card-num">02 / Data Collection</div>
+      <h2>Load & Understand Data</h2>
+      <ul class="bullet-list">
+        <li>Understand data source, provenance, and context</li>
+        <li>Check for bias or sampling issues in collection</li>
+      </ul>
+      <div class="code-block">
+        <div class="code-header">
+          <div class="dots"><div class="dot dot-r"></div><div class="dot dot-y"></div><div class="dot dot-g"></div></div>
+          <span class="code-lang">python</span>
+        </div>
+        <pre><span class="kw">import</span> pandas <span class="kw">as</span> pd
+
+df = pd.<span class="fn">read_csv</span>(<span class="str">"data.csv"</span>)
+
+<span class="cm"># Structure</span>
+<span class="fn">print</span>(df.<span class="fn">shape</span>)          <span class="cm"># (rows, cols)</span>
+df.<span class="fn">info</span>()               <span class="cm"># dtypes + nulls</span>
+df.<span class="fn">describe</span>()           <span class="cm"># stats summary</span>
+df.<span class="fn">head</span>(<span class="num">5</span>)             <span class="cm"># first rows</span></pre>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- PHASE 2: ANALYSIS -->
+  <div class="section-divider">Phase 2 — Analysis</div>
+  <div class="grid">
+
+    <!-- 3. EDA -->
+    <div class="card c-amber">
+      <div class="card-num">03 / EDA</div>
+      <h2>Exploratory Data Analysis</h2>
+      <ul class="bullet-list">
+        <li>Distributions: <code>histplot</code>, <code>boxplot</code> for skew & spread</li>
+        <li>Correlations: <code>heatmap</code> to find feature relationships</li>
+        <li>Target analysis: class balance, value distribution</li>
+        <li>Outlier detection: IQR method or z-score</li>
+      </ul>
+      <div class="code-block">
+        <div class="code-header">
+          <div class="dots"><div class="dot dot-r"></div><div class="dot dot-y"></div><div class="dot dot-g"></div></div>
+          <span class="code-lang">python</span>
+        </div>
+        <pre><span class="kw">import</span> seaborn <span class="kw">as</span> sns
+<span class="kw">import</span> matplotlib.pyplot <span class="kw">as</span> plt
+
+sns.<span class="fn">histplot</span>(df[<span class="str">'col'</span>])
+sns.<span class="fn">boxplot</span>(x=df[<span class="str">'col'</span>])
+sns.<span class="fn">heatmap</span>(df.<span class="fn">corr</span>(), annot=<span class="kw">True</span>, fmt=<span class="str">".2f"</span>)
+
+<span class="cm"># Class balance</span>
+df[<span class="str">'target'</span>].<span class="fn">value_counts</span>().<span class="fn">plot</span>(kind=<span class="str">'bar'</span>)</pre>
+      </div>
+    </div>
+
+    <!-- 4. Preprocessing -->
+    <div class="card c-green">
+      <div class="card-num">04 / Preprocessing</div>
+      <h2>Clean the Data</h2>
+      <div class="code-block">
+        <div class="code-header">
+          <div class="dots"><div class="dot dot-r"></div><div class="dot dot-y"></div><div class="dot dot-g"></div></div>
+          <span class="code-lang">python</span>
+        </div>
+        <pre><span class="cm"># Missing values</span>
+df.<span class="fn">fillna</span>(df.<span class="fn">median</span>(), inplace=<span class="kw">True</span>)   <span class="cm"># numeric</span>
+df.<span class="fn">fillna</span>(df.<span class="fn">mode</span>()[<span class="num">0</span>], inplace=<span class="kw">True</span>)  <span class="cm"># categorical</span>
+df.<span class="fn">dropna</span>(subset=[<span class="str">'critical_col'</span>])     <span class="cm"># required cols</span>
+
+<span class="cm"># Duplicates</span>
+df.<span class="fn">drop_duplicates</span>(inplace=<span class="kw">True</span>)
+
+<span class="cm"># Data types</span>
+df[<span class="str">'date'</span>] = pd.<span class="fn">to_datetime</span>(df[<span class="str">'date'</span>])
+
+<span class="cm"># Outliers (IQR clip)</span>
+Q1, Q3 = df[<span class="str">'col'</span>].<span class="fn">quantile</span>([<span class="num">0.25</span>, <span class="num">0.75</span>])
+IQR = Q3 - Q1
+df[<span class="str">'col'</span>] = df[<span class="str">'col'</span>].<span class="fn">clip</span>(Q1-<span class="num">1.5</span>*IQR, Q3+<span class="num">1.5</span>*IQR)</pre>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- PHASE 3: FEATURES -->
+  <div class="section-divider">Phase 3 — Feature Engineering</div>
+  <div class="grid">
+
+    <!-- 5. Feature Engineering -->
+    <div class="card c-cyan">
+      <div class="card-num">05 / Feature Engineering</div>
+      <h2>Create Better Features</h2>
+      <div class="code-block">
+        <div class="code-header">
+          <div class="dots"><div class="dot dot-r"></div><div class="dot dot-y"></div><div class="dot dot-g"></div></div>
+          <span class="code-lang">python</span>
+        </div>
+        <pre><span class="cm"># Interaction features</span>
+df[<span class="str">'price_per_sqft'</span>] = df[<span class="str">'price'</span>] / df[<span class="str">'sqft'</span>]
+
+<span class="cm"># Aggregation features</span>
+df[<span class="str">'mean_by_group'</span>] = df.<span class="fn">groupby</span>(<span class="str">'cat'</span>)[<span class="str">'val'</span>].<span class="fn">transform</span>(<span class="str">'mean'</span>)
+
+<span class="cm"># Log transform (skewed distributions)</span>
+<span class="kw">import</span> numpy <span class="kw">as</span> np
+df[<span class="str">'log_income'</span>] = np.<span class="fn">log1p</span>(df[<span class="str">'income'</span>])
+
+<span class="cm"># Binning continuous variables</span>
+df[<span class="str">'age_group'</span>] = pd.<span class="fn">cut</span>(df[<span class="str">'age'</span>],
+    bins=[<span class="num">0</span>,<span class="num">18</span>,<span class="num">35</span>,<span class="num">60</span>,<span class="num">100</span>],
+    labels=[<span class="str">'minor'</span>,<span class="str">'young'</span>,<span class="str">'adult'</span>,<span class="str">'senior'</span>])</pre>
+      </div>
+    </div>
+
+    <!-- 6. Encoding -->
+    <div class="card c-purple">
+      <div class="card-num">06 / Encoding</div>
+      <h2>Encode Categoricals</h2>
+      <div class="code-block">
+        <div class="code-header">
+          <div class="dots"><div class="dot dot-r"></div><div class="dot dot-y"></div><div class="dot dot-g"></div></div>
+          <span class="code-lang">python</span>
+        </div>
+        <pre><span class="kw">from</span> sklearn.preprocessing <span class="kw">import</span> (
+    <span class="cls">LabelEncoder</span>, <span class="cls">OrdinalEncoder</span>, <span class="cls">OneHotEncoder</span>
+)
+
+<span class="cm"># Label Encoding — binary / ordinal</span>
+le = <span class="cls">LabelEncoder</span>()
+df[<span class="str">'gender_enc'</span>] = le.<span class="fn">fit_transform</span>(df[<span class="str">'gender'</span>])
+
+<span class="cm"># Ordinal Encoding — ordered categories</span>
+oe = <span class="cls">OrdinalEncoder</span>(categories=[[<span class="str">'low'</span>,<span class="str">'med'</span>,<span class="str">'high'</span>]])
+df[<span class="str">'size_enc'</span>] = oe.<span class="fn">fit_transform</span>(df[[<span class="str">'size'</span>]])
+
+<span class="cm"># One-Hot Encoding — nominal categories</span>
+df = pd.<span class="fn">get_dummies</span>(df, columns=[<span class="str">'city'</span>], drop_first=<span class="kw">True</span>)</pre>
+      </div>
+    </div>
+
+    <!-- 7. Scaling -->
+    <div class="card c-amber wide">
+      <div class="card-num">07 / Scaling</div>
+      <h2>Scale Numeric Features</h2>
+      <table class="scaler-table">
+        <thead>
+          <tr>
+            <th>Scaler</th>
+            <th>Formula</th>
+            <th>Best For</th>
+            <th>Skip When</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="scaler-name">StandardScaler</td>
+            <td>(x − μ) / σ</td>
+            <td>Linear models, SVM, PCA, Logistic Regression</td>
+            <td>Tree-based models</td>
+          </tr>
+          <tr>
+            <td class="scaler-name">MinMaxScaler</td>
+            <td>(x − min) / (max − min)</td>
+            <td>Neural networks, KNN, bounded features</td>
+            <td>Tree-based models, heavy outliers</td>
+          </tr>
+          <tr>
+            <td class="scaler-name">RobustScaler</td>
+            <td>(x − median) / IQR</td>
+            <td>Data with many outliers</td>
+            <td>Normally distributed data</td>
+          </tr>
+          <tr>
+            <td style="color:#585b70">Tree Models</td>
+            <td>—</td>
+            <td colspan="2">RandomForest, XGBoost, LightGBM → skip scaling entirely</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+
+  <!-- PHASE 4: MODELING -->
+  <div class="section-divider">Phase 4 — Modeling</div>
+  <div class="grid">
+
+    <!-- 8. Split -->
+    <div class="card c-green">
+      <div class="card-num">08 / Train/Test Split</div>
+      <h2>Split the Dataset</h2>
+      <div class="code-block">
+        <div class="code-header">
+          <div class="dots"><div class="dot dot-r"></div><div class="dot dot-y"></div><div class="dot dot-g"></div></div>
+          <span class="code-lang">python</span>
+        </div>
+        <pre><span class="kw">from</span> sklearn.model_selection <span class="kw">import</span> <span class="cls">train_test_split</span>
+
+X = df.<span class="fn">drop</span>(columns=[<span class="str">'target'</span>])
+y = df[<span class="str">'target'</span>]
+
+X_train, X_test, y_train, y_test = <span class="fn">train_test_split</span>(
+    X, y,
+    test_size=<span class="num">0.2</span>,       <span class="cm"># 80/20 split</span>
+    random_state=<span class="num">42</span>,    <span class="cm"># reproducibility</span>
+    stratify=y          <span class="cm"># classification only</span>
+)</pre>
+      </div>
+    </div>
+
+    <!-- 9. Model Selection -->
+    <div class="card c-cyan">
+      <div class="card-num">09 / Model Selection & Training</div>
+      <h2>From Baseline to Complex</h2>
+      <div class="model-ladder">
+        <div class="model-row">
+          <span class="model-name">LinearRegression / LogisticRegression</span>
+          <div class="complexity-bar">
+            <div class="bar-seg on"></div><div class="bar-seg"></div><div class="bar-seg"></div><div class="bar-seg"></div><div class="bar-seg"></div>
+          </div>
+          <span class="model-type">baseline</span>
+        </div>
+        <div class="model-row">
+          <span class="model-name">Ridge / Lasso</span>
+          <div class="complexity-bar">
+            <div class="bar-seg on"></div><div class="bar-seg on"></div><div class="bar-seg"></div><div class="bar-seg"></div><div class="bar-seg"></div>
+          </div>
+          <span class="model-type">regularized</span>
+        </div>
+        <div class="model-row">
+          <span class="model-name">DecisionTree</span>
+          <div class="complexity-bar">
+            <div class="bar-seg on"></div><div class="bar-seg on"></div><div class="bar-seg on"></div><div class="bar-seg"></div><div class="bar-seg"></div>
+          </div>
+          <span class="model-type">tree</span>
+        </div>
+        <div class="model-row">
+          <span class="model-name">RandomForest</span>
+          <div class="complexity-bar">
+            <div class="bar-seg on"></div><div class="bar-seg on"></div><div class="bar-seg on"></div><div class="bar-seg on"></div><div class="bar-seg"></div>
+          </div>
+          <span class="model-type">ensemble</span>
+        </div>
+        <div class="model-row">
+          <span class="model-name">XGBoost / LightGBM</span>
+          <div class="complexity-bar">
+            <div class="bar-seg on"></div><div class="bar-seg on"></div><div class="bar-seg on"></div><div class="bar-seg on"></div><div class="bar-seg on"></div>
+          </div>
+          <span class="model-type">boosting</span>
+        </div>
+        <div class="model-row">
+          <span class="model-name">SVM</span>
+          <div class="complexity-bar">
+            <div class="bar-seg on"></div><div class="bar-seg on"></div><div class="bar-seg on"></div><div class="bar-seg on"></div><div class="bar-seg"></div>
+          </div>
+          <span class="model-type">kernel</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 10. Evaluation -->
+    <div class="card c-purple wide">
+      <div class="card-num">10 / Model Evaluation</div>
+      <h2>Measure Performance</h2>
+      <div class="tag-row" style="margin-bottom:16px">
+        <span class="tag tag-reg">MAE</span>
+        <span class="tag tag-reg">MSE</span>
+        <span class="tag tag-reg">RMSE</span>
+        <span class="tag tag-reg">R²</span>
+        <span class="tag tag-cls">Accuracy</span>
+        <span class="tag tag-cls">F1-Score</span>
+        <span class="tag tag-cls">AUC-ROC</span>
+        <span class="tag tag-both">Cross-Validation</span>
+      </div>
+      <div class="code-block">
+        <div class="code-header">
+          <div class="dots"><div class="dot dot-r"></div><div class="dot dot-y"></div><div class="dot dot-g"></div></div>
+          <span class="code-lang">python</span>
+        </div>
+        <pre><span class="kw">from</span> sklearn.metrics <span class="kw">import</span> (
+    mean_absolute_error, mean_squared_error, r2_score,  <span class="cm"># regression</span>
+    accuracy_score, f1_score, roc_auc_score             <span class="cm"># classification</span>
+)
+<span class="kw">from</span> sklearn.model_selection <span class="kw">import</span> cross_val_score
+
+y_pred = model.<span class="fn">predict</span>(X_test)
+
+<span class="cm"># Regression</span>
+<span class="fn">print</span>(<span class="str">"MAE :"</span>, <span class="fn">mean_absolute_error</span>(y_test, y_pred))
+<span class="fn">print</span>(<span class="str">"RMSE:"</span>, mean_squared_error(y_test, y_pred, squared=<span class="kw">False</span>))
+<span class="fn">print</span>(<span class="str">"R²  :"</span>, <span class="fn">r2_score</span>(y_test, y_pred))
+
+<span class="cm"># Cross-validation (k=5)</span>
+scores = <span class="fn">cross_val_score</span>(model, X, y, cv=<span class="num">5</span>, scoring=<span class="str">'r2'</span>)
+<span class="fn">print</span>(<span class="str">f"CV R²: {scores.mean():.3f} ± {scores.std():.3f}"</span>)</pre>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- PHASE 5: TUNING & SAVING -->
+  <div class="section-divider">Phase 5 — Optimization & Deployment</div>
+  <div class="grid">
+
+    <!-- 11. Hyperparameter Tuning -->
+    <div class="card c-amber">
+      <div class="card-num">11 / Hyperparameter Tuning</div>
+      <h2>Optimize the Model</h2>
+      <div class="code-block">
+        <div class="code-header">
+          <div class="dots"><div class="dot dot-r"></div><div class="dot dot-y"></div><div class="dot dot-g"></div></div>
+          <span class="code-lang">python</span>
+        </div>
+        <pre><span class="kw">from</span> sklearn.model_selection <span class="kw">import</span> <span class="cls">GridSearchCV</span>, <span class="cls">RandomizedSearchCV</span>
+
+<span class="cm"># GridSearchCV — exhaustive (small grids)</span>
+grid = <span class="cls">GridSearchCV</span>(model,
+    param_grid={<span class="str">'max_depth'</span>: [<span class="num">3</span>,<span class="num">5</span>,<span class="num">7</span>], <span class="str">'n_estimators'</span>: [<span class="num">100</span>,<span class="num">200</span>]},
+    cv=<span class="num">5</span>, scoring=<span class="str">'r2'</span>, n_jobs=-<span class="num">1</span>
+)
+grid.<span class="fn">fit</span>(X_train, y_train)
+
+<span class="cm"># RandomizedSearchCV — faster (large grids)</span>
+rand = <span class="cls">RandomizedSearchCV</span>(model, param_distributions={...},
+    n_iter=<span class="num">50</span>, cv=<span class="num">5</span>, random_state=<span class="num">42</span>
+)
+
+<span class="cm"># Optuna — advanced Bayesian optimization</span>
+<span class="kw">import</span> optuna
+<span class="kw">def</span> <span class="fn">objective</span>(trial):
+    n = trial.<span class="fn">suggest_int</span>(<span class="str">'n_estimators'</span>, <span class="num">100</span>, <span class="num">500</span>)
+    <span class="kw">return</span> <span class="fn">cross_val_score</span>(..., cv=<span class="num">3</span>).<span class="fn">mean</span>()</pre>
+      </div>
+    </div>
+
+    <!-- 12. Model Comparison -->
+    <div class="card c-green">
+      <div class="card-num">12 / Model Comparison</div>
+      <h2>Compare Candidates</h2>
+      <div class="code-block">
+        <div class="code-header">
+          <div class="dots"><div class="dot dot-r"></div><div class="dot dot-y"></div><div class="dot dot-g"></div></div>
+          <span class="code-lang">python</span>
+        </div>
+        <pre><span class="kw">import</span> pandas <span class="kw">as</span> pd
+<span class="kw">from</span> sklearn.metrics <span class="kw">import</span> r2_score
+
+results = {
+    <span class="str">"LinearRegression"</span>: <span class="fn">r2_score</span>(y_test, lr.<span class="fn">predict</span>(X_test)),
+    <span class="str">"Ridge"</span>:            <span class="fn">r2_score</span>(y_test, ridge.<span class="fn">predict</span>(X_test)),
+    <span class="str">"RandomForest"</span>:     <span class="fn">r2_score</span>(y_test, rf.<span class="fn">predict</span>(X_test)),
+    <span class="str">"XGBoost"</span>:          <span class="fn">r2_score</span>(y_test, xgb.<span class="fn">predict</span>(X_test)),
+}
+
+comparison = pd.<span class="fn">DataFrame</span>
+    .<span class="fn">from_dict</span>(results, orient=<span class="str">'index'</span>, columns=[<span class="str">'R²'</span>])
+    .<span class="fn">sort_values</span>(<span class="str">'R²'</span>, ascending=<span class="kw">False</span>)
+
+<span class="fn">print</span>(comparison)</pre>
+      </div>
+    </div>
+
+    <!-- 13. Model Saving -->
+    <div class="card c-cyan">
+      <div class="card-num">13 / Model Saving</div>
+      <h2>Persist the Model</h2>
+      <div class="code-block">
+        <div class="code-header">
+          <div class="dots"><div class="dot dot-r"></div><div class="dot dot-y"></div><div class="dot dot-g"></div></div>
+          <span class="code-lang">python</span>
+        </div>
+        <pre><span class="kw">import</span> joblib
+
+<span class="cm"># Save</span>
+joblib.<span class="fn">dump</span>(model, <span class="str">"model.pkl"</span>)
+joblib.<span class="fn">dump</span>(scaler, <span class="str">"scaler.pkl"</span>)   <span class="cm"># save preprocessors too</span>
+
+<span class="cm"># Load</span>
+model  = joblib.<span class="fn">load</span>(<span class="str">"model.pkl"</span>)
+scaler = joblib.<span class="fn">load</span>(<span class="str">"scaler.pkl"</span>)
+
+<span class="cm"># Predict on new data</span>
+X_new_scaled = scaler.<span class="fn">transform</span>(X_new)
+predictions  = model.<span class="fn">predict</span>(X_new_scaled)</pre>
+      </div>
+    </div>
+
+    <!-- 14. Deployment -->
+    <div class="card c-purple">
+      <div class="card-num">14 / Deployment</div>
+      <h2>Ship to Production</h2>
+      <div class="deploy-row">
+        <div class="deploy-card">
+          <div class="deploy-icon">⚡</div>
+          <div class="deploy-title">API Layer</div>
+          <div class="deploy-desc">FastAPI or Flask<br>REST endpoint<br>/predict route</div>
+        </div>
+        <div class="deploy-card">
+          <div class="deploy-icon">🐳</div>
+          <div class="deploy-title">Container</div>
+          <div class="deploy-desc">Dockerfile<br>docker build<br>docker compose</div>
+        </div>
+        <div class="deploy-card">
+          <div class="deploy-icon">☁️</div>
+          <div class="deploy-title">Cloud</div>
+          <div class="deploy-desc">AWS SageMaker<br>GCP Vertex AI<br>Azure ML</div>
+        </div>
+      </div>
+      <div class="code-block" style="margin-top:16px">
+        <div class="code-header">
+          <div class="dots"><div class="dot dot-r"></div><div class="dot dot-y"></div><div class="dot dot-g"></div></div>
+          <span class="code-lang">python — FastAPI</span>
+        </div>
+        <pre><span class="kw">from</span> fastapi <span class="kw">import</span> <span class="cls">FastAPI</span>
+<span class="kw">import</span> joblib, numpy <span class="kw">as</span> np
+
+app = <span class="cls">FastAPI</span>()
+model = joblib.<span class="fn">load</span>(<span class="str">"model.pkl"</span>)
+
+<span class="op">@</span>app.<span class="fn">post</span>(<span class="str">"/predict"</span>)
+<span class="kw">def</span> <span class="fn">predict</span>(features: list[float]):
+    X = np.<span class="fn">array</span>(features).<span class="fn">reshape</span>(<span class="num">1</span>, -<span class="num">1</span>)
+    <span class="kw">return</span> {<span class="str">"prediction"</span>: model.<span class="fn">predict</span>(X)[<span class="num">0</span>]}</pre>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+</body>
+</html>
