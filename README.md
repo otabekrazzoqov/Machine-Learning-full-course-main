@@ -1,149 +1,55 @@
-# 🚀 Machine Learning Full Course
+# 🤖 Machine Learning Full Course
 
-## 📌 Overview
-
-This repository contains a **complete Machine Learning course** designed to take you from **beginner to advanced level** using Python.
-
-It includes **theory, practical implementations, and hands-on projects** to help you understand and apply machine learning concepts in real-world scenarios.
+A structured, hands-on Machine Learning course in Python — from fundamentals to real-world projects, organized month by month.
 
 ---
 
-## 🎯 What You Will Learn
-
-* 📊 Data Preprocessing
-
-  * Handling missing values
-  * Encoding categorical data
-  * Feature scaling
-
-* 📈 Supervised Learning
-
-  * Linear Regression
-  * Logistic Regression
-  * Decision Trees & Random Forest
-
-* 🧠 Unsupervised Learning
-
-  * Clustering (K-Means)
-  * Dimensionality Reduction (PCA)
-
-* 🧪 Model Evaluation
-
-  * Accuracy, Precision, Recall
-  * Cross Validation
-
-* ⚙️ Machine Learning Pipelines
-
-* 🧹 Feature Engineering
-
-* 📦 Real-world Projects
-
-👉 The course combines **theory + code**, which is the best way to learn ML ([ML Course][1])
-
----
-
-## 📁 Project Structure
+## 📁 Structure
 
 ```
-Machine-Learning-full-course-main/
-│
-├── datasets/          # Data files used in examples
-├── notebooks/         # Jupyter notebooks (main content)
-├── models/            # Trained models (if any)
-├── scripts/           # Python scripts
-└── README.md
+├── month_1/       # Python & ML basics
+├── month_2/       # Supervised Learning
+├── month_3/       # Unsupervised Learning & Model Evaluation
+├── month_4/       # Advanced topics & Projects
+└── codewars/      # Python coding challenges
 ```
 
 ---
 
-## 🛠️ Technologies Used
+## 🧠 Topics Covered
 
-* Python 🐍
-* Pandas
-* NumPy
-* Matplotlib / Seaborn
-* Scikit-learn
+* Data Preprocessing (missing values, encoding, scaling)
+* Supervised Learning (Linear/Logistic Regression, Decision Trees, Random Forest)
+* Unsupervised Learning (K-Means, PCA)
+* Model Evaluation (Accuracy, Precision, Recall, Cross-Validation)
+* Feature Engineering & ML Pipelines
+* Real-world Projects
 
 ---
 
-## ⚙️ Installation
+## 🛠️ Tech Stack
 
-Clone the repository:
+`Python` · `Pandas` · `NumPy` · `Scikit-learn` · `Matplotlib` · `Seaborn` · `Jupyter Notebook`
+
+---
+
+## ⚙️ Getting Started
 
 ```bash
 git clone https://github.com/otabekrazzoqov/Machine-Learning-full-course-main.git
 cd Machine-Learning-full-course-main
-```
-
-Install dependencies:
-
-```bash
 pip install -r requirements.txt
-```
-
----
-
-## ▶️ Usage
-
-Run Jupyter Notebook:
-
-```bash
 jupyter notebook
 ```
 
-Open any notebook and start learning 🚀
-
 ---
 
-## 📊 Example
+## 👤 Author
 
-Train a simple model:
-
-```python
-from sklearn.linear_model import LogisticRegression
-
-model = LogisticRegression()
-model.fit(X_train, y_train)
-```
-
----
-
-## 💡 Who is this for?
-
-* Beginners in Machine Learning
-* Students learning Data Science
-* Developers transitioning into AI/ML
-* Freelancers building ML projects
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome!
-
-* Fork the repo
-* Create a new branch
-* Submit a pull request
-
----
-
-## 📬 Contact
-
-**Author:** Otabek Razzokov
-
-* GitHub: https://github.com/otabekrazzoqov
-
----
-
-## ⭐ Support
-
-If you found this repository useful:
-👉 Give it a **star ⭐**
+**Otabek Razzoqov** · [GitHub](https://github.com/otabekrazzoqov)
 
 ---
 
 ## 📜 License
 
-This project is open-source and available under the MIT License.
-
-[1]: https://ml-course.github.io/master/?utm_source=chatgpt.com "Welcome - ML Engineering"
+MIT License — open source & free to use.
