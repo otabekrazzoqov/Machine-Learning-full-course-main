@@ -9,15 +9,15 @@ ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 def get_logger(name: str, log_dir: str = None) -> logging.Logger:
     if log_dir is None:
         log_dir = os.path.join(ROOT_DIR, "logs")
-    os.makedirs(log_dir, exist_ok=True)                       # Creating logs/ directory if it doesn't exist
+    os.makedirs(log_dir, exist_ok=True)                      
 
     log_filename = os.path.join(
         log_dir,
         f"{datetime.now().strftime('%Y-%m-%d')}.log"
-    )                                                          # Log file named by date
+    )                                                          
 
     logger = logging.getLogger(name)
-    logger.setLevel(logging.DEBUG)                             # capture everything
+    logger.setLevel(logging.DEBUG)                             
 
     formatter = logging.Formatter(
         fmt="%(asctime)s | %(levelname)-8s | %(name)s | %(message)s",
@@ -29,7 +29,7 @@ def get_logger(name: str, log_dir: str = None) -> logging.Logger:
     file_handler.setFormatter(formatter)
 
     console_handler = logging.StreamHandler()
-    console_handler.setLevel(logging.INFO)                      # less verbose in terminal
+    console_handler.setLevel(logging.INFO)                    
     console_handler.setFormatter(formatter)
 
     if not logger.handlers:
