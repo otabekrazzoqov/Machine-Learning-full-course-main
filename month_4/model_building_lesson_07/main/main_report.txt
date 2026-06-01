@@ -1,0 +1,9 @@
+Loading data
+
+Data Loading can be done with simple ways using logs and without logs.
+It can also be done with python classes src+ipynb files.
+
+Data loading is the process of reading raw data 
+from a source (CSV, database, API) 
+into memory as a usable format (pandas DataFrame) for the ML pipeline. 
+It's the first step of every ML pipeline.
