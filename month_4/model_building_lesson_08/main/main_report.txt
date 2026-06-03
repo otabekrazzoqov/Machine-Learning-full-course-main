@@ -1,0 +1,21 @@
+                What's Logging
+
+Logging is the process of documenting each step of the project.
+Logs folder created in ML projects and necessary files will be created 
+inside of that folder. 
+
+How can we write into that logging files?!
+We can write logs in notebook files and in classes in src/ folders 
+when the code is broken or when the classes malfunction the logs 
+will be added into that log files inside the logs/ folder.
+
+The levels work like this:
+
+DEBUG = very detailed information
+INFO = normal progress
+WARNING = problem, but code can continue
+ERROR = something failed
+CRITICAL = serious failure
+
+format=... controls how each line looks inside review.log.
+

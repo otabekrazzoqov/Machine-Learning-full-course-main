@@ -1,0 +1,8 @@
+2026-06-03 19:38:30 | INFO | Logging started
+2026-06-03 19:41:13 | INFO | Reading main_report.txt
+2026-06-03 19:41:13 | INFO | main_report.txt loaded successfully
+2026-06-03 21:03:29 | INFO | Dataset loaded successfully: |  {df.shape}
+2026-06-03 21:03:40 | INFO | Dataset loaded successfully: |  (15045, 54)
+2026-06-03 21:05:33 | INFO | Dataset loaded successfully: |  (15045, 54)
+2026-06-03 21:07:43 | INFO | Dataset loaded successfully: |  (15045, 54)
+2026-06-03 21:55:34 | INFO | Pipeline works fine |
