@@ -7,7 +7,7 @@ without pipeline >>>>>>>>>>
 
 scaler.fit(X_train)
 X_train_scaled = scaler.transform(X_train)
-X_test_scaled  = scaler.transform(X_test)   # easy to forget this!
+X_test_scaled  = scaler.transform(X_test)  
 
 encoder.fit(X_train_scaled)
 X_train_encoded = encoder.transform(X_train_scaled)
@@ -28,5 +28,5 @@ pipe = Pipeline([
     ('model',   RandomForestRegressor())
 ])
 
-pipe.fit(X_train, y_train)       # all steps run automatically
+pipe.fit(X_train, y_train)      
 predictions = pipe.predict(X_test)
