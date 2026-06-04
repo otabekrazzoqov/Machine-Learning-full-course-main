@@ -1,0 +1,32 @@
+A pipeline is a chain of steps that automatically processes data in order
+from raw data to final prediction 
+where the output of each step becomes the input of the next.
+
+
+without pipeline >>>>>>>>>>
+
+scaler.fit(X_train)
+X_train_scaled = scaler.transform(X_train)
+X_test_scaled  = scaler.transform(X_test)   # easy to forget this!
+
+encoder.fit(X_train_scaled)
+X_train_encoded = encoder.transform(X_train_scaled)
+X_test_encoded  = encoder.transform(X_test_scaled)
+
+model.fit(X_train_encoded, y_train)
+predictions = model.predict(X_test_encoded)
+
+
+
+with pipeline >>>>>>>>>>>>
+
+from sklearn.pipeline import Pipeline
+
+pipe = Pipeline([
+    ('scaler',  MinMaxScaler()),
+    ('encoder', OrdinalEncoder()),
+    ('model',   RandomForestRegressor())
+])
+
+pipe.fit(X_train, y_train)       # all steps run automatically
+predictions = pipe.predict(X_test)
