@@ -1,0 +1,30 @@
+BaseEstimator + TransformerMixin
+These are two base classes from sklearn.base that you inherit to build a custom transformer. 
+BaseEstimator automatically handles get_params() and set_params(), which makes your transformer 
+compatible with tools like GridSearchCV. TransformerMixin gives you fit_transform() for free by 
+combining fit() and transform() into one call. Together, they make your custom class behave like 
+any native sklearn transformer.
+
+SimpleImputer
+A built-in transformer from sklearn.impute that fills in missing (NaN) values in your data. 
+You choose a strategy — median for numeric columns (robust to outliers), most_frequent for 
+categorical ones, or constant to fill with a fixed value. It learns the fill value from training 
+data during fit() and applies it during transform(), so test data never leaks into training.
+
+Pipeline
+From sklearn.pipeline, it chains multiple processing steps into a single object. Each step's output 
+becomes the next step's input. When you call pipeline.fit(), it runs fit_transform() through every 
+step except the last (which only calls fit()). When you call pipeline.predict(), it runs transform() 
+through all steps then predict() on the final estimator. This prevents data leakage and keeps your code clean.
+
+ColumnTransformer
+From sklearn.compose, it applies different transformers to different column groups in parallel, 
+then concatenates the results horizontally. For example, numeric columns get scaled while categorical 
+columns get encoded — all in one step. Each entry is a (name, transformer, columns) tuple. Unassigned 
+columns are either dropped (remainder='drop') or passed through unchanged (remainder='passthrough').
+
+RandomForestClassifier
+An ensemble model from sklearn.ensemble that trains many decision trees on random subsets 
+of the data and features, then combines their predictions by majority vote. 
+It handles nonlinear relationships well, is resistant to overfitting, and provides feature importances. 
+In the pipeline, it sits as the final step and receives the fully preprocessed feature matrix.
