@@ -11,7 +11,7 @@ A structured, hands-on Machine Learning course in Python — from fundamentals t
 ├── month_2/       # Supervised Learning
 ├── month_3/       # Unsupervised Learning & Model Evaluation
 ├── month_4/       # Advanced topics & Projects
-└── codewars/      # Python coding challenges
+└── month_5/       # 
 ```
 
 ---
